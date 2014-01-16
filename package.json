@@ -1,0 +1,10 @@
+{
+  "name": "node-mp3-manager",
+  "version": "0.0.0",
+  "description": "A NodeJS-based server used to organize music files and manage playlists.",
+  "main": "app.js",
+  "dependencies": {
+    "express": "~3.x",
+    "ffmetadata": "~1.x"
+  }
+}
