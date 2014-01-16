@@ -1,8 +1,13 @@
 var fs = require('fs'),
     ffmetadata = require("ffmetadata");
 
-exports.start = function(req, res) {
-  var path = "../music",
+exports.index = function(req, res) {
+  //API docs
+  res.render('index', { title: 'Music Library API' });
+}
+
+exports.music = function(req, res) {
+  var path = "./music",
       music = [];
 
   var walk = function(dir, done) {
@@ -48,9 +53,29 @@ exports.start = function(req, res) {
           indx++;
           getMeta(music[indx].path);
         } else {
+          res.jsonp(music);
+          /*
           console.log('mp3 files data loaded: ' + music.length);
           //console.log(music);
-          res.send('mp3 files data loaded: ' + music.length);
+          var i, html = "<h1>MP3 Files</h1>";
+          html += "<h2>" + path + "</h2>";
+          html += '<ul>';
+          for(i=0; i<music.length; i++) {
+            html += '<li>';
+            html += '<ul>';
+            html += '<li>Title: ' + music[i].title + '</li>';
+            html += '<li>Path: ';
+            html += '<a href="' + music[i].path + '">';
+            html += music[i].path + '</a></li>';
+            html += '<li>Album: ' + music[i].album + '</li>';
+            html += '<li>Artist: ' + music[i].artist + '</li>';
+            html += '</ul>';
+            html += '</li>' + "\n";
+          }
+          html += '</ul>';
+          res.send(html);
+          */
+
         }
       }
     };
@@ -61,3 +86,5 @@ exports.start = function(req, res) {
   });
 
 };
+
+
