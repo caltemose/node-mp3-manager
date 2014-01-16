@@ -1,8 +1,21 @@
-h1 #{title}
-
-p API docs go here.
+h1 Node Music Manager
 
 ul
+  li
+    a(href="/api") /api
+    | - API documentation
   li 
-    a(href="/music") /music
-    | - GET the music database
+    a(href="/player") /player
+    | - web view for playing music
+  li
+    a(href="/playlists") /playlists
+    | - list view of playlists
+  li
+    a(href="/playlists/:id") /playlists/:id
+    | - detail view of a playlist
+  li
+    a(href="/tracks") /tracks
+    | - list view of tracks
+  li
+    a(href="/tracks/:id") /tracks/:id
+    | - detail view of a track for editing id3 tags

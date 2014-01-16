@@ -1,6 +1,6 @@
 var express = require('express'), 
     path = require('path'),
-    music = require('./routes/music');
+    api = require('./routes/api');
 
 var app = express();
 
@@ -20,10 +20,16 @@ app.configure(function () {
   });
 });
 
-app.get('/', music.index);
-app.get('/music', music.music)
+app.get('/', function(req, res) {
+  res.render('index');
+});
+app.get('/api', function(req, res) {
+  res.render('api');
+});
+app.get('/api/tracks', api.tracks);
+app.get('/api/albums', api.albums);
 
 app.listen(3000);
-console.log('Listening on port 3000...');
+console.log('Node Music Manager listening on port 3000...');
 
 
