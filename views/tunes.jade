@@ -1,11 +1,30 @@
-h1 Node Music Manager Tunes
+extends default
 
-ul
-  - each album in music
-    li
-      = album.album
-      ul
-        - each track in album.tracks
-          li= track.title
+block title
+  title Node Music Manager - Tunes
 
+block content
+  main
+    h1 Node Music Manager Tunes
 
+    ul.music
+      - each album in music
+        li.album
+          = album.album
+          |  :: 
+          = album.artist
+          |  :: 
+          = album.genre
+
+          ul.playlist-tracks
+            - each track in album.tracks
+              li(data-track-path="#{track.path}")
+                = track.title 
+                button playlist
+
+    form(action="/playlists/create" method="POST")
+      input(type="hidden" name="playlist")
+      input(type="submit" name="submit" value="Make Playlist") 
+
+block scripts
+  script(src="/assets/js/tunes.js")

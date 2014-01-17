@@ -1,21 +1,33 @@
-h1 Node Music Manager
+extends default
 
-ul
-  li
-    a(href="/api") /api
-    | - API documentation
-  li 
-    a(href="/player") /player
-    | - web view for playing music
-  li
-    a(href="/playlists") /playlists
-    | - list view of playlists
-  li
-    a(href="/playlists/:id") /playlists/:id
-    | - detail view of a playlist
-  li
-    a(href="/tracks") /tracks
-    | - list view of tracks
-  li
-    a(href="/tracks/:id") /tracks/:id
-    | - detail view of a track for editing id3 tags
+block content
+  main
+    h1 Node Music Manager Home Page
+
+    h3 Browser UI Routes
+    ul
+      li 
+        a(href="/player") /player 
+        | - web view for playing music
+      li
+        a(href="/playlists") /playlists 
+        | - list view of playlists
+      li
+        a(href="/playlists/?id=url-encoded-path") /playlists/:id 
+        | - detail view of a playlist
+      li
+        a(href="/tunes") /tunes 
+        | - current page for creating playlists
+
+
+    h3 API Routes
+    ul
+      li 
+        a(href="/api/tracks") /api/tracks 
+        | - GET db of all tracks
+      li
+        a(href="/api/tracks/?id=.%2Fmusic%2FAtlas%2F01.%20Presidente.mp3") /api/tracks/?id=url-encoded-path 
+        | - GET track info
+      li
+        a(href="/api/albums") /api/albums 
+        | - GET db of all albums 

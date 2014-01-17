@@ -1,0 +1,17 @@
+extends default
+
+block title
+  title Node Music Manager - Create Playlist
+
+block content
+  main
+    h1 Node Music Manager - Create Playlist
+
+    if err
+      p There was a problem:
+      p= err
+      p with this file:
+      p= filepath
+    else
+      p All good. The playlist is here:
+      a(href="/player/?playlist=#{filepath}")= filepath

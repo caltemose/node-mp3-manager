@@ -1,7 +1,9 @@
 var express = require('express'), 
     path = require('path'),
     api = require('./routes/api'),
-    tunes = require('./routes/tunes');
+    tunes = require('./routes/tunes'),
+    playlists = require('./routes/playlists'),
+    player = require('./routes/player');
 
 var app = express();
 
@@ -27,11 +29,13 @@ app.configure(function () {
 app.get('/', function(req, res) {
   res.render('index');
 });
+app.get('/player', player.play);
 app.get('/tunes', tunes.index);
+app.post('/playlists/create', playlists.create)
 
 // --- API paths --------------------------------
 app.get('/api', function(req, res) {
-  res.render('api');
+  res.redirect('/');
 });
 app.get('/api/tracks', api.tracks);
 app.get('/api/albums', api.albums);

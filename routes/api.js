@@ -3,59 +3,77 @@ var fs = require('fs'),
     path = "./music";
 
 exports.tracks = function(req, res) {
-  var music = [];
-
-  var walk = function(dir, done) {
-    var results = [];
-    fs.readdir(dir, function(err, list) {
-      if (err) return done(err);
-      var i = 0;
-      (function next() {
-        var file = list[i++];
-        if (!file) return done(null, results);
-        file = dir + '/' + file;
-        fs.stat(file, function(err, stat) {
-          if (stat && stat.isDirectory()) {
-            //results.push(file);
-            walk(file, function(err, res) {
-              results = results.concat(res);
-              next();
-            });
-          } else {
-            var ext = file.split('.').pop();
-            if (ext==="mp3" || ext==="m4p") 
-              results.push(file);
-            next();
+  if (req.query.id) {
+    var id = req.query.id;
+    fs.exists(id, function(exists) {
+      if (exists) {
+        ffmetadata.read(id, function(err, data) {
+          if (err) res.jsonp({"err":"error reading meta info for: " + id});
+          else {
+            data.path = id;
+            res.jsonp({"meta": data});
           }
         });
-      })();
-    });
-  };
-
-  walk(path, function(err, results) {
-    if (err) throw err;
-    var i, track, indx = 0;
-    for(i=0;i<results.length;i++) {
-      track = { path: results[i] };
-      music.push(track);
-    }
-    var metacallback = function(err, data) {
-      if (err) console.error("Error reading metadata:" + err);
-      else {
-        data.path = music[indx].path;
-        music[indx] = data;
-        if (indx < music.length-1) {
-          indx++;
-          getMeta(music[indx].path); } 
-        else res.jsonp(music);
+      } else {
+        res.jsonp({"err":"file does not exist: " + id});
       }
+    });
+
+  } else {
+
+    var music = [];
+
+    var walk = function(dir, done) {
+      var results = [];
+      fs.readdir(dir, function(err, list) {
+        if (err) return done(err);
+        var i = 0;
+        (function next() {
+          var file = list[i++];
+          if (!file) return done(null, results);
+          file = dir + '/' + file;
+          fs.stat(file, function(err, stat) {
+            if (stat && stat.isDirectory()) {
+              //results.push(file);
+              walk(file, function(err, res) {
+                results = results.concat(res);
+                next();
+              });
+            } else {
+              var ext = file.split('.').pop();
+              if (ext==="mp3" || ext==="m4p") 
+                results.push(file);
+              next();
+            }
+          });
+        })();
+      });
     };
-    var getMeta = function(path) {
-      ffmetadata.read(path, metacallback);  
-    };
-    getMeta(music[0].path);
-  });  
-  
+
+    walk(path, function(err, results) {
+      if (err) throw err;
+      var i, track, indx = 0;
+      for(i=0;i<results.length;i++) {
+        track = { path: results[i] };
+        music.push(track);
+      }
+      var metacallback = function(err, data) {
+        if (err) console.error("Error reading metadata:" + err);
+        else {
+          data.path = music[indx].path;
+          music[indx] = data;
+          if (indx < music.length-1) {
+            indx++;
+            getMeta(music[indx].path); } 
+          else res.jsonp(music);
+        }
+      };
+      var getMeta = function(path) {
+        ffmetadata.read(path, metacallback);  
+      };
+      getMeta(music[0].path);
+    });  
+  }
 }
 
 exports.albums = function(req, res) {
@@ -137,3 +155,4 @@ exports.albums = function(req, res) {
     getMeta(music[0].path);
   }); 
 }
+

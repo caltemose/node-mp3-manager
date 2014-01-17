@@ -77,6 +77,11 @@ li {
 	margin-bottom: 0.3em;
 }
 
+body > main {
+	width: 96%;
+	margin: 0 auto; 
+}
+
 body > footer {
 	margin-top: 3em;
 	font-size: $footerFontSize;
@@ -90,6 +95,15 @@ input {
 input[type="number"] {
 	width: 4em;
 }
+
+/*
+track list - playlist editor
+*/
+.playlist-tracks > li {
+	opacity: 0.5;
+	&.listed { opacity: 1 }
+}
+
 
 /*
 --------------------------------------------------------
@@ -112,7 +126,7 @@ media query for larger devices
 	
 	body { font-size: 21px; }
 
-	main > section {
+	body > main {
 		width: 100%;
 		max-width: $maxWidthDesktopRem;
 		margin-left: auto;

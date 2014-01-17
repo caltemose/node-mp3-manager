@@ -71,7 +71,7 @@ exports.index = function(req, res) {
               musicSorted.push(album);
             }
           }
-          console.log(musicSorted);
+          //console.log(musicSorted);
           res.render('tunes', {music: musicSorted});
         }
       }
