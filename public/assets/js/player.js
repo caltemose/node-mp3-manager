@@ -2,14 +2,16 @@ var player = {};
 player.audioElement = $('audio');
 player.processJSON = function(data) {
   console.log('player.processJSON()');
+  console.log(data);
   player.music = data;
   player.currentAlbum = 0;
-  player.currentTrack = 1;
+  player.currentTrack = 0;
   player.play();
 }
 player.play = function() {
   console.log('player.play()');
   var track = player.music[player.currentAlbum].tracks[player.currentTrack];
+  console.log('  track: ' + track.path);
   player.audioElement.attr('src', track.path).get(0).play();
   player.audioElement.bind('ended', player.playEnded);
 }

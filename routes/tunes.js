@@ -1,6 +1,6 @@
 var fs = require('fs'),
     ffmetadata = require("ffmetadata"),
-    path = "./music";
+    path = "../music";
 
 exports.index = function(req, res) {
   var music = [];
@@ -56,18 +56,18 @@ exports.index = function(req, res) {
               //@TODO clean track object -> parse path into object/array
               album.tracks.push(track);
             } else {
+              //@TODO clean track object -> parse path into object/array
               track = music[i];
               //new album
               album = {};
-              album.tracks = [];
-              //@TODO clean track object -> parse path into object/array
-              album.tracks.push(track);
               album.album = track.album;
               album.artist = track.artist;
               album.genre = track.genre;
               album.date = track.date;
               //@TODO strip file name (included in above TODO)
               album.path = track.path;
+              album.tracks = [];
+              album.tracks.push(track);
               musicSorted.push(album);
             }
           }

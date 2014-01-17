@@ -1,3 +1,9 @@
+var nmm = nmm || {};
+nmm.paths = {
+  music: "../music",
+  playlists: "../playlists"
+};
+
 var express = require('express'), 
     path = require('path'),
     api = require('./routes/api'),
@@ -13,7 +19,9 @@ app.configure(function () {
   app.use(express.favicon());
   app.use(express.logger('dev'));
   app.use(express.bodyParser());
-  app.use('/music', express.static(__dirname + '/music'));
+  //app.use('/music', express.static(__dirname + '/music'));
+  console.log(__dirname);
+  app.use('/music', express.static('../music'));
   app.use(express.static(__dirname + '/public'));
   app.use(function (req, res, next) {
     res.header('Access-Control-Allow-Credentials', true);

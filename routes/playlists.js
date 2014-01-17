@@ -3,7 +3,7 @@ var fs = require('fs');
 exports.create = function(req, res) {
   var paths = req.body.playlist.split(","),
       txt = "", i,
-      filepath = "playlists/playlist.m3u";
+      filepath = "../playlists/" + new Date().getTime() + ".m3u";
 
   for(i=0; i<paths.length; i++) {
     txt += paths[i];
