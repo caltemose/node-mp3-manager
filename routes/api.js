@@ -106,7 +106,7 @@ exports.albums = function(req, res) {
         else {
           var musicSorted = [], i, album = {}, track;
           for(i=0; i<music.length; i++) {
-            if (music[i].album === album.album && music[i].artist === album.artist) {
+            if (music[i].album === album.album) {
               //same album
               track = music[i];
               //@TODO clean track object -> parse path into object/array
