@@ -1,0 +1,130 @@
+article, aside, details, figcaption, figure, footer, header, hgroup, nav, section, summary {
+  display: block; }
+
+video {
+  display: inline-block;
+  *display: inline;
+  *zoom: 1; }
+
+html {
+  font-size: 100%;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%; }
+
+html, button, input, select, textarea {
+  font-family: serif; }
+
+a:focus {
+  outline: thin dotted; }
+
+a:active, a:hover {
+  outline: 0; }
+
+img {
+  border: 0;
+  -ms-interpolation-mode: bicubic; }
+
+svg:not(:root) {
+  overflow: hidden; }
+
+figure {
+  margin: 0; }
+
+form {
+  margin: 0; }
+
+img {
+  vertical-align: middle; }
+
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+/* reset above, styles below */
+body {
+  margin: 0;
+  padding: 0;
+  background: #fffcc1;
+  font-family: Helvetica, Arial, sans-serif;
+  color: black; }
+
+main > section {
+  margin-bottom: 2em; }
+
+h1 {
+  margin: 0;
+  padding: 0.2em 0;
+  background: #e7e173;
+  color: #0d3f09;
+  font-size: 0.9em;
+  font-family: Georgia, serif;
+  font-weight: 400;
+  text-align: center;
+  letter-spacing: 0.2em; }
+  h1 > a {
+    color: #0d3f09; }
+
+h2 {
+  margin-top: 1.5em; }
+
+h3 {
+  margin: 2em 0 0.5em; }
+
+h2 + h3 {
+  margin-top: 0; }
+
+p {
+  margin: 0.3em 0 0.5em;
+  line-height: 150%; }
+
+a {
+  color: #2577a1;
+  text-decoration: none; }
+  a:hover {
+    color: #123a4e; }
+
+ol, ul {
+  width: 94%;
+  margin-left: 0;
+  padding-left: 12%; }
+
+li {
+  margin-bottom: 0.3em; }
+
+body > footer {
+  margin-top: 3em;
+  font-size: 0.7em; }
+
+input {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 1.2em; }
+
+input[type="number"] {
+  width: 4em; }
+
+/*
+--------------------------------------------------------
+media query for middle/portrait size range
+
+*/
+@media screen and (min-width: 30em) {
+  body {
+    font-size: 19px; } }
+/*
+--------------------------------------------------------
+media query for larger devices
+
+*/
+@media screen and (min-width: 44em) {
+  body {
+    font-size: 21px; }
+
+  main > section {
+    width: 100%;
+    max-width: 44rem;
+    margin-left: auto;
+    margin-right: auto; }
+
+  ol, ul {
+    padding-left: 8%; } }

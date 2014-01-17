@@ -1,6 +1,7 @@
 var express = require('express'), 
     path = require('path'),
-    api = require('./routes/api');
+    api = require('./routes/api'),
+    tunes = require('./routes/tunes');
 
 var app = express();
 
@@ -11,6 +12,7 @@ app.configure(function () {
   app.use(express.logger('dev'));
   app.use(express.bodyParser());
   app.use('/music', express.static(__dirname + '/music'));
+  app.use(express.static(__dirname + '/public'));
   app.use(function (req, res, next) {
     res.header('Access-Control-Allow-Credentials', true);
     res.header('Access-Control-Allow-Origin',      '*'); //req.headers.origin
@@ -20,14 +22,21 @@ app.configure(function () {
   });
 });
 
+
+// --- Public Web paths -------------------------
 app.get('/', function(req, res) {
   res.render('index');
 });
+app.get('/tunes', tunes.index);
+
+// --- API paths --------------------------------
 app.get('/api', function(req, res) {
   res.render('api');
 });
 app.get('/api/tracks', api.tracks);
 app.get('/api/albums', api.albums);
+
+
 
 app.listen(3000);
 console.log('Node Music Manager listening on port 3000...');

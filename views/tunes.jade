@@ -1,0 +1,11 @@
+h1 Node Music Manager Tunes
+
+ul
+  - each album in music
+    li
+      = album.album
+      ul
+        - each track in album.tracks
+          li= track.title
+
+
