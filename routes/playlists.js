@@ -6,7 +6,7 @@ exports.create = function(req, res) {
       filepath = "../playlists/" + new Date().getTime() + ".m3u";
 
   for(i=0; i<paths.length; i++) {
-    txt += paths[i];
+    txt += paths[i].replace("../", "/Public/music-collection/");
     if (i < paths.length-1) txt += "\n";
   }
 
