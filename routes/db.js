@@ -1,4 +1,5 @@
-var fs = require('fs');
+var fs = require('fs'),
+    ffmetadata = require("ffmetadata");
 
 module.exports = function(musicPath, playlistsPath) {
   return {
@@ -71,20 +72,46 @@ module.exports = function(musicPath, playlistsPath) {
                 }
               }
               var filepath = "./db/" + new Date().getTime() + ".json";
-              var txt = '{"music":[';
+              var txt = '{"music":[' + "\n";
+              //for each album
               for(i=0; i<musicSorted.length; i++) {
-                txt += '{';
-                for(var j in musicSorted[i]) {
-                  //txt += '"' + j + 
+                txt += "\t" + '{' + "\n";
+                var j, k, l;
+                //for each album property
+                for(j in musicSorted[i]) {
+                  if(j != "tracks")
+                    txt += "\t\t" + '"' + j + '":"' + musicSorted[i][j] + '", ' + "\n";
+                  else if (musicSorted[i][j].length) {
+                    txt += "\t\t" + '"tracks":[' + "\n";
+                    //for each track
+                    for(k=0; k<musicSorted[i][j].length; k++) {
+                      txt += "\t\t\t" + '{';
+                      track = musicSorted[i][j][k];
+                      //for each track property
+                      for(l in track) {
+                        txt += '"' + l + '":"' + track[l] + '",';
+                      }
+                      txt = txt.substr(0, txt.length-1); //strip comma
+                      txt += '}';
+                      if (k<musicSorted[i][j].length-1) txt += ',';
+                      txt += "\n";
+                    }
+                    txt += "\t\t" + ']' + "\n";
+                  }
                 }
-              }/*
+                txt += "\t" + '}';
+                if (i<musicSorted.length-1) txt += ',';
+                txt += "\n";
+              }
+              txt += ']}';
+
+              var filepath = './dbs/db.json';
               fs.writeFile(filepath, txt, function(err){
                 var data = {};
-                data.filepath = filepath;
+                data.filepath = filepath.substr(1);
                 if (err) data.err = err;
                 res.render('db-create', data);
-              });*/
-              //res.render('tunes', {music: musicSorted});
+              });
             }
           }
         };

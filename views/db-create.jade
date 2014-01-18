@@ -1,0 +1,17 @@
+extends default
+
+block title
+  title Node Music Manager - Create Database
+
+block content
+  main
+    h1 Node Music Manager - Create Database
+
+    if err
+      p There was a problem:
+      p= err
+      p with this file:
+      p= filepath
+    else
+      p All good. The database is here:
+      a(href="#{filepath}")= filepath

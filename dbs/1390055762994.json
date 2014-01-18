@@ -1,0 +1,33 @@
+{"music":[
+	{
+		"album":"Atlas", 
+		"artist":"Kinky", 
+		"genre":"World", 
+		"date":"2003", 
+		"path":"../music/Atlas/01. Presidente.mp3", 
+		"tracks":[
+			{"title":"Presidente","artist":"Kinky","album":"Atlas","genre":"World","track":"1/12","date":"2003","path":"../music/Atlas/01. Presidente.mp3"},
+			{"title":"The Headphonist","artist":"Kinky","album":"Atlas","genre":"World","track":"2/12","date":"2003","path":"../music/Atlas/02. The Headphonist.mp3"},
+			{"title":"Snapshot","artist":"Kinky","album":"Atlas","genre":"World","track":"3/12","date":"2003","path":"../music/Atlas/03. Snapshot.mp3"},
+			{"title":"Salta-Lenin-El-Atlas","artist":"Kinky","album":"Atlas","genre":"World","track":"4/12","date":"2003","path":"../music/Atlas/04. Salta-Lenin-El-Atlas.mp3"},
+			{"title":"Do U Like It?","artist":"Kinky","album":"Atlas","genre":"World","track":"5/12","date":"2003","path":"../music/Atlas/05. Do U Like It?.mp3"},
+			{"title":"Airport Feelings","artist":"Kinky","album":"Atlas","genre":"World","track":"6/12","date":"2003","path":"../music/Atlas/06. Airport Feelings.mp3"},
+			{"title":"Pos Que Se Vengan","artist":"Kinky","album":"Atlas","genre":"World","track":"7/12","date":"2003","path":"../music/Atlas/07. Pos Que Se Vengan.mp3"},
+			{"title":"Minotauro","artist":"Kinky","album":"Atlas","genre":"World","track":"8/12","date":"2003","path":"../music/Atlas/08. Minotauro.mp3"},
+			{"title":"Not Afraid","artist":"Kinky","album":"Atlas","genre":"World","track":"9/12","date":"2003","path":"../music/Atlas/09. Not Afraid.mp3"},
+			{"title":"My God Is So Quiet","artist":"Kinky","album":"Atlas","genre":"World","track":"10/12","date":"2003","path":"../music/Atlas/10. My God Is So Quiet.mp3"},
+			{"title":"Maria Jose","artist":"Kinky","album":"Atlas","genre":"World","track":"11/12","date":"2003","path":"../music/Atlas/11. Maria Jose.mp3"},
+			{"title":"Semillas De Menta","artist":"Kinky","album":"Atlas","genre":"World","track":"12/12","date":"2003","path":"../music/Atlas/12. Semillas De Menta.mp3"}
+		]
+	},
+	{
+		"album":"The Slip", 
+		"artist":"Nine Inch Nails", 
+		"genre":"undefined", 
+		"date":"2008", 
+		"path":"../music/test.mp3", 
+		"tracks":[
+			{"artist":"Nine Inch Nails","album":"The Slip","encoded_by":"LAME","title":"999,999","composer":"Trent Reznor","track":"1/10","disc":"1/1","date":"2008","path":"../music/test.mp3"}
+		]
+	}
+]}
