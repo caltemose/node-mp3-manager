@@ -1,258 +1,41 @@
 {"music":[
 	{
-		"album":"Austin Powers Theme Song", 
-		"artist":"Austin Powers Theme Song", 
-		"genre":"Soundtrack", 
-		"date":"undefined", 
-		"path":"../music/chad/SOUNDTRACKS/Austin Powers Theme Song.mp3", 
+		"album":"Concerto No.5 in E-Flat Major for Piano Op. 73 Emporer", 
+		"artist":"Ludwig van Beethoven", 
+		"genre":"Classical", 
+		"path":"../music//01 Allegro.mp3", 
 		"tracks":[
-			{"track":"00","TLEN":"165000","album":"Austin Powers Theme Song","artist":"Austin Powers Theme Song","title":"Austin Powers Theme Song","genre":"Soundtrack","path":"../music/chad/SOUNDTRACKS/Austin Powers Theme Song.mp3"}
+			{"title":"Allegro","artist":"Ludwig van Beethoven","album":"Concerto No.5 in E-Flat Major for Piano Op. 73 Emporer","track":"1/3","genre":"Classical","encoded_by":"iTunes v4.1","path":"../music//01 Allegro.mp3"}
 		]
 	},
 	{
-		"album":"Breakin'", 
-		"artist":"Ollie And Jerry", 
-		"genre":"Soundtrack", 
-		"date":"1984", 
-		"path":"../music/chad/SOUNDTRACKS/Breakin'/01 Breakin'...there's No Stopping Us.mp3", 
-		"tracks":[
-			{"title":"Breakin'...there's No Stopping Us","artist":"Ollie And Jerry","album":"Breakin'","track":"1/10","encoded_by":"iTunes v4.1","genre":"Soundtrack","TCP":"1","date":"1984","path":"../music/chad/SOUNDTRACKS/Breakin'/01 Breakin'...there's No Stopping Us.mp3"},
-			{"title":"Freakshow On The Dance Floor","artist":"Bar-Kays","album":"Breakin'","track":"2/10","encoded_by":"iTunes v4.1","genre":"Soundtrack","TCP":"1","date":"1984","path":"../music/chad/SOUNDTRACKS/Breakin'/02 Freakshow On The Dance Floor.mp3"},
-			{"title":"Body Work","artist":"Hot Streak","album":"Breakin'","track":"3/10","encoded_by":"iTunes v4.1","genre":"Soundtrack","TCP":"1","date":"1984","path":"../music/chad/SOUNDTRACKS/Breakin'/03 Body Work.mp3"},
-			{"title":"99.5","artist":"Carol Lynn Townes","album":"Breakin'","track":"4/10","encoded_by":"iTunes v4.1","genre":"Soundtrack","TCP":"1","date":"1984","path":"../music/chad/SOUNDTRACKS/Breakin'/04 99.5.mp3"},
-			{"title":"Showdown","artist":"Ollie And Jerry","album":"Breakin'","track":"5/10","encoded_by":"iTunes v4.1","genre":"Soundtrack","TCP":"1","date":"1984","path":"../music/chad/SOUNDTRACKS/Breakin'/05 Showdown.mp3"},
-			{"title":"Heart Of The Beat","artist":"3-V","album":"Breakin'","track":"6/10","encoded_by":"iTunes v4.1","genre":"Soundtrack","TCP":"1","date":"1984","path":"../music/chad/SOUNDTRACKS/Breakin'/06 Heart Of The Beat.mp3"},
-			{"title":"Street People","artist":"Fire Fox","album":"Breakin'","track":"7/10","encoded_by":"iTunes v4.1","genre":"Soundtrack","TCP":"1","date":"1984","path":"../music/chad/SOUNDTRACKS/Breakin'/07 Street People.mp3"},
-			{"title":"Cut It","artist":"Re-Flex","album":"Breakin'","track":"8/10","encoded_by":"iTunes v4.1","genre":"Soundtrack","TCP":"1","date":"1984","path":"../music/chad/SOUNDTRACKS/Breakin'/08 Cut It.mp3"},
-			{"title":"Ain't Nobody","artist":"Rufus And Chaka Khan","album":"Breakin'","track":"9/10","encoded_by":"iTunes v4.1","genre":"Soundtrack","TCP":"1","date":"1984","path":"../music/chad/SOUNDTRACKS/Breakin'/09 Ain't Nobody.mp3"},
-			{"title":"Reckless","artist":"Chris "The Glove" Taylor And David Storrs","album":"Breakin'","track":"10/10","encoded_by":"iTunes v4.1","genre":"Soundtrack","TCP":"1","date":"1984","path":"../music/chad/SOUNDTRACKS/Breakin'/10 Reckless.mp3"}
-		]
-	},
-	{
-		"album":"Flash Gordon Original Soundtrack", 
-		"artist":"Queen", 
-		"genre":"Soundtrack", 
-		"date":"1980", 
-		"path":"../music/chad/SOUNDTRACKS/Flash Gordon Original Soundtrack/01 Flash's Theme.mp3", 
-		"tracks":[
-			{"title":"Flash's Theme","artist":"Queen","TCM":"QueeN","album":"Flash Gordon Original Soundtrack","track":"1/19","TPA":"1/1","genre":"Soundtrack","encoded_by":"iTunes v4.1","date":"1980","path":"../music/chad/SOUNDTRACKS/Flash Gordon Original Soundtrack/01 Flash's Theme.mp3"},
-			{"title":"In the Space Capsule (The Love Theme)","artist":"Queen","TCM":"QueeN","album":"Flash Gordon Original Soundtrack","track":"2/19","TPA":"1/1","genre":"Soundtrack","encoded_by":"iTunes v4.1","date":"1980","path":"../music/chad/SOUNDTRACKS/Flash Gordon Original Soundtrack/02 In the Space Capsule (The Love Theme).mp3"},
-			{"title":"Ming's Theme (In the Court of Ming the Merciless)","artist":"Queen","TCM":"QueeN","album":"Flash Gordon Original Soundtrack","track":"3/19","TPA":"1/1","genre":"Soundtrack","encoded_by":"iTunes v4.1","date":"1980","path":"../music/chad/SOUNDTRACKS/Flash Gordon Original Soundtrack/03 Ming's Theme (In the Court of Ming the Merciless).mp3"},
-			{"title":"The Ring (Hypnotic Seduction of Dale)","artist":"Queen","TCM":"QueeN","album":"Flash Gordon Original Soundtrack","track":"4/19","TPA":"1/1","genre":"Soundtrack","encoded_by":"iTunes v4.1","date":"1980","path":"../music/chad/SOUNDTRACKS/Flash Gordon Original Soundtrack/04 The Ring (Hypnotic Seduction of Dale).mp3"},
-			{"title":"Football Fight","artist":"Queen","TCM":"QueeN","album":"Flash Gordon Original Soundtrack","track":"5/19","TPA":"1/1","genre":"Soundtrack","encoded_by":"iTunes v4.1","date":"1980","path":"../music/chad/SOUNDTRACKS/Flash Gordon Original Soundtrack/05 Football Fight.mp3"},
-			{"title":"In the Death Cell (Love Theme Reprise)","artist":"Queen","TCM":"QueeN","album":"Flash Gordon Original Soundtrack","track":"6/19","TPA":"1/1","genre":"Soundtrack","encoded_by":"iTunes v4.1","date":"1980","path":"../music/chad/SOUNDTRACKS/Flash Gordon Original Soundtrack/06 In the Death Cell (Love Theme Reprise).mp3"},
-			{"title":"Execution of Flash","artist":"Queen","TCM":"QueeN","album":"Flash Gordon Original Soundtrack","track":"7/19","TPA":"1/1","genre":"Soundtrack","encoded_by":"iTunes v4.1","date":"1980","path":"../music/chad/SOUNDTRACKS/Flash Gordon Original Soundtrack/07 Execution of Flash.mp3"},
-			{"title":"The Kiss (Aura Resurrects Flash)","artist":"Queen","TCM":"QueeN","album":"Flash Gordon Original Soundtrack","track":"8/19","TPA":"1/1","genre":"Soundtrack","encoded_by":"iTunes v4.1","date":"1980","path":"../music/chad/SOUNDTRACKS/Flash Gordon Original Soundtrack/08 The Kiss (Aura Resurrects Flash).mp3"},
-			{"title":"Arboria (Planet of the Tree Men)","artist":"Queen","TCM":"QueeN","album":"Flash Gordon Original Soundtrack","track":"9/19","TPA":"1/1","genre":"Soundtrack","encoded_by":"iTunes v4.1","date":"1980","path":"../music/chad/SOUNDTRACKS/Flash Gordon Original Soundtrack/09 Arboria (Planet of the Tree Men).mp3"},
-			{"title":"Escape from the Swamp","artist":"Queen","TCM":"QueeN","album":"Flash Gordon Original Soundtrack","track":"10/19","TPA":"1/1","genre":"Soundtrack","encoded_by":"iTunes v4.1","date":"1980","path":"../music/chad/SOUNDTRACKS/Flash Gordon Original Soundtrack/10 Escape from the Swamp.mp3"},
-			{"title":"Flash to the Rescue","artist":"Queen","TCM":"QueeN","album":"Flash Gordon Original Soundtrack","track":"11/19","TPA":"1/1","genre":"Soundtrack","encoded_by":"iTunes v4.1","date":"1980","path":"../music/chad/SOUNDTRACKS/Flash Gordon Original Soundtrack/11 Flash to the Rescue.mp3"},
-			{"title":"Vultan's Theme (Attack of the Hawk men)","artist":"Queen","TCM":"QueeN","album":"Flash Gordon Original Soundtrack","track":"12/19","TPA":"1/1","genre":"Soundtrack","encoded_by":"iTunes v4.1","date":"1980","path":"../music/chad/SOUNDTRACKS/Flash Gordon Original Soundtrack/12 Vultan's Theme (Attack of the Hawk men).mp3"},
-			{"title":"Battle Theme","artist":"Queen","TCM":"QueeN","album":"Flash Gordon Original Soundtrack","track":"13/19","TPA":"1/1","genre":"Soundtrack","encoded_by":"iTunes v4.1","date":"1980","path":"../music/chad/SOUNDTRACKS/Flash Gordon Original Soundtrack/13 Battle Theme.mp3"},
-			{"title":"The Wedding March","artist":"Queen","TCM":"QueeN","album":"Flash Gordon Original Soundtrack","track":"14/19","TPA":"1/1","genre":"Soundtrack","encoded_by":"iTunes v4.1","date":"1980","path":"../music/chad/SOUNDTRACKS/Flash Gordon Original Soundtrack/14 The Wedding March.mp3"},
-			{"title":"Marriage of Dale and Ming","artist":"Queen","TCM":"QueeN","album":"Flash Gordon Original Soundtrack","track":"15/19","TPA":"1/1","genre":"Soundtrack","encoded_by":"iTunes v4.1","date":"1980","path":"../music/chad/SOUNDTRACKS/Flash Gordon Original Soundtrack/15 Marriage of Dale and Ming.mp3"},
-			{"title":"Crash Dive on Mingo City","artist":"Queen","TCM":"QueeN","album":"Flash Gordon Original Soundtrack","track":"16/19","TPA":"1/1","genre":"Soundtrack","encoded_by":"iTunes v4.1","date":"1980","path":"../music/chad/SOUNDTRACKS/Flash Gordon Original Soundtrack/16 Crash Dive on Mingo City.mp3"},
-			{"title":"Flash's Theme Reprise","artist":"Queen","TCM":"QueeN","album":"Flash Gordon Original Soundtrack","track":"17/19","TPA":"1/1","genre":"Soundtrack","encoded_by":"iTunes v4.1","date":"1980","path":"../music/chad/SOUNDTRACKS/Flash Gordon Original Soundtrack/17 Flash's Theme Reprise.mp3"},
-			{"title":"The Hero","artist":"Queen","TCM":"QueeN","album":"Flash Gordon Original Soundtrack","track":"18/19","TPA":"1/1","genre":"Soundtrack","encoded_by":"iTunes v4.1","date":"1980","path":"../music/chad/SOUNDTRACKS/Flash Gordon Original Soundtrack/18 The Hero.mp3"},
-			{"title":"Flash's Theme ((1991 bonus Remix by Mista Lawnga, 9.5)","artist":"Queen","TCM":"QueeN","album":"Flash Gordon Original Soundtrack","track":"19/19","TPA":"1/1","genre":"Soundtrack","encoded_by":"iTunes v4.1","date":"1980","path":"../music/chad/SOUNDTRACKS/Flash Gordon Original Soundtrack/19 Flash's Theme ((1991 bonus Remix by Mista Lawnga, 9.5).mp3"}
-		]
-	},
-	{
-		"album":"Grand Theft Auto IV: Vladivostok FM", 
-		"artist":"Seryoga", 
-		"genre":"Soundtrack", 
-		"date":"2008-04-29T07:00:00Z", 
-		"path":"../music/chad/SOUNDTRACKS/Grand Theft Auto IV_ Vladivostok FM/01 Liberty City. the Invasion.m4p", 
-		"tracks":[
-			{"major_brand":"M4A ","minor_version":"0","compatible_brands":"M4A mp42isom","media_type":"1","title":"Liberty City. the Invasion","artist":"Seryoga","album_artist":"Various Artists","album":"Grand Theft Auto IV: Vladivostok FM","genre":"Soundtrack","track":"1","disc":"1/1","date":"2008-04-29T07:00:00Z","gapless_playback":"0","copyright":"℗ 2008 Compilation Megaliner Records","path":"../music/chad/SOUNDTRACKS/Grand Theft Auto IV_ Vladivostok FM/01 Liberty City. the Invasion.m4p"},
-			{"major_brand":"M4A ","minor_version":"0","compatible_brands":"M4A mp42isom","media_type":"1","title":"Mama","artist":"Basta","album_artist":"Various Artists","album":"Grand Theft Auto IV: Vladivostok FM","genre":"Soundtrack","track":"3","disc":"1/1","date":"2008-04-29T07:00:00Z","gapless_playback":"0","copyright":"℗ 2008 Compilation Megaliner Records","path":"../music/chad/SOUNDTRACKS/Grand Theft Auto IV_ Vladivostok FM/03 Mama.m4p"},
-			{"major_brand":"M4A ","minor_version":"0","compatible_brands":"M4A mp42isom","media_type":"1","title":"King Ring","artist":"Seryoga","album_artist":"Various Artists","album":"Grand Theft Auto IV: Vladivostok FM","genre":"Soundtrack","track":"6","disc":"1/1","date":"2008-04-29T07:00:00Z","gapless_playback":"0","copyright":"℗ 2008 Compilation Megaliner Records","path":"../music/chad/SOUNDTRACKS/Grand Theft Auto IV_ Vladivostok FM/06 King Ring.m4p"},
-			{"major_brand":"M4A ","minor_version":"0","compatible_brands":"M4A mp42isom","media_type":"1","title":"Schweine","artist":"Glukoza","album_artist":"Various Artists","album":"Grand Theft Auto IV: Vladivostok FM","genre":"Soundtrack","track":"12","disc":"1/1","date":"2008-04-29T07:00:00Z","gapless_playback":"0","copyright":"℗ 2008 Compilation Megaliner Records","path":"../music/chad/SOUNDTRACKS/Grand Theft Auto IV_ Vladivostok FM/12 Schweine.m4p"}
-		]
-	},
-	{
-		"album":"Grand Theft Auto Vice City, Vol. 7: Radio Espantoso (Original Soundtrack)", 
-		"artist":"Deodato", 
-		"genre":"Soundtrack", 
-		"date":"2002-10-29T08:00:00Z", 
-		"path":"../music/chad/SOUNDTRACKS/Grand Theft Auto Vice City, Vol. 7_ Radio Espantoso (Original Soundtrack)/02 Super Strut.m4p", 
-		"tracks":[
-			{"major_brand":"M4A ","minor_version":"0","compatible_brands":"M4A mp42isom","media_type":"1","title":"Super Strut","artist":"Deodato","album_artist":"Various Artists","album":"Grand Theft Auto Vice City, Vol. 7: Radio Espantoso (Original Soundtrack)","genre":"Soundtrack","track":"2/18","disc":"1/1","date":"2002-10-29T08:00:00Z","gapless_playback":"0","copyright":"℗ Compilation 2002 Sony Music Entertainment Inc.","path":"../music/chad/SOUNDTRACKS/Grand Theft Auto Vice City, Vol. 7_ Radio Espantoso (Original Soundtrack)/02 Super Strut.m4p"}
-		]
-	},
-	{
-		"album":"Lost Highway - Soundtrack", 
-		"artist":"David Bowie", 
-		"genre":"Soundtrack", 
-		"date":"undefined", 
-		"path":"../music/chad/SOUNDTRACKS/Lost Highway - Soundtrack/01. I'm Deranged (Edit) : D.mp3", 
-		"tracks":[
-			{"album":"Lost Highway - Soundtrack","genre":"Soundtrack","encoded_by":"SoundJam MP","track":"1/23","title":"I'm Deranged (Edit)","artist":"David Bowie","TCM":"David Bowie","path":"../music/chad/SOUNDTRACKS/Lost Highway - Soundtrack/01. I'm Deranged (Edit) : D.mp3"},
-			{"album":"Lost Highway - Soundtrack","genre":"Soundtrack","encoded_by":"SoundJam MP","track":"2/23","title":"Videodrones: Questions","artist":"Trent Reznor","TCM":"Trent Reznor","path":"../music/chad/SOUNDTRACKS/Lost Highway - Soundtrack/02. Videodrones Questions :.mp3"},
-			{"album":"Lost Highway - Soundtrack","genre":"Soundtrack","encoded_by":"SoundJam MP","track":"3/23","title":"The Perfect Drug","artist":"Nine Inch Nails","TCM":"Nine Inch Nails","path":"../music/chad/SOUNDTRACKS/Lost Highway - Soundtrack/03. Nine inch nails - The P.mp3"},
-			{"album":"Lost Highway - Soundtrack","genre":"Soundtrack","encoded_by":"SoundJam MP","track":"4/23","title":"Red Bats With Teeth","artist":"Angelo Badalamenti","TCM":"Angelo Badalamenti","path":"../music/chad/SOUNDTRACKS/Lost Highway - Soundtrack/04. Red Bats With Teeth : A.mp3"},
-			{"album":"Lost Highway - Soundtrack","genre":"Soundtrack","encoded_by":"SoundJam MP","track":"5/23","title":"Haunting & Heartbreaking","artist":"Angelo Badalamenti","TCM":"Angelo Badalamenti","path":"../music/chad/SOUNDTRACKS/Lost Highway - Soundtrack/05. Haunting & Heartbreakin.mp3"},
-			{"album":"Lost Highway - Soundtrack","genre":"Soundtrack","encoded_by":"SoundJam MP","track":"6/23","title":"Eye","artist":"Smashing Pumpkins","TCM":"Smashing Pumpkins","path":"../music/chad/SOUNDTRACKS/Lost Highway - Soundtrack/06. The smashing pumpkins -.mp3"},
-			{"album":"Lost Highway - Soundtrack","genre":"Soundtrack","encoded_by":"SoundJam MP","track":"7/23","title":"Dub Driving","artist":"Angelo Badalamenti","TCM":"Angelo Badalamenti","path":"../music/chad/SOUNDTRACKS/Lost Highway - Soundtrack/07. Dub Driving : Angelo Ba.mp3"},
-			{"album":"Lost Highway - Soundtrack","genre":"Soundtrack","encoded_by":"SoundJam MP","track":"8/23","title":"Mr. Eddy's Theme 1","artist":"Barry Adamson","TCM":"Barry Adamson","path":"../music/chad/SOUNDTRACKS/Lost Highway - Soundtrack/08. Barry Adamenso - Mr. Ed.mp3"},
-			{"album":"Lost Highway - Soundtrack","genre":"Soundtrack","encoded_by":"SoundJam MP","track":"9/23","title":"This Magic Moment","artist":"Lou Reed","TCM":"Lou Reed","path":"../music/chad/SOUNDTRACKS/Lost Highway - Soundtrack/09. This Magic Moment : Lou.mp3"},
-			{"album":"Lost Highway - Soundtrack","genre":"Soundtrack","encoded_by":"SoundJam MP","track":"10/23","title":"Mr. Eddy's Theme 2","artist":"Barry Adamson","TCM":"Barry Adamson","path":"../music/chad/SOUNDTRACKS/Lost Highway - Soundtrack/10. Barry Adamenso - Mr. Ed.mp3"},
-			{"album":"Lost Highway - Soundtrack","genre":"Soundtrack","encoded_by":"SoundJam MP","track":"11/23","title":"Fred & Renee Make Love","artist":"Angelo Badalamenti","TCM":"Angelo Badalamenti","path":"../music/chad/SOUNDTRACKS/Lost Highway - Soundtrack/11. Angelo Badalementi - Fr.mp3"},
-			{"album":"Lost Highway - Soundtrack","genre":"Soundtrack","encoded_by":"SoundJam MP","track":"12/23","title":"Apple Of Sodom","artist":"Marilyn Manson","TCM":"Marilyn Manson","path":"../music/chad/SOUNDTRACKS/Lost Highway - Soundtrack/12. Apple Of Sodom : Marily.mp3"},
-			{"album":"Lost Highway - Soundtrack","genre":"Soundtrack","encoded_by":"SoundJam MP","track":"13/23","title":"Insensatez","artist":"Antonio Carlos Jobim","TCM":"Antonio Carlos Jobim","path":"../music/chad/SOUNDTRACKS/Lost Highway - Soundtrack/13. Antonio Carlos Jobin - .mp3"},
-			{"album":"Lost Highway - Soundtrack","genre":"Soundtrack","encoded_by":"SoundJam MP","track":"14/23","title":"Something Wicked This Way Comes (Edit)","artist":"Barry Adamson","path":"../music/chad/SOUNDTRACKS/Lost Highway - Soundtrack/14. Something Wicked This W.mp3"},
-			{"album":"Lost Highway - Soundtrack","genre":"Soundtrack","encoded_by":"SoundJam MP","track":"15/23","title":"I Put A Spell On You","artist":"Marilyn Manson","TCM":"Screamin' Jay Hawkins","path":"../music/chad/SOUNDTRACKS/Lost Highway - Soundtrack/15. I Put A Spell On You : .mp3"},
-			{"album":"Lost Highway - Soundtrack","genre":"Soundtrack","encoded_by":"SoundJam MP","track":"16/23","title":"Fats Revisited","artist":"Angelo Badalamenti","path":"../music/chad/SOUNDTRACKS/Lost Highway - Soundtrack/16. Angelo Badalementi - Fa.mp3"},
-			{"album":"Lost Highway - Soundtrack","genre":"Soundtrack","encoded_by":"SoundJam MP","track":"17/23","title":"Fred's World","artist":"Angelo Badalamenti","TCM":"Angelo Badalamenti","path":"../music/chad/SOUNDTRACKS/Lost Highway - Soundtrack/17. Angelo Badalementi - Fr.mp3"},
-			{"album":"Lost Highway - Soundtrack","genre":"Soundtrack","encoded_by":"SoundJam MP","track":"18/23","title":"Rammstein (Edit)","artist":"Rammstein","TCM":"Rammstein","path":"../music/chad/SOUNDTRACKS/Lost Highway - Soundtrack/18. Rammstein (Edit) : Ramm.mp3"},
-			{"album":"Lost Highway - Soundtrack","genre":"Soundtrack","encoded_by":"SoundJam MP","track":"19/23","title":"Hollywood Sunset","artist":"Barry Adamson","TCM":"Barry Adamson","path":"../music/chad/SOUNDTRACKS/Lost Highway - Soundtrack/19. Hollywood Sunset : Barr.mp3"},
-			{"album":"Lost Highway - Soundtrack","genre":"Soundtrack","encoded_by":"SoundJam MP","track":"20/23","title":"Hierate Mich (Edit)","artist":"Rammstein","TCM":"Rammstein","path":"../music/chad/SOUNDTRACKS/Lost Highway - Soundtrack/20. Hierate Mich (Edit) : R.mp3"},
-			{"album":"Lost Highway - Soundtrack","genre":"Soundtrack","encoded_by":"SoundJam MP","track":"21/23","title":"Police","artist":"Angelo Badalamenti","TCM":"Angelo Badalamenti","path":"../music/chad/SOUNDTRACKS/Lost Highway - Soundtrack/21. Angelo Badalementi - Po.mp3"},
-			{"album":"Lost Highway - Soundtrack","genre":"Soundtrack","encoded_by":"SoundJam MP","track":"22/23","title":"Driver Down","artist":"Trent Reznor","TCM":"Trent Reznor","path":"../music/chad/SOUNDTRACKS/Lost Highway - Soundtrack/22. Driver Down : Trent Rez.mp3"},
-			{"album":"Lost Highway - Soundtrack","genre":"Soundtrack","encoded_by":"SoundJam MP","track":"23/23","title":"I'm Deranged (Reprise)","artist":"David Bowie","path":"../music/chad/SOUNDTRACKS/Lost Highway - Soundtrack/23. I'm Deranged (Reprise) .mp3"}
-		]
-	},
-	{
-		"album":"Music From the Movie Dragnet", 
-		"artist":"Various Artists", 
-		"genre":"Soundtrack", 
-		"date":"undefined", 
-		"path":"../music/chad/SOUNDTRACKS/Music From the Movie Dragnet/01 Patti La Belle _ Just The Facts.mp3", 
-		"tracks":[
-			{"title":"Patti La Belle / Just The Facts","artist":"Various Artists","album":"Music From the Movie Dragnet","track":"1/14","genre":"Soundtrack","TCP":"1","encoded_by":"iTunes v4.1","path":"../music/chad/SOUNDTRACKS/Music From the Movie Dragnet/01 Patti La Belle _ Just The Facts.mp3"},
-			{"title":"Dan Aykroyd And Tom Hanks / City Of Crime","artist":"Various Artists","album":"Music From the Movie Dragnet","track":"2/14","genre":"Soundtrack","TCP":"1","encoded_by":"iTunes v4.1","path":"../music/chad/SOUNDTRACKS/Music From the Movie Dragnet/02 Dan Aykroyd And Tom Hanks _ City Of Crime.mp3"},
-			{"title":"Art Of Noise / Dragnet","artist":"Various Artists","album":"Music From the Movie Dragnet","track":"3/14","genre":"Soundtrack","TCP":"1","encoded_by":"iTunes v4.1","path":"../music/chad/SOUNDTRACKS/Music From the Movie Dragnet/03 Art Of Noise _ Dragnet.mp3"},
-			{"title":"New Edition / Helplessly In Love","artist":"Various Artists","album":"Music From the Movie Dragnet","track":"4/14","genre":"Soundtrack","TCP":"1","encoded_by":"iTunes v4.1","path":"../music/chad/SOUNDTRACKS/Music From the Movie Dragnet/04 New Edition _ Helplessly In Love.mp3"},
-			{"title":"Dan Aykroyd And Tom Hanks / Dance Or Die","artist":"Various Artists","album":"Music From the Movie Dragnet","track":"5/14","genre":"Soundtrack","TCP":"1","encoded_by":"iTunes v4.1","path":"../music/chad/SOUNDTRACKS/Music From the Movie Dragnet/05 Dan Aykroyd And Tom Hanks _ Dance Or Die.mp3"},
-			{"title":"This Is The City & Danger Ahead & Dragnet March Medley","artist":"Various Artists","album":"Music From the Movie Dragnet","track":"6/14","genre":"Soundtrack","TCP":"1","encoded_by":"iTunes v4.1","path":"../music/chad/SOUNDTRACKS/Music From the Movie Dragnet/06 This Is The City & Danger Ahead & Dragnet March Medley.mp3"},
-			{"title":"Looking For Muzz","artist":"Various Artists","album":"Music From the Movie Dragnet","track":"7/14","genre":"Soundtrack","TCP":"1","encoded_by":"iTunes v4.1","path":"../music/chad/SOUNDTRACKS/Music From the Movie Dragnet/07 Looking For Muzz.mp3"},
-			{"title":"Pagan Tension","artist":"Various Artists","album":"Music From the Movie Dragnet","track":"8/14","genre":"Soundtrack","TCP":"1","encoded_by":"iTunes v4.1","path":"../music/chad/SOUNDTRACKS/Music From the Movie Dragnet/08 Pagan Tension.mp3"},
-			{"title":"Pagan Fight","artist":"Various Artists","album":"Music From the Movie Dragnet","track":"9/14","genre":"Soundtrack","TCP":"1","encoded_by":"iTunes v4.1","path":"../music/chad/SOUNDTRACKS/Music From the Movie Dragnet/09 Pagan Fight.mp3"},
-			{"title":"Dairy Apologies","artist":"Various Artists","album":"Music From the Movie Dragnet","track":"10/14","genre":"Soundtrack","TCP":"1","encoded_by":"iTunes v4.1","path":"../music/chad/SOUNDTRACKS/Music From the Movie Dragnet/10 Dairy Apologies.mp3"},
-			{"title":"Joe Gets Fired","artist":"Various Artists","album":"Music From the Movie Dragnet","track":"11/14","genre":"Soundtrack","TCP":"1","encoded_by":"iTunes v4.1","path":"../music/chad/SOUNDTRACKS/Music From the Movie Dragnet/11 Joe Gets Fired.mp3"},
-			{"title":"The Tank","artist":"Various Artists","album":"Music From the Movie Dragnet","track":"12/14","genre":"Soundtrack","TCP":"1","encoded_by":"iTunes v4.1","path":"../music/chad/SOUNDTRACKS/Music From the Movie Dragnet/12 The Tank.mp3"},
-			{"title":"Dragnet End Credits","artist":"Various Artists","album":"Music From the Movie Dragnet","track":"13/14","genre":"Soundtrack","TCP":"1","encoded_by":"iTunes v4.1","path":"../music/chad/SOUNDTRACKS/Music From the Movie Dragnet/13 Dragnet End Credits.mp3"},
-			{"title":"Kill Me Instead","artist":"Various Artists","album":"Music From the Movie Dragnet","track":"14/14","genre":"Soundtrack","TCP":"1","encoded_by":"iTunes v4.1","path":"../music/chad/SOUNDTRACKS/Music From the Movie Dragnet/14 Kill Me Instead.mp3"}
-		]
-	},
-	{
-		"album":"Natural Born Killers", 
-		"artist":"Leonard Cohen", 
-		"genre":"Soundtrack", 
-		"date":"1994", 
-		"path":"../music/chad/SOUNDTRACKS/Natural Born Killers/01 Waiting For The Miracle.mp3", 
-		"tracks":[
-			{"title":"Waiting For The Miracle","artist":"Leonard Cohen","TCM":"Leonard Cohen","album":"Natural Born Killers","track":"1/27","TPA":"1/1","encoded_by":"iTunes v4.1","genre":"Soundtrack","TCP":"1","date":"1994","path":"../music/chad/SOUNDTRACKS/Natural Born Killers/01 Waiting For The Miracle.mp3"},
-			{"title":"Shitlist","artist":"L7","TCM":"Barry Adamson/Donita Sparks","album":"Natural Born Killers","track":"2/27","TPA":"1/1","encoded_by":"iTunes v4.1","genre":"Soundtrack","TCP":"1","date":"1994","path":"../music/chad/SOUNDTRACKS/Natural Born Killers/02 Shitlist.mp3"},
-			{"title":"Moon Over Greene County","artist":"Dan Zanes","TCM":"Barry Adamson/Dan Zanes","album":"Natural Born Killers","track":"3/27","TPA":"1/1","encoded_by":"iTunes v4.1","genre":"Soundtrack","TCP":"1","date":"1994","path":"../music/chad/SOUNDTRACKS/Natural Born Killers/03 Moon Over Greene County.mp3"},
-			{"title":"Rock N Roll Nigger","artist":"Patti Smith","TCM":"Barry Adamson/Patti Smith","album":"Natural Born Killers","track":"4/27","TPA":"1/1","encoded_by":"iTunes v4.1","genre":"Soundtrack","TCP":"1","date":"1994","path":"../music/chad/SOUNDTRACKS/Natural Born Killers/04 Rock N Roll Nigger.mp3"},
-			{"title":"Sweet Jane","artist":"Cowboy Junkies","TCM":"Barry Adamson/Lou Reed","album":"Natural Born Killers","track":"5/27","TPA":"1/1","encoded_by":"iTunes v4.1","genre":"Soundtrack","TCP":"1","date":"1994","path":"../music/chad/SOUNDTRACKS/Natural Born Killers/05 Sweet Jane.mp3"},
-			{"title":"You Belong To Me","artist":"Bob Dylan","TCM":"Barry Adamson/Pee Wee King","album":"Natural Born Killers","track":"6/27","TPA":"1/1","encoded_by":"iTunes v4.1","genre":"Soundtrack","TCP":"1","date":"1994","path":"../music/chad/SOUNDTRACKS/Natural Born Killers/06 You Belong To Me.mp3"},
-			{"title":"The Trembler","artist":"Duane Eddy","TCM":"Barry Adamson/Duane Eddy","album":"Natural Born Killers","track":"7/27","TPA":"1/1","encoded_by":"iTunes v4.1","genre":"Soundtrack","TCP":"1","date":"1994","path":"../music/chad/SOUNDTRACKS/Natural Born Killers/07 The Trembler.mp3"},
-			{"title":"Burn","artist":"Nine Inch Nails","TCM":"Barry Adamson/Trent Reznor","album":"Natural Born Killers","track":"8/27","TPA":"1/1","encoded_by":"iTunes v4.1","genre":"Soundtrack","TCP":"1","date":"1994","path":"../music/chad/SOUNDTRACKS/Natural Born Killers/08 Burn.mp3"},
-			{"title":"Route 666","artist":"Robert Downey, Jr. and "BB Tone" Brian Berdan","TCM":"Barry Adamson/Brian Berdan","album":"Natural Born Killers","track":"9/27","TPA":"1/1","encoded_by":"iTunes v4.1","genre":"Soundtrack","TCP":"1","date":"1994","path":"../music/chad/SOUNDTRACKS/Natural Born Killers/09 Route 666.mp3"},
-			{"title":"Totally Hot","artist":"Remmy Ongala And Orchestre Super Matimila","TCM":"Barry Adamson/Remmy Ongala","album":"Natural Born Killers","track":"10/27","TPA":"1/1","encoded_by":"iTunes v4.1","genre":"Soundtrack","TCP":"1","date":"1994","path":"../music/chad/SOUNDTRACKS/Natural Born Killers/10 Totally Hot.mp3"},
-			{"title":"Back In Baby's Arms","artist":"Patsy Cline","TCM":"Barry Adamson/Bob Montgomery","album":"Natural Born Killers","track":"11/27","TPA":"1/1","encoded_by":"iTunes v4.1","genre":"Soundtrack","TCP":"1","date":"1994","path":"../music/chad/SOUNDTRACKS/Natural Born Killers/11 Back In Baby's Arms.mp3"},
-			{"title":"Taboo","artist":"Peter Gabriel & Nusrat Fateh Ali Khan","TCM":"Barry Adamson/Peter Gabriel","album":"Natural Born Killers","track":"12/27","TPA":"1/1","encoded_by":"iTunes v4.1","genre":"Soundtrack","TCP":"1","date":"1994","path":"../music/chad/SOUNDTRACKS/Natural Born Killers/12 Taboo.mp3"},
-			{"title":"Sex Is Violent","artist":"Jane's Addiction & Diamanda Galas","TCM":"Barry Adamson/Eric Avery","album":"Natural Born Killers","track":"13/27","TPA":"1/1","encoded_by":"iTunes v4.1","genre":"Soundtrack","TCP":"1","date":"1994","path":"../music/chad/SOUNDTRACKS/Natural Born Killers/13 Sex Is Violent.mp3"},
-			{"title":"History Repeats Itself","artist":"AOS","TCM":"Barry Adamson/Wilbrandt","album":"Natural Born Killers","track":"14/27","TPA":"1/1","encoded_by":"iTunes v4.1","genre":"Soundtrack","TCP":"1","date":"1994","path":"../music/chad/SOUNDTRACKS/Natural Born Killers/14 History Repeats Itself.mp3"},
-			{"title":"Something I Can Never Have","artist":"Nine Inch Nails","TCM":"Barry Adamson/Trent Reznor","album":"Natural Born Killers","track":"15/27","TPA":"1/1","encoded_by":"iTunes v4.1","genre":"Soundtrack","TCP":"1","date":"1994","path":"../music/chad/SOUNDTRACKS/Natural Born Killers/15 Something I Can Never Have.mp3"},
-			{"title":"I Will Take You Home","artist":"Russel Means","TCM":"Barry Adamson/Russel Means","album":"Natural Born Killers","track":"16/27","TPA":"1/1","encoded_by":"iTunes v4.1","genre":"Soundtrack","TCP":"1","date":"1994","path":"../music/chad/SOUNDTRACKS/Natural Born Killers/16 I Will Take You Home.mp3"},
-			{"title":"Drums A Go-Go","artist":"Hollywood Persuaders","TCM":"Barry Adamson/Paul Buff","album":"Natural Born Killers","track":"17/27","TPA":"1/1","encoded_by":"iTunes v4.1","genre":"Soundtrack","TCP":"1","date":"1994","path":"../music/chad/SOUNDTRACKS/Natural Born Killers/17 Drums A Go-Go.mp3"},
-			{"title":"Hungry Ants","artist":"Barry Adamson","TCM":"Barry Adamson","album":"Natural Born Killers","track":"18/27","TPA":"1/1","encoded_by":"iTunes v4.1","genre":"Soundtrack","TCP":"1","date":"1994","path":"../music/chad/SOUNDTRACKS/Natural Born Killers/18 Hungry Ants.mp3"},
-			{"title":"The Day The Niggaz Took Over","artist":"Doctor Dre","TCM":"Barry Adamson/Dr. Dre","album":"Natural Born Killers","track":"19/27","TPA":"1/1","encoded_by":"iTunes v4.1","genre":"Soundtrack","TCP":"1","date":"1994","path":"../music/chad/SOUNDTRACKS/Natural Born Killers/19 The Day The Niggaz Took Over.mp3"},
-			{"title":"Born Bad","artist":"Juliette Lewis","TCM":"Barry Adamson/Cissie Cobb","album":"Natural Born Killers","track":"20/27","TPA":"1/1","encoded_by":"iTunes v4.1","genre":"Soundtrack","TCP":"1","date":"1994","path":"../music/chad/SOUNDTRACKS/Natural Born Killers/20 Born Bad.mp3"},
-			{"title":"Fall Of The Rebel Angels","artist":"Sergio Cervetti","TCM":"Barry Adamson/Sergio Cervetti","album":"Natural Born Killers","track":"21/27","TPA":"1/1","encoded_by":"iTunes v4.1","genre":"Soundtrack","TCP":"1","date":"1994","path":"../music/chad/SOUNDTRACKS/Natural Born Killers/21 Fall Of The Rebel Angels.mp3"},
-			{"title":"Forkboy","artist":"Lard","TCM":"Barry Adamson","album":"Natural Born Killers","track":"22/27","TPA":"1/1","encoded_by":"iTunes v4.1","genre":"Soundtrack","TCP":"1","date":"1994","path":"../music/chad/SOUNDTRACKS/Natural Born Killers/22 Forkboy.mp3"},
-			{"title":"Batonga In Batongaville","artist":"Budapest Philarmonic Orchestra","TCM":"Barry Adamson","album":"Natural Born Killers","track":"23/27","TPA":"1/1","encoded_by":"iTunes v4.1","genre":"Soundtrack","TCP":"1","date":"1994","path":"../music/chad/SOUNDTRACKS/Natural Born Killers/23 Batonga In Batongaville.mp3"},
-			{"title":"A Warm Place","artist":"Nine Inch Nails","TCM":"Barry Adamson","album":"Natural Born Killers","track":"24/27","TPA":"1/1","encoded_by":"iTunes v4.1","genre":"Soundtrack","TCP":"1","date":"1994","path":"../music/chad/SOUNDTRACKS/Natural Born Killers/24 A Warm Place.mp3"},
-			{"title":"Allah, Mohammed, Char, Yaar","artist":"Nusrat Fateh Ali Khan & Party & Diamanda Gallas","TCM":"Barry Adamson","album":"Natural Born Killers","track":"25/27","TPA":"1/1","encoded_by":"iTunes v4.1","genre":"Soundtrack","TCP":"1","date":"1994","path":"../music/chad/SOUNDTRACKS/Natural Born Killers/25 Allah, Mohammed, Char, Yaar.mp3"},
-			{"title":"The Future","artist":"Leonard Cohen","TCM":"Barry Adamson/Leonard Cohen","album":"Natural Born Killers","track":"26/27","TPA":"1/1","encoded_by":"iTunes v4.1","genre":"Soundtrack","TCP":"1","date":"1994","path":"../music/chad/SOUNDTRACKS/Natural Born Killers/26 The Future.mp3"},
-			{"title":"What Would U Do?","artist":"Tha Dogg Pound","TCM":"Barry Adamson","album":"Natural Born Killers","track":"27/27","TPA":"1/1","encoded_by":"iTunes v4.1","genre":"Soundtrack","TCP":"1","date":"1994","path":"../music/chad/SOUNDTRACKS/Natural Born Killers/27 What Would U Do_.mp3"}
-		]
-	},
-	{
-		"album":"Ocean's Eleven Soundtrack", 
-		"artist":"undefined", 
-		"genre":"Soundtrack", 
-		"date":"undefined", 
-		"path":"../music/chad/SOUNDTRACKS/Ocean's Eleven Soundtrack/Ocean's Eleven Soundtrack.mp3", 
-		"tracks":[
-			{"title":"track1","album":"Ocean's Eleven Soundtrack","genre":"Soundtrack","TYER":"0","track":"0","path":"../music/chad/SOUNDTRACKS/Ocean's Eleven Soundtrack/Ocean's Eleven Soundtrack.mp3"},
-			{"track":"11","TLEN":"91367","title":"ocean's pickpokets","album":"Ocean's Eleven Soundtrack","genre":"Soundtrack","path":"../music/chad/SOUNDTRACKS/Ocean's Eleven Soundtrack/Ocean's Eleven Soundtrack11.mp3"},
-			{"genre":"Soundtrack","title":"Papa Loves Mambo","album":"Ocean's Eleven Soundtrack","path":"../music/chad/SOUNDTRACKS/Ocean's Eleven Soundtrack/Ocean's Eleven Soundtrack5.mp3"}
-		]
-	},
-	{
-		"album":"Passengers", 
-		"artist":"Brian Eno", 
-		"genre":"Soundtrack", 
-		"date":"1995", 
-		"path":"../music/chad/SOUNDTRACKS/Passengers/01. United Colours.mp3", 
-		"tracks":[
-			{"title":"United Colours","artist":"Brian Eno","TCM":"Brian Eno","album":"Passengers","genre":"Soundtrack","TPA":"1/1","track":"1/14","date":"1995","path":"../music/chad/SOUNDTRACKS/Passengers/01. United Colours.mp3"},
-			{"title":"Slug","artist":"Brian Eno","TCM":"Brian Eno","album":"Passengers","genre":"Soundtrack","TPA":"1/1","track":"2/14","date":"1995","path":"../music/chad/SOUNDTRACKS/Passengers/02. Slug.mp3"},
-			{"title":"Your Blue Room","artist":"Brian Eno","TCM":"Brian Eno","album":"Passengers","genre":"Soundtrack","TPA":"1/1","track":"3/14","date":"1995","path":"../music/chad/SOUNDTRACKS/Passengers/03. Your Blue Room.mp3"},
-			{"title":"Always Forever Now","artist":"Brian Eno","TCM":"Brian Eno","album":"Passengers","genre":"Soundtrack","TPA":"1/1","track":"4/14","date":"1995","path":"../music/chad/SOUNDTRACKS/Passengers/04. Always Forever Now.mp3"},
-			{"title":"A Different Kind Of Blue","artist":"Brian Eno","TCM":"Brian Eno","album":"Passengers","genre":"Soundtrack","TPA":"1/1","track":"5/14","date":"1995","path":"../music/chad/SOUNDTRACKS/Passengers/05. A Different Kind Of Blue.mp3"},
-			{"title":"Beach Sequence","artist":"Brian Eno","TCM":"Brian Eno","album":"Passengers","genre":"Soundtrack","TPA":"1/1","track":"6/14","date":"1995","path":"../music/chad/SOUNDTRACKS/Passengers/06. Beach Sequence.mp3"},
-			{"title":"Miss Sarajevo","artist":"Brian Eno","TCM":"Brian Eno","album":"Passengers","genre":"Soundtrack","TPA":"1/1","track":"7/14","date":"1995","path":"../music/chad/SOUNDTRACKS/Passengers/07. Miss Sarajevo.mp3"},
-			{"title":"Ito Okashi","artist":"Brian Eno","TCM":"Brian Eno","album":"Passengers","genre":"Soundtrack","TPA":"1/1","track":"8/14","date":"1995","path":"../music/chad/SOUNDTRACKS/Passengers/08. Ito Okashi.mp3"},
-			{"title":"One Minute Warning","artist":"Brian Eno","TCM":"Brian Eno","album":"Passengers","genre":"Soundtrack","TPA":"1/1","track":"9/14","date":"1995","path":"../music/chad/SOUNDTRACKS/Passengers/09. One Minute Warning.mp3"},
-			{"title":"Corpse (These Chains Are Way Too Long)","artist":"Brian Eno","TCM":"Brian Eno","album":"Passengers","genre":"Soundtrack","TPA":"1/1","track":"10/14","date":"1995","path":"../music/chad/SOUNDTRACKS/Passengers/10. Corpse (These Chains Are Way Too Long).mp3"},
-			{"title":"Elvis Ate America","artist":"Brian Eno","TCM":"Brian Eno","album":"Passengers","genre":"Soundtrack","TPA":"1/1","track":"11/14","date":"1995","path":"../music/chad/SOUNDTRACKS/Passengers/11. Elvis Ate America.mp3"},
-			{"title":"Plot 180","artist":"Brian Eno","TCM":"Brian Eno","album":"Passengers","genre":"Soundtrack","TPA":"1/1","track":"12/14","date":"1995","path":"../music/chad/SOUNDTRACKS/Passengers/12. Plot 180.mp3"},
-			{"title":"Theme From The Swan","artist":"Brian Eno","TCM":"Brian Eno","album":"Passengers","genre":"Soundtrack","TPA":"1/1","track":"13/14","date":"1995","path":"../music/chad/SOUNDTRACKS/Passengers/13. Theme From The Swan.mp3"},
-			{"title":"Theme From Let's Go Native","artist":"Brian Eno","TCM":"Brian Eno","album":"Passengers","genre":"Soundtrack","TPA":"1/1","track":"14/14","date":"1995","path":"../music/chad/SOUNDTRACKS/Passengers/14. Theme From Let's Go Native.mp3"}
-		]
-	},
-	{
-		"album":"The Matrix", 
-		"artist":"Marilyn Manson", 
-		"genre":"Soundtrack", 
-		"date":"undefined", 
-		"path":"../music/chad/SOUNDTRACKS/The Matrix/01. Rock Is Dead.mp3", 
-		"tracks":[
-			{"title":"Rock Is Dead","artist":"Marilyn Manson","album":"The Matrix","genre":"Soundtrack","encoded_by":"SoundJam v2.5.3","track":"1/13","path":"../music/chad/SOUNDTRACKS/The Matrix/01. Rock Is Dead.mp3"},
-			{"title":"Spybreak! (Short One)","artist":"Propellerheads","album":"The Matrix","genre":"Soundtrack","encoded_by":"SoundJam v2.5.3","track":"2/13","path":"../music/chad/SOUNDTRACKS/The Matrix/02. Spybreak! (Short One).mp3"},
-			{"title":"Bad Blood","artist":"Ministry","album":"The Matrix","genre":"Soundtrack","encoded_by":"SoundJam v2.5.3","track":"3/13","path":"../music/chad/SOUNDTRACKS/The Matrix/03. Bad Blood.mp3"},
-			{"title":"Clubbed To Death (Kurayamino Mix)","artist":"Rob D","album":"The Matrix","genre":"Soundtrack","encoded_by":"SoundJam v2.5.3","track":"4/13","path":"../music/chad/SOUNDTRACKS/The Matrix/04. Clubbed To Death (Kuray.mp3"},
-			{"title":"Prime Audio Soup","artist":"Meat Beat Manifesto","album":"The Matrix","genre":"Soundtrack","encoded_by":"SoundJam v2.5.3","track":"5/13","path":"../music/chad/SOUNDTRACKS/The Matrix/05. Prime Audio Soup.mp3"},
-			{"title":"Leave You Far Behind","artist":"Lunatic Calm","album":"The Matrix","genre":"Soundtrack","encoded_by":"SoundJam v2.5.3","track":"6/13","path":"../music/chad/SOUNDTRACKS/The Matrix/06. Leave You Far Behind.mp3"},
-			{"title":"Mindfields","artist":"Prodigy","album":"The Matrix","genre":"Soundtrack","encoded_by":"SoundJam v2.5.3","track":"7/13","path":"../music/chad/SOUNDTRACKS/The Matrix/07. Mindfields.mp3"},
-			{"title":"Dragula (Hot Rod Herman Remix)","artist":"Rob Zombie","album":"The Matrix","genre":"Soundtrack","encoded_by":"SoundJam v2.5.3","track":"8/13","path":"../music/chad/SOUNDTRACKS/The Matrix/08. Dragula (Hot Rod Herman.mp3"},
-			{"title":"My Own Summer (Shove It)","artist":"Deftones","album":"The Matrix","genre":"Soundtrack","encoded_by":"SoundJam v2.5.3","track":"9/13","path":"../music/chad/SOUNDTRACKS/The Matrix/09. My Own Summer (Shove It.mp3"},
-			{"title":"Ultrasonic Sound","artist":"Hive","album":"The Matrix","genre":"Soundtrack","encoded_by":"SoundJam v2.5.3","track":"10/13","path":"../music/chad/SOUNDTRACKS/The Matrix/10. Ultrasonic Sound.mp3"},
-			{"title":"Look To Your Orb For The Warning","artist":"Monster Magnet","album":"The Matrix","genre":"Soundtrack","encoded_by":"SoundJam v2.5.3","track":"11/13","path":"../music/chad/SOUNDTRACKS/The Matrix/11. Look To Your Orb For Th.mp3"},
-			{"title":"Du Hast","artist":"Rammstein","album":"The Matrix","genre":"Soundtrack","encoded_by":"SoundJam v2.5.3","track":"12/13","path":"../music/chad/SOUNDTRACKS/The Matrix/12. Du Hast.mp3"},
-			{"title":"Wake Up","artist":"Rage Against The Machine","album":"The Matrix","genre":"Soundtrack","encoded_by":"SoundJam v2.5.3","track":"13/13","path":"../music/chad/SOUNDTRACKS/The Matrix/13. Wake Up.mp3"}
-		]
-	},
-	{
-		"album":"Triplets Of Belleville - Original Soundtrack", 
-		"artist":"Ben Charest", 
-		"genre":"Soundtrack", 
+		"album":"Atlas", 
+		"artist":"Kinky", 
+		"genre":"World", 
 		"date":"2003", 
-		"path":"../music/chad/SOUNDTRACKS/Triplets Of Belleville - Original Soundtrack/01. Sous le pont.mp3", 
+		"path":"../music//Atlas/01. Presidente.mp3", 
 		"tracks":[
-			{"title":"Sous le pont","artist":"Ben Charest","TCM":"Ben Charest","album":"Triplets Of Belleville - Original Soundtrack","genre":"Soundtrack","TCP":"1","track":"1/19","TPA":"1/1","date":"2003","path":"../music/chad/SOUNDTRACKS/Triplets Of Belleville - Original Soundtrack/01. Sous le pont.mp3"},
-			{"title":"Belleville Rendez-Vous (French Version)","artist":"M+S","TCM":"Ben Charest","album":"Triplets Of Belleville - Original Soundtrack","genre":"Soundtrack","TCP":"1","track":"2/19","TPA":"1/1","date":"2003","path":"../music/chad/SOUNDTRACKS/Triplets Of Belleville - Original Soundtrack/02. Belleville Rendez-Vous (French Version).mp3"},
-			{"title":"Générique d'ouverture","artist":"Ben Charest","TCM":"Ben Charest","album":"Triplets Of Belleville - Original Soundtrack","genre":"Soundtrack","TCP":"1","track":"3/19","TPA":"1/1","date":"2003","path":"../music/chad/SOUNDTRACKS/Triplets Of Belleville - Original Soundtrack/03. Générique d'ouverture.mp3"},
-			{"title":"Cabaret d'ouverture","artist":"Ben Charest","TCM":"Ben Charest","album":"Triplets Of Belleville - Original Soundtrack","genre":"Soundtrack","TCP":"1","track":"4/19","TPA":"1/1","date":"2003","path":"../music/chad/SOUNDTRACKS/Triplets Of Belleville - Original Soundtrack/04. Cabaret d'ouverture.mp3"},
-			{"title":"Tour De France","artist":"Ben Charest","TCM":"Ben Charest","album":"Triplets Of Belleville - Original Soundtrack","genre":"Soundtrack","TCP":"1","track":"5/19","TPA":"1/1","date":"2003","path":"../music/chad/SOUNDTRACKS/Triplets Of Belleville - Original Soundtrack/05. Tour De France.mp3"},
-			{"title":"Attila Marcel","artist":"Ben Charest","TCM":"Ben Charest","album":"Triplets Of Belleville - Original Soundtrack","genre":"Soundtrack","TCP":"1","track":"6/19","TPA":"1/1","date":"2003","path":"../music/chad/SOUNDTRACKS/Triplets Of Belleville - Original Soundtrack/06. Attila Marcel.mp3"},
-			{"title":"Thème Bruno","artist":"Ben Charest","TCM":"Ben Charest","album":"Triplets Of Belleville - Original Soundtrack","genre":"Soundtrack","TCP":"1","track":"7/19","TPA":"1/1","date":"2003","path":"../music/chad/SOUNDTRACKS/Triplets Of Belleville - Original Soundtrack/07. Thème Bruno.mp3"},
-			{"title":"Tout doux Bruno","artist":"Ben Charest","TCM":"Ben Charest","album":"Triplets Of Belleville - Original Soundtrack","genre":"Soundtrack","TCP":"1","track":"8/19","TPA":"1/1","date":"2003","path":"../music/chad/SOUNDTRACKS/Triplets Of Belleville - Original Soundtrack/08. Tout doux Bruno.mp3"},
-			{"title":"Belleville Rendez-Vous (Maquette)","artist":"Ben Charest","TCM":"Ben Charest","album":"Triplets Of Belleville - Original Soundtrack","genre":"Soundtrack","TCP":"1","track":"9/19","TPA":"1/1","date":"2003","path":"../music/chad/SOUNDTRACKS/Triplets Of Belleville - Original Soundtrack/09. Belleville Rendez-Vous (Maquette).mp3"},
-			{"title":"Thème de la French Mafia","artist":"Ben Charest","TCM":"Ben Charest","album":"Triplets Of Belleville - Original Soundtrack","genre":"Soundtrack","TCP":"1","track":"10/19","TPA":"1/1","date":"2003","path":"../music/chad/SOUNDTRACKS/Triplets Of Belleville - Original Soundtrack/10. Thème de la French Mafia.mp3"},
-			{"title":"Bach à la Jazz","artist":"Ben Charest","TCM":"Ben Charest","album":"Triplets Of Belleville - Original Soundtrack","genre":"Soundtrack","TCP":"1","track":"11/19","TPA":"1/1","date":"2003","path":"../music/chad/SOUNDTRACKS/Triplets Of Belleville - Original Soundtrack/11. Bach à la Jazz.mp3"},
-			{"title":"Cabaret Aspirateur","artist":"Ben Charest","TCM":"Ben Charest","album":"Triplets Of Belleville - Original Soundtrack","genre":"Soundtrack","TCP":"1","track":"12/19","TPA":"1/1","date":"2003","path":"../music/chad/SOUNDTRACKS/Triplets Of Belleville - Original Soundtrack/12. Cabaret Aspirateur.mp3"},
-			{"title":"La Jungle le Belleville","artist":"Ben Charest","TCM":"Ben Charest","album":"Triplets Of Belleville - Original Soundtrack","genre":"Soundtrack","TCP":"1","track":"13/19","TPA":"1/1","date":"2003","path":"../music/chad/SOUNDTRACKS/Triplets Of Belleville - Original Soundtrack/13. La Jungle le Belleville.mp3"},
-			{"title":"Barbier "Cieco, Cieco"","artist":"Ben Charest","TCM":"Ben Charest","album":"Triplets Of Belleville - Original Soundtrack","genre":"Soundtrack","TCP":"1","track":"14/19","TPA":"1/1","date":"2003","path":"../music/chad/SOUNDTRACKS/Triplets Of Belleville - Original Soundtrack/14. Barbier "Cieco, Cieco".mp3"},
-			{"title":"Pa Pa Pa Palavas","artist":"Ben Charest","TCM":"Ben Charest","album":"Triplets Of Belleville - Original Soundtrack","genre":"Soundtrack","TCP":"1","track":"15/19","TPA":"1/1","date":"2003","path":"../music/chad/SOUNDTRACKS/Triplets Of Belleville - Original Soundtrack/15. Pa Pa Pa Palavas.mp3"},
-			{"title":"Retour de la French Mafia","artist":"Ben Charest","TCM":"Ben Charest","album":"Triplets Of Belleville - Original Soundtrack","genre":"Soundtrack","TCP":"1","track":"16/19","TPA":"1/1","date":"2003","path":"../music/chad/SOUNDTRACKS/Triplets Of Belleville - Original Soundtrack/16. Retour de la French Mafia.mp3"},
-			{"title":"Filiature","artist":"Ben Charest","TCM":"Ben Charest","album":"Triplets Of Belleville - Original Soundtrack","genre":"Soundtrack","TCP":"1","track":"17/19","TPA":"1/1","date":"2003","path":"../music/chad/SOUNDTRACKS/Triplets Of Belleville - Original Soundtrack/17. Filiature.mp3"},
-			{"title":"Poursuite","artist":"Ben Charest","TCM":"Ben Charest","album":"Triplets Of Belleville - Original Soundtrack","genre":"Soundtrack","TCP":"1","track":"18/19","TPA":"1/1","date":"2003","path":"../music/chad/SOUNDTRACKS/Triplets Of Belleville - Original Soundtrack/18. Poursuite.mp3"},
-			{"title":"Belleville Rendez-Vous (English Version)","artist":"M+S","TCM":"Ben Charest","album":"Triplets Of Belleville - Original Soundtrack","genre":"Soundtrack","TCP":"1","track":"19/19","TPA":"1/1","date":"2003","path":"../music/chad/SOUNDTRACKS/Triplets Of Belleville - Original Soundtrack/19. Belleville Rendez-Vous (English Version).mp3"}
+			{"title":"Presidente","artist":"Kinky","album":"Atlas","genre":"World","track":"1/12","date":"2003","path":"../music//Atlas/01. Presidente.mp3"},
+			{"title":"The Headphonist","artist":"Kinky","album":"Atlas","genre":"World","track":"2/12","date":"2003","path":"../music//Atlas/02. The Headphonist.mp3"},
+			{"title":"Snapshot","artist":"Kinky","album":"Atlas","genre":"World","track":"3/12","date":"2003","path":"../music//Atlas/03. Snapshot.mp3"},
+			{"title":"Salta-Lenin-El-Atlas","artist":"Kinky","album":"Atlas","genre":"World","track":"4/12","date":"2003","path":"../music//Atlas/04. Salta-Lenin-El-Atlas.mp3"},
+			{"title":"Do U Like It?","artist":"Kinky","album":"Atlas","genre":"World","track":"5/12","date":"2003","path":"../music//Atlas/05. Do U Like It?.mp3"},
+			{"title":"Airport Feelings","artist":"Kinky","album":"Atlas","genre":"World","track":"6/12","date":"2003","path":"../music//Atlas/06. Airport Feelings.mp3"},
+			{"title":"Pos Que Se Vengan","artist":"Kinky","album":"Atlas","genre":"World","track":"7/12","date":"2003","path":"../music//Atlas/07. Pos Que Se Vengan.mp3"},
+			{"title":"Minotauro","artist":"Kinky","album":"Atlas","genre":"World","track":"8/12","date":"2003","path":"../music//Atlas/08. Minotauro.mp3"},
+			{"title":"Not Afraid","artist":"Kinky","album":"Atlas","genre":"World","track":"9/12","date":"2003","path":"../music//Atlas/09. Not Afraid.mp3"},
+			{"title":"My God Is So Quiet","artist":"Kinky","album":"Atlas","genre":"World","track":"10/12","date":"2003","path":"../music//Atlas/10. My God Is So Quiet.mp3"},
+			{"title":"Maria Jose","artist":"Kinky","album":"Atlas","genre":"World","track":"11/12","date":"2003","path":"../music//Atlas/11. Maria Jose.mp3"},
+			{"title":"Semillas De Menta","artist":"Kinky","album":"Atlas","genre":"World","track":"12/12","date":"2003","path":"../music//Atlas/12. Semillas De Menta.mp3"}
+		]
+	},
+	{
+		"album":"The Slip", 
+		"artist":"Nine Inch Nails", 
+		"date":"2008", 
+		"path":"../music//test.mp3", 
+		"tracks":[
+			{"artist":"Nine Inch Nails","album":"The Slip","encoded_by":"LAME","title":"999,999","composer":"Trent Reznor","track":"1/10","disc":"1/1","date":"2008","path":"../music//test.mp3"}
 		]
 	}
 ]}

@@ -58,9 +58,11 @@ module.exports = function(musicPath, playlistsPath) {
                 track = music[i];
                 if (track.comment) delete track.comment;
                 for(j in track) {
-                  if (typeof track[j]==="string" && track[j].match(/^\s+$/i)) 
-                    delete track[j];
-                  //console.log(track[j].indexOf("\\"));
+                  if (typeof track[j]==="string") {
+                    if (track[j].match(/^\s+$/i))
+                      delete track[j];
+                    //console.log(track[j].indexOf("\\"));
+                  }
                 }
 
                 if (music[i].album === album.album) {
@@ -82,15 +84,19 @@ module.exports = function(musicPath, playlistsPath) {
               }
               //res.jsonp(musicSorted);
               var filepath = "./dbs/db.json";
-              var txt = '{"music":[' + "\n";
+              var txt = '{"music":[' + "\n", albumProp, trackProp;
               //for each album
               for(i=0; i<musicSorted.length; i++) {
                 txt += "\t" + '{' + "\n";
                 //for each album property
                 for(j in musicSorted[i]) {
-                  if(j != "tracks")
-                    txt += "\t\t" + '"' + j + '":"' + musicSorted[i][j] + '", ' + "\n";
-                  else if (musicSorted[i][j].length) {
+                  if(j != "tracks") {
+                    albumProp = musicSorted[i][j];
+                    if (albumProp) {
+                      albumProp = albumProp.replace(/"/g, '').replace(/\\/g, '');
+                      txt += "\t\t" + '"' + j + '":"' + albumProp + '", ' + "\n";
+                    }
+                  } else if (musicSorted[i][j].length) {
                     txt += "\t\t" + '"tracks":[' + "\n";
                     //for each track
                     for(k=0; k<musicSorted[i][j].length; k++) {
@@ -98,7 +104,11 @@ module.exports = function(musicPath, playlistsPath) {
                       track = musicSorted[i][j][k];
                       //for each track property
                       for(l in track) {
-                        txt += '"' + l + '":"' + track[l] + '",';
+                        trackProp = track[l];
+                        if (trackProp) {
+                          trackProp = trackProp.replace(/"/g, '').replace(/\\/g, '');
+                          txt += '"' + l + '":"' + trackProp + '",';
+                        }
                       }
                       txt = txt.substr(0, txt.length-1); //strip comma
                       txt += '}';
@@ -113,7 +123,8 @@ module.exports = function(musicPath, playlistsPath) {
                 txt += "\n";
               }
               txt += ']}';
-              res.send(txt);
+              //console.log(txt);
+              //res.send(txt);
               var filepath = './dbs/db.json';
               fs.writeFile(filepath, txt, function(err){
                 var data = {};
