@@ -1,5 +1,3 @@
-var nmm = nmm || {};
-
 var fs = require('fs'),
     ffmetadata = require("ffmetadata"),
     path = "../music";

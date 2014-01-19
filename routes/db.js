@@ -3,6 +3,10 @@ var fs = require('fs'),
 
 module.exports = function(musicPath, playlistsPath) {
   return {
+    ajax: function(req, res) {
+      res.render('db-create-ajax');
+    },
+
     create: function(req, res) {
       var music = [];
       var walk = function(dir, done) {
@@ -42,22 +46,27 @@ module.exports = function(musicPath, playlistsPath) {
         var metacallback = function(err, data) {
           if (err) console.error("Error reading metadata:" + err);
           else {
+            var i, j, k, l;
             data.path = music[indx].path;
             music[indx] = data;
             if (indx < music.length-1) {
               indx++;
               getMeta(music[indx].path); } 
             else {
-              var musicSorted = [], i, album = {}, track;
+              var musicSorted = [], album = {}, track;
               for(i=0; i<music.length; i++) {
+                track = music[i];
+                
+                if (track.comment) delete track.comment;
+                for(j in track) {
+                  if (track[j].match(/^\s+$/i)) delete track[j];
+                  console.log(track[j].indexOf("\\"));
+                }
+
                 if (music[i].album === album.album) {
                   //same album
-                  track = music[i];
-                  //@TODO clean track object -> parse path into object/array
                   album.tracks.push(track);
                 } else {
-                  //@TODO clean track object -> parse path into object/array
-                  track = music[i];
                   //new album
                   album = {};
                   album.album = track.album;
@@ -71,12 +80,12 @@ module.exports = function(musicPath, playlistsPath) {
                   musicSorted.push(album);
                 }
               }
-              var filepath = "./db/" + new Date().getTime() + ".json";
+              //res.jsonp(musicSorted);
+              var filepath = "./dbs/db.json";
               var txt = '{"music":[' + "\n";
               //for each album
               for(i=0; i<musicSorted.length; i++) {
                 txt += "\t" + '{' + "\n";
-                var j, k, l;
                 //for each album property
                 for(j in musicSorted[i]) {
                   if(j != "tracks")
@@ -104,7 +113,7 @@ module.exports = function(musicPath, playlistsPath) {
                 txt += "\n";
               }
               txt += ']}';
-
+              res.send(txt);
               var filepath = './dbs/db.json';
               fs.writeFile(filepath, txt, function(err){
                 var data = {};

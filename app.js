@@ -1,13 +1,12 @@
-var nmm = nmm || {};
-nmm.paths = {
-  music: "../music",
+var paths = {
+  music: "../music/chad/CLASSICAL",
   playlists: "../playlists"
 };
 
 var express = require('express'), 
     path = require('path'),
     api = require('./routes/api'),
-    db = require('./routes/db')(nmm.paths.music, nmm.paths.playlists), 
+    db = require('./routes/db')(paths.music, paths.playlists), 
     tunes = require('./routes/tunes'),
     playlists = require('./routes/playlists'),
     player = require('./routes/player');
@@ -52,6 +51,8 @@ app.get('/api/albums', api.albums);
 // --- utility paths --------------------------------
 //app.get('/db', function(req, res) { res.render('db'); });
 app.get('/db/create', db.create);
+app.get('/db/ajax', db.ajax);
+
 
 app.listen(3000);
 console.log('Node Music Manager listening on port 3000...');

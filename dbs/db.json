@@ -1,33 +1,411 @@
 {"music":[
 	{
-		"album":"Atlas", 
-		"artist":"Kinky", 
-		"genre":"World", 
-		"date":"2003", 
-		"path":"../music/Atlas/01. Presidente.mp3", 
+		"album":"Artur Rubenstein", 
+		"artist":"Tchaikovsky", 
+		"genre":"Classical", 
+		"date":"1985", 
+		"path":"../music/chad/CLASSICAL/Artur Rubenstein/01 Tchaikovsky.mp3", 
 		"tracks":[
-			{"title":"Presidente","artist":"Kinky","album":"Atlas","genre":"World","track":"1/12","date":"2003","path":"../music/Atlas/01. Presidente.mp3"},
-			{"title":"The Headphonist","artist":"Kinky","album":"Atlas","genre":"World","track":"2/12","date":"2003","path":"../music/Atlas/02. The Headphonist.mp3"},
-			{"title":"Snapshot","artist":"Kinky","album":"Atlas","genre":"World","track":"3/12","date":"2003","path":"../music/Atlas/03. Snapshot.mp3"},
-			{"title":"Salta-Lenin-El-Atlas","artist":"Kinky","album":"Atlas","genre":"World","track":"4/12","date":"2003","path":"../music/Atlas/04. Salta-Lenin-El-Atlas.mp3"},
-			{"title":"Do U Like It?","artist":"Kinky","album":"Atlas","genre":"World","track":"5/12","date":"2003","path":"../music/Atlas/05. Do U Like It?.mp3"},
-			{"title":"Airport Feelings","artist":"Kinky","album":"Atlas","genre":"World","track":"6/12","date":"2003","path":"../music/Atlas/06. Airport Feelings.mp3"},
-			{"title":"Pos Que Se Vengan","artist":"Kinky","album":"Atlas","genre":"World","track":"7/12","date":"2003","path":"../music/Atlas/07. Pos Que Se Vengan.mp3"},
-			{"title":"Minotauro","artist":"Kinky","album":"Atlas","genre":"World","track":"8/12","date":"2003","path":"../music/Atlas/08. Minotauro.mp3"},
-			{"title":"Not Afraid","artist":"Kinky","album":"Atlas","genre":"World","track":"9/12","date":"2003","path":"../music/Atlas/09. Not Afraid.mp3"},
-			{"title":"My God Is So Quiet","artist":"Kinky","album":"Atlas","genre":"World","track":"10/12","date":"2003","path":"../music/Atlas/10. My God Is So Quiet.mp3"},
-			{"title":"Maria Jose","artist":"Kinky","album":"Atlas","genre":"World","track":"11/12","date":"2003","path":"../music/Atlas/11. Maria Jose.mp3"},
-			{"title":"Semillas De Menta","artist":"Kinky","album":"Atlas","genre":"World","track":"12/12","date":"2003","path":"../music/Atlas/12. Semillas De Menta.mp3"}
+			{"album":"Artur Rubenstein","track":"1/6","TCM":"Tchaikovsky","genre":"Classical","TCP":"1","encoded_by":"iTunes v4.1","title":"Allegro non troppo e molto maestoso","artist":"Tchaikovsky","date":"1985","path":"../music/chad/CLASSICAL/Artur Rubenstein/01 Tchaikovsky.mp3"},
+			{"album":"Artur Rubenstein","track":"2/6","TCM":"Tchaikovsky","genre":"Classical","TCP":"1","encoded_by":"iTunes v4.1","title":"Andantino simplice","artist":"Tchaikovsky","date":"1985","path":"../music/chad/CLASSICAL/Artur Rubenstein/02 Tchaikovsky.mp3"},
+			{"album":"Artur Rubenstein","track":"3/6","TCM":"Tchaikovsky","genre":"Classical","TCP":"1","encoded_by":"iTunes v4.1","title":"Allegro con fuoco","artist":"Tchaikovsky","date":"1985","path":"../music/chad/CLASSICAL/Artur Rubenstein/03 Tchaikovsky.mp3"},
+			{"album":"Artur Rubenstein","track":"4/6","TCM":"Grieg","genre":"Classical","TCP":"1","encoded_by":"iTunes v4.1","title":"Allegro molto moderato","artist":"Grieg","date":"1985","path":"../music/chad/CLASSICAL/Artur Rubenstein/04 Grieg.mp3"},
+			{"album":"Artur Rubenstein","track":"5/6","TCM":"Grieg","genre":"Classical","TCP":"1","encoded_by":"iTunes v4.1","title":"Adagio","artist":"Grieg","date":"1985","path":"../music/chad/CLASSICAL/Artur Rubenstein/05 Grieg.mp3"},
+			{"album":"Artur Rubenstein","track":"6/6","TCM":"Grieg","genre":"Classical","TCP":"1","encoded_by":"iTunes v4.1","title":"Allegro moderato molto e marcato","artist":"Grieg","date":"1985","path":"../music/chad/CLASSICAL/Artur Rubenstein/06 Grieg.mp3"}
 		]
 	},
 	{
-		"album":"The Slip", 
-		"artist":"Nine Inch Nails", 
-		"genre":"undefined", 
-		"date":"2008", 
-		"path":"../music/test.mp3", 
+		"album":"Chiller", 
+		"artist":"Michael Bishop", 
+		"genre":"Classical", 
+		"date":"1988", 
+		"path":"../music/chad/CLASSICAL/Chiller/01 Opening Sequence.mp3", 
 		"tracks":[
-			{"artist":"Nine Inch Nails","album":"The Slip","encoded_by":"LAME","title":"999,999","composer":"Trent Reznor","track":"1/10","disc":"1/1","date":"2008","path":"../music/test.mp3"}
+			{"title":"Opening Sequence","artist":"Michael Bishop","album":"Chiller","track":"1/20","encoded_by":"iTunes v4.1","genre":"Classical","TCP":"1","date":"1988","path":"../music/chad/CLASSICAL/Chiller/01 Opening Sequence.mp3"},
+			{"title":"Overture To The Phantom Of The Opera","artist":"Erich Kunzel & The Cincinnati Pops Orchestra","TCM":"Andrew Lloyd Webber","album":"Chiller","track":"2/20","encoded_by":"iTunes v4.1","genre":"Classical","TCP":"1","date":"1988","path":"../music/chad/CLASSICAL/Chiller/02 Overture To The Phantom Of The Opera.mp3"},
+			{"title":"Night On Bald Mountain","artist":"Erich Kunzel & The Cincinnati Pops Orchestra","TCM":"Modest Moussorgsky","album":"Chiller","track":"3/20","encoded_by":"iTunes v4.1","genre":"Classical","TCP":"1","date":"1988","path":"../music/chad/CLASSICAL/Chiller/03 Night On Bald Mountain.mp3"},
+			{"title":"Dance Macabre","artist":"Erich Kunzel & The Cincinnati Pops Orchestra","TCM":"Camille Saint-Saens","album":"Chiller","track":"4/20","encoded_by":"iTunes v4.1","genre":"Classical","TCP":"1","date":"1988","path":"../music/chad/CLASSICAL/Chiller/04 Dance Macabre.mp3"},
+			{"title":"March To The Scaffold From Symphonie Fantastique","artist":"Erich Kunzel & The Cincinnati Pops Orchestra","TCM":"Hector Berlioz","album":"Chiller","track":"5/20","encoded_by":"iTunes v4.1","genre":"Classical","TCP":"1","date":"1988","path":"../music/chad/CLASSICAL/Chiller/05 March To The Scaffold From Symphonie Fantastique.mp3"},
+			{"title":"Pandemonium From The Damnation Of Faust","artist":"Erich Kunzel & The Cincinnati Pops Orchestra","TCM":"Hector Berlioz","album":"Chiller","track":"6/20","encoded_by":"iTunes v4.1","genre":"Classical","TCP":"1","date":"1988","path":"../music/chad/CLASSICAL/Chiller/06 Pandemonium From The Damnation Of Faust.mp3"},
+			{"title":"In The Hall Of The Mountain King From Peer Gynt","artist":"Erich Kunzel & The Cincinnati Pops Orchestra","TCM":"Edvard Grieg","album":"Chiller","track":"7/20","encoded_by":"iTunes v4.1","genre":"Classical","TCP":"1","date":"1988","path":"../music/chad/CLASSICAL/Chiller/07 In The Hall Of The Mountain King From Peer Gynt.mp3"},
+			{"title":"Synthersizer Effects","artist":"Rosalind Ilett","album":"Chiller","track":"8/20","encoded_by":"iTunes v4.1","genre":"Classical","TCP":"1","date":"1988","path":"../music/chad/CLASSICAL/Chiller/08 Synthersizer Effects.mp3"},
+			{"title":"Theme From The Twillight Zone","artist":"Erich Kunzel & The Cincinnati Pops Orchestra","TCM":"Marius Constant","album":"Chiller","track":"9/20","encoded_by":"iTunes v4.1","genre":"Classical","TCP":"1","date":"1988","path":"../music/chad/CLASSICAL/Chiller/09 Theme From The Twillight Zone.mp3"},
+			{"title":"12,000 Volts","artist":"Erich Kunzel & The Cincinnati Pops Orchestra","album":"Chiller","track":"10/20","encoded_by":"iTunes v4.1","genre":"Classical","TCP":"1","date":"1988","path":"../music/chad/CLASSICAL/Chiller/10 12,000 Volts.mp3"},
+			{"title":"The Bride Of Frankenstein","artist":"Erich Kunzel & The Cincinnati Pops Orchestra","TCM":"Franz Waxman","album":"Chiller","track":"11/20","encoded_by":"iTunes v4.1","genre":"Classical","TCP":"1","date":"1988","path":"../music/chad/CLASSICAL/Chiller/11 The Bride Of Frankenstein.mp3"},
+			{"title":"Sleigh Ride From The Devil And Daniel Webster","artist":"Erich Kunzel & The Cincinnati Pops Orchestra","TCM":"Bernard Heermann","album":"Chiller","track":"12/20","encoded_by":"iTunes v4.1","genre":"Classical","TCP":"1","date":"1988","path":"../music/chad/CLASSICAL/Chiller/12 Sleigh Ride From The Devil And Daniel Webster.mp3"},
+			{"title":"Psycho Part1","artist":"Erich Kunzel & The Cincinnati Pops Orchestra","TCM":"Bernard Heermann","album":"Chiller","track":"13/20","encoded_by":"iTunes v4.1","genre":"Classical","TCP":"1","date":"1988","path":"../music/chad/CLASSICAL/Chiller/13 Psycho Part1.mp3"},
+			{"title":"Psycho Part2","artist":"Erich Kunzel & The Cincinnati Pops Orchestra","TCM":"Bernard Heermann","album":"Chiller","track":"14/20","encoded_by":"iTunes v4.1","genre":"Classical","TCP":"1","date":"1988","path":"../music/chad/CLASSICAL/Chiller/14 Psycho Part2.mp3"},
+			{"title":"Psycho Part3","artist":"Erich Kunzel & The Cincinnati Pops Orchestra","TCM":"Bernard Heermann","album":"Chiller","track":"15/20","encoded_by":"iTunes v4.1","genre":"Classical","TCP":"1","date":"1988","path":"../music/chad/CLASSICAL/Chiller/15 Psycho Part3.mp3"},
+			{"title":"Overture To Sleuth","artist":"Erich Kunzel & The Cincinnati Pops Orchestra","TCM":"John Addison","album":"Chiller","track":"16/20","encoded_by":"iTunes v4.1","genre":"Classical","TCP":"1","date":"1988","path":"../music/chad/CLASSICAL/Chiller/16 Overture To Sleuth.mp3"},
+			{"title":"Television Noise","artist":"Erich Kunzel & The Cincinnati Pops Orchestra","album":"Chiller","track":"17/20","encoded_by":"iTunes v4.1","genre":"Classical","TCP":"1","date":"1988","path":"../music/chad/CLASSICAL/Chiller/17 Television Noise.mp3"},
+			{"title":"The Light From Poltergeist","artist":"Erich Kunzel & The Cincinnati Pops Orchestra","TCM":"Jerry Goldsmith","album":"Chiller","track":"18/20","encoded_by":"iTunes v4.1","genre":"Classical","TCP":"1","date":"1988","path":"../music/chad/CLASSICAL/Chiller/18 The Light From Poltergeist.mp3"},
+			{"title":"Super Sleuth From Without A Clue","artist":"Erich Kunzel & The Cincinnati Pops Orchestra","TCM":"Henry Mancini","album":"Chiller","track":"19/20","encoded_by":"iTunes v4.1","genre":"Classical","TCP":"1","date":"1988","path":"../music/chad/CLASSICAL/Chiller/19 Super Sleuth From Without A Clue.mp3"},
+			{"title":"Funeral March Of A Marionette","artist":"Erich Kunzel & The Cincinnati Pops Orchestra","TCM":"Charles Gounod","album":"Chiller","track":"20/20","encoded_by":"iTunes v4.1","genre":"Classical","TCP":"1","date":"1988","path":"../music/chad/CLASSICAL/Chiller/20 Funeral March Of A Marionette.mp3"}
+		]
+	},
+	{
+		"album":"Vladimir Horowitz: Favorite Chopin", 
+		"artist":"Vladimir Horowitz", 
+		"genre":"Classical", 
+		"date":"undefined", 
+		"path":"../music/chad/CLASSICAL/Chopin/Vladimir Horowitz_ Favorite Chopin/01 Heroic - Polonaise In A-Flat Major, Op. 53.mp3", 
+		"tracks":[
+			{"title":"Heroic - Polonaise In A-Flat Major, Op. 53","artist":"Vladimir Horowitz","TCM":"Frederic Chopin","album":"Vladimir Horowitz: Favorite Chopin","track":"1/18","genre":"Classical","encoded_by":"iTunes v4.1","path":"../music/chad/CLASSICAL/Chopin/Vladimir Horowitz_ Favorite Chopin/01 Heroic - Polonaise In A-Flat Major, Op. 53.mp3"},
+			{"title":"Mazurka In D Major, Op. 33, No. 2","artist":"Vladimir Horowitz","TCM":"Frederic Chopin","album":"Vladimir Horowitz: Favorite Chopin","track":"2/18","genre":"Classical","encoded_by":"iTunes v4.1","path":"../music/chad/CLASSICAL/Chopin/Vladimir Horowitz_ Favorite Chopin/02 Mazurka In D Major, Op. 33, No. 2.mp3"},
+			{"title":"Waltz In C-Sharp Minor, Op. 64, No. 2","artist":"Vladimir Horowitz","TCM":"Frederic Chopin","album":"Vladimir Horowitz: Favorite Chopin","track":"3/18","genre":"Classical","encoded_by":"iTunes v4.1","path":"../music/chad/CLASSICAL/Chopin/Vladimir Horowitz_ Favorite Chopin/03 Waltz In C-Sharp Minor, Op. 64, No. 2.mp3"},
+			{"title":"Military - Polonaise In A Major, Op. 40, No. 1","artist":"Vladimir Horowitz","TCM":"Frederic Chopin","album":"Vladimir Horowitz: Favorite Chopin","track":"4/18","genre":"Classical","encoded_by":"iTunes v4.1","path":"../music/chad/CLASSICAL/Chopin/Vladimir Horowitz_ Favorite Chopin/04 Military - Polonaise In A Major, Op. 40, No. 1.mp3"},
+			{"title":"Etude In E Major, Op. 10, No. 4","artist":"Vladimir Horowitz","TCM":"Frederic Chopin","album":"Vladimir Horowitz: Favorite Chopin","track":"5/18","genre":"Classical","encoded_by":"iTunes v4.1","path":"../music/chad/CLASSICAL/Chopin/Vladimir Horowitz_ Favorite Chopin/05 Etude In E Major, Op. 10, No. 4.mp3"},
+			{"title":"Etude In C-Sharp Minor, Op. 10, No. 4","artist":"Vladimir Horowitz","TCM":"Frederic Chopin","album":"Vladimir Horowitz: Favorite Chopin","track":"6/18","genre":"Classical","encoded_by":"iTunes v4.1","path":"../music/chad/CLASSICAL/Chopin/Vladimir Horowitz_ Favorite Chopin/06 Etude In C-Sharp Minor, Op. 10, No. 4.mp3"},
+			{"title":"Raindrop - Prelude In B Minor, Op.28, No.6","artist":"Vladimir Horowitz","TCM":"Frederic Chopin","album":"Vladimir Horowitz: Favorite Chopin","track":"7/18","genre":"Classical","encoded_by":"iTunes v4.1","path":"../music/chad/CLASSICAL/Chopin/Vladimir Horowitz_ Favorite Chopin/07 Raindrop - Prelude In B Minor, Op.28, No.6.mp3"},
+			{"title":"Black Key - Etude In G-Flat Major, Op. 10, No.5","artist":"Vladimir Horowitz","TCM":"Frederic Chopin","album":"Vladimir Horowitz: Favorite Chopin","track":"8/18","genre":"Classical","encoded_by":"iTunes v4.1","path":"../music/chad/CLASSICAL/Chopin/Vladimir Horowitz_ Favorite Chopin/08 Black Key - Etude In G-Flat Major, Op. 10, No.5.mp3"},
+			{"title":"Ballade No. 1 In G Minor, Op. 23","artist":"Vladimir Horowitz","TCM":"Frederic Chopin","album":"Vladimir Horowitz: Favorite Chopin","track":"9/18","genre":"Classical","encoded_by":"iTunes v4.1","path":"../music/chad/CLASSICAL/Chopin/Vladimir Horowitz_ Favorite Chopin/09 Ballade No. 1 In G Minor, Op. 23.mp3"},
+			{"title":"Waltz In A Minor, Op. 34, No. 2","artist":"Vladimir Horowitz","TCM":"Frederic Chopin","album":"Vladimir Horowitz: Favorite Chopin","track":"10/18","genre":"Classical","encoded_by":"iTunes v4.1","path":"../music/chad/CLASSICAL/Chopin/Vladimir Horowitz_ Favorite Chopin/10 Waltz In A Minor, Op. 34, No. 2.mp3"},
+			{"title":"Mazurka In A Minor, Op. 17, No. 4","artist":"Vladimir Horowitz","TCM":"Frederic Chopin","album":"Vladimir Horowitz: Favorite Chopin","track":"11/18","genre":"Classical","encoded_by":"iTunes v4.1","path":"../music/chad/CLASSICAL/Chopin/Vladimir Horowitz_ Favorite Chopin/11 Mazurka In A Minor, Op. 17, No. 4.mp3"},
+			{"title":"Revolutionary - Etude In C Minor, Op.10, No. 12","artist":"Vladimir Horowitz","TCM":"Frederic Chopin","album":"Vladimir Horowitz: Favorite Chopin","track":"12/18","genre":"Classical","encoded_by":"iTunes v4.1","path":"../music/chad/CLASSICAL/Chopin/Vladimir Horowitz_ Favorite Chopin/12 Revolutionary - Etude In C Minor, Op.10, No. 12.mp3"},
+			{"title":"Nocturne In F Minor, Op. 55, No. 1","artist":"Vladimir Horowitz","TCM":"Frederic Chopin","album":"Vladimir Horowitz: Favorite Chopin","track":"13/18","genre":"Classical","encoded_by":"iTunes v4.1","path":"../music/chad/CLASSICAL/Chopin/Vladimir Horowitz_ Favorite Chopin/13 Nocturne In F Minor, Op. 55, No. 1.mp3"},
+			{"title":"Mazurka In F-Sharp Minor, Op. 55, No. 1","artist":"Vladimir Horowitz","TCM":"Frederic Chopin","album":"Vladimir Horowitz: Favorite Chopin","track":"14/18","genre":"Classical","encoded_by":"iTunes v4.1","path":"../music/chad/CLASSICAL/Chopin/Vladimir Horowitz_ Favorite Chopin/14 Mazurka In F-Sharp Minor, Op. 55, No. 1.mp3"},
+			{"title":"Mazurka In D-Flat, Op. 30, No. 3","artist":"Vladimir Horowitz","TCM":"Frederic Chopin","album":"Vladimir Horowitz: Favorite Chopin","track":"15/18","genre":"Classical","encoded_by":"iTunes v4.1","path":"../music/chad/CLASSICAL/Chopin/Vladimir Horowitz_ Favorite Chopin/15 Mazurka In D-Flat, Op. 30, No. 3.mp3"},
+			{"title":"Mazurka In F Minor, Op. 7, No.3","artist":"Vladimir Horowitz","TCM":"Frederic Chopin","album":"Vladimir Horowitz: Favorite Chopin","track":"16/18","genre":"Classical","encoded_by":"iTunes v4.1","path":"../music/chad/CLASSICAL/Chopin/Vladimir Horowitz_ Favorite Chopin/16 Mazurka In F Minor, Op. 7, No.3.mp3"},
+			{"title":"Mazurka In E Minor, Op. 41, No. 2","artist":"Vladimir Horowitz","TCM":"Frederic Chopin","album":"Vladimir Horowitz: Favorite Chopin","track":"17/18","genre":"Classical","encoded_by":"iTunes v4.1","path":"../music/chad/CLASSICAL/Chopin/Vladimir Horowitz_ Favorite Chopin/17 Mazurka In E Minor, Op. 41, No. 2.mp3"},
+			{"title":"Scherzo No. 1 In B Minor, Op. 20","artist":"Vladimir Horowitz","TCM":"Frederic Chopin","album":"Vladimir Horowitz: Favorite Chopin","track":"18/18","genre":"Classical","encoded_by":"iTunes v4.1","path":"../music/chad/CLASSICAL/Chopin/Vladimir Horowitz_ Favorite Chopin/18 Scherzo No. 1 In B Minor, Op. 20.mp3"}
+		]
+	},
+	{
+		"album":"Fred Hersch Plays Thelonious Monk", 
+		"artist":"Fred Hersch", 
+		"genre":"Jazz", 
+		"date":"1998", 
+		"path":"../music/chad/CLASSICAL/Fred Hersch/Fred Hersch Plays Thelonious Monk/01 'Round Midnight.mp3", 
+		"tracks":[
+			{"title":"'Round Midnight","artist":"Fred Hersch","TCM":"Thelonious Monk","album":"Fred Hersch Plays Thelonious Monk","track":"1/12","encoded_by":"iTunes v4.1","genre":"Jazz","date":"1998","path":"../music/chad/CLASSICAL/Fred Hersch/Fred Hersch Plays Thelonious Monk/01 'Round Midnight.mp3"},
+			{"title":"In Walked Bud","artist":"Fred Hersch","TCM":"Thelonious Monk","album":"Fred Hersch Plays Thelonious Monk","track":"2/12","encoded_by":"iTunes v4.1","genre":"Jazz","date":"1998","path":"../music/chad/CLASSICAL/Fred Hersch/Fred Hersch Plays Thelonious Monk/02 In Walked Bud 1.mp3"},
+			{"title":"Crepuscule with Nellie/Reflections","artist":"Fred Hersch","TCM":"Thelonious Monk","album":"Fred Hersch Plays Thelonious Monk","track":"3/12","encoded_by":"iTunes v4.1","genre":"Jazz","date":"1998","path":"../music/chad/CLASSICAL/Fred Hersch/Fred Hersch Plays Thelonious Monk/03 Crepuscule with Nellie_Reflections 1.mp3"},
+			{"title":"Think of One","artist":"Fred Hersch","TCM":"Thelonious Monk","album":"Fred Hersch Plays Thelonious Monk","track":"4/12","encoded_by":"iTunes v4.1","genre":"Jazz","date":"1998","path":"../music/chad/CLASSICAL/Fred Hersch/Fred Hersch Plays Thelonious Monk/04 Think of One 1.mp3"},
+			{"title":"Ask Me Now","artist":"Fred Hersch","TCM":"Thelonious Monk","album":"Fred Hersch Plays Thelonious Monk","track":"5/12","encoded_by":"iTunes v4.1","genre":"Jazz","date":"1998","path":"../music/chad/CLASSICAL/Fred Hersch/Fred Hersch Plays Thelonious Monk/05 Ask Me Now 1.mp3"},
+			{"title":"Evidence","artist":"Fred Hersch","TCM":"Thelonious Monk","album":"Fred Hersch Plays Thelonious Monk","track":"6/12","encoded_by":"iTunes v4.1","genre":"Jazz","date":"1998","path":"../music/chad/CLASSICAL/Fred Hersch/Fred Hersch Plays Thelonious Monk/06 Evidence 1.mp3"},
+			{"title":"Five Views of Misterioso","artist":"Fred Hersch","TCM":"Thelonious Monk","album":"Fred Hersch Plays Thelonious Monk","track":"7/12","encoded_by":"iTunes v4.1","genre":"Jazz","date":"1998","path":"../music/chad/CLASSICAL/Fred Hersch/Fred Hersch Plays Thelonious Monk/07 Five Views of Misterioso 1.mp3"},
+			{"title":"Let's Cool One","artist":"Fred Hersch","TCM":"Thelonious Monk","album":"Fred Hersch Plays Thelonious Monk","track":"8/12","encoded_by":"iTunes v4.1","genre":"Jazz","date":"1998","path":"../music/chad/CLASSICAL/Fred Hersch/Fred Hersch Plays Thelonious Monk/08 Let's Cool One 1.mp3"},
+			{"title":"Bemsha Swing","artist":"Fred Hersch","TCM":"Thelonious Monk","album":"Fred Hersch Plays Thelonious Monk","track":"9/12","encoded_by":"iTunes v4.1","genre":"Jazz","date":"1998","path":"../music/chad/CLASSICAL/Fred Hersch/Fred Hersch Plays Thelonious Monk/09 Bemsha Swing 1.mp3"},
+			{"title":"Light Blue/Pannonica","artist":"Fred Hersch","TCM":"Thelonious Monk","album":"Fred Hersch Plays Thelonious Monk","track":"10/12","encoded_by":"iTunes v4.1","genre":"Jazz","date":"1998","path":"../music/chad/CLASSICAL/Fred Hersch/Fred Hersch Plays Thelonious Monk/10 Light Blue_Pannonica 1.mp3"},
+			{"title":"I Mean You","artist":"Fred Hersch","TCM":"Thelonious Monk","album":"Fred Hersch Plays Thelonious Monk","track":"11/12","encoded_by":"iTunes v4.1","genre":"Jazz","date":"1998","path":"../music/chad/CLASSICAL/Fred Hersch/Fred Hersch Plays Thelonious Monk/11 I Mean You 1.mp3"},
+			{"title":"'Round Midnight reprise","artist":"Fred Hersch","TCM":"Thelonious Monk","album":"Fred Hersch Plays Thelonious Monk","track":"12/12","encoded_by":"iTunes v4.1","genre":"Jazz","date":"1998","path":"../music/chad/CLASSICAL/Fred Hersch/Fred Hersch Plays Thelonious Monk/12 'Round Midnight reprise 1.mp3"}
+		]
+	},
+	{
+		"album":"Bizet's Greatest Hits - CBS", 
+		"artist":"Georges Bizet", 
+		"genre":"Classical", 
+		"date":"undefined", 
+		"path":"../music/chad/CLASSICAL/Georges Bizet/Bizet's Greatest Hits - CBS/01 Prelude  (Act I) from Carmen.mp3", 
+		"tracks":[
+			{"title":"Prelude  (Act I) from Carmen","artist":"Georges Bizet","album":"Bizet's Greatest Hits - CBS","track":"1/16","genre":"Classical","encoded_by":"iTunes v4.1","path":"../music/chad/CLASSICAL/Georges Bizet/Bizet's Greatest Hits - CBS/01 Prelude  (Act I) from Carmen.mp3"},
+			{"title":"Habanera (Act I) from Carmen","artist":"Georges Bizet","album":"Bizet's Greatest Hits - CBS","track":"2/16","genre":"Classical","encoded_by":"iTunes v4.1","path":"../music/chad/CLASSICAL/Georges Bizet/Bizet's Greatest Hits - CBS/02 Habanera (Act I) from Carmen.mp3"},
+			{"title":"March of the Smugglers (Act III) from Carmen","artist":"Georges Bizet","album":"Bizet's Greatest Hits - CBS","track":"3/16","genre":"Classical","encoded_by":"iTunes v4.1","path":"../music/chad/CLASSICAL/Georges Bizet/Bizet's Greatest Hits - CBS/03 March of the Smugglers (Act III) from Carmen.mp3"},
+			{"title":"Seguidilla (Act I) from Carmen","artist":"Georges Bizet","album":"Bizet's Greatest Hits - CBS","track":"4/16","genre":"Classical","encoded_by":"iTunes v4.1","path":"../music/chad/CLASSICAL/Georges Bizet/Bizet's Greatest Hits - CBS/04 Seguidilla (Act I) from Carmen.mp3"},
+			{"title":"Flower Song (Act II) from Carmen","artist":"Georges Bizet","album":"Bizet's Greatest Hits - CBS","track":"5/16","genre":"Classical","encoded_by":"iTunes v4.1","path":"../music/chad/CLASSICAL/Georges Bizet/Bizet's Greatest Hits - CBS/05 Flower Song (Act II) from Carmen.mp3"},
+			{"title":"March of the Toreadors & Chorus  (Act IV) from Carmen","artist":"Georges Bizet","album":"Bizet's Greatest Hits - CBS","track":"6/16","genre":"Classical","encoded_by":"iTunes v4.1","path":"../music/chad/CLASSICAL/Georges Bizet/Bizet's Greatest Hits - CBS/06 March of the Toreadors & Chorus  (Act IV) from Carmen.mp3"},
+			{"title":"Entr'acte (Act II - Act III) from Carmen","artist":"Georges Bizet","album":"Bizet's Greatest Hits - CBS","track":"7/16","genre":"Classical","encoded_by":"iTunes v4.1","path":"../music/chad/CLASSICAL/Georges Bizet/Bizet's Greatest Hits - CBS/07 Entr'acte (Act II - Act III) from Carmen.mp3"},
+			{"title":"Entr'acte (Act I - Act II) from Carmen","artist":"Georges Bizet","album":"Bizet's Greatest Hits - CBS","track":"8/16","genre":"Classical","encoded_by":"iTunes v4.1","path":"../music/chad/CLASSICAL/Georges Bizet/Bizet's Greatest Hits - CBS/08 Entr'acte (Act I - Act II) from Carmen.mp3"},
+			{"title":"Micaela's Aria (Act III) from Carmen","artist":"Georges Bizet","album":"Bizet's Greatest Hits - CBS","track":"9/16","genre":"Classical","encoded_by":"iTunes v4.1","path":"../music/chad/CLASSICAL/Georges Bizet/Bizet's Greatest Hits - CBS/09 Micaela's Aria (Act III) from Carmen.mp3"},
+			{"title":"Bohemian Dance (Act II) from Carmen","artist":"Georges Bizet","album":"Bizet's Greatest Hits - CBS","track":"10/16","genre":"Classical","encoded_by":"iTunes v4.1","path":"../music/chad/CLASSICAL/Georges Bizet/Bizet's Greatest Hits - CBS/10 Bohemian Dance (Act II) from Carmen.mp3"},
+			{"title":"I Hear As In A Dream from The Pearl Fishers L'Arlesienne Suite No.","artist":"Georges Bizet","album":"Bizet's Greatest Hits - CBS","track":"11/16","genre":"Classical","encoded_by":"iTunes v4.1","path":"../music/chad/CLASSICAL/Georges Bizet/Bizet's Greatest Hits - CBS/11 I Hear As In A Dream from The Pearl Fishers L'Arlesienne Suite No..mp3"},
+			{"title":"Overture","artist":"Georges Bizet","album":"Bizet's Greatest Hits - CBS","track":"12/16","genre":"Classical","encoded_by":"iTunes v4.1","path":"../music/chad/CLASSICAL/Georges Bizet/Bizet's Greatest Hits - CBS/12 Overture.mp3"},
+			{"title":"Minuet","artist":"Georges Bizet","album":"Bizet's Greatest Hits - CBS","track":"13/16","genre":"Classical","encoded_by":"iTunes v4.1","path":"../music/chad/CLASSICAL/Georges Bizet/Bizet's Greatest Hits - CBS/13 Minuet.mp3"},
+			{"title":"Adagieto","artist":"Georges Bizet","album":"Bizet's Greatest Hits - CBS","track":"14/16","genre":"Classical","encoded_by":"iTunes v4.1","path":"../music/chad/CLASSICAL/Georges Bizet/Bizet's Greatest Hits - CBS/14 Adagieto.mp3"},
+			{"title":"Carillon","artist":"Georges Bizet","album":"Bizet's Greatest Hits - CBS","track":"15/16","genre":"Classical","encoded_by":"iTunes v4.1","path":"../music/chad/CLASSICAL/Georges Bizet/Bizet's Greatest Hits - CBS/15 Carillon.mp3"},
+			{"title":"Farandole from L'Arlesienne suite No. 2","artist":"Georges Bizet","album":"Bizet's Greatest Hits - CBS","track":"16/16","genre":"Classical","encoded_by":"iTunes v4.1","path":"../music/chad/CLASSICAL/Georges Bizet/Bizet's Greatest Hits - CBS/16 Farandole from L'Arlesienne suite No. 2.mp3"}
+		]
+	},
+	{
+		"album":"Carmen-Horne, McCracken (Disc 1)", 
+		"artist":"Georges Bizet", 
+		"genre":"Classical", 
+		"date":"undefined", 
+		"path":"../music/chad/CLASSICAL/Georges Bizet/Carmen-Horne, McCracken (Disc 1)/01 Prelude Act 1.mp3", 
+		"tracks":[
+			{"title":"Prelude Act 1","artist":"Georges Bizet","album":"Carmen-Horne, McCracken (Disc 1)","track":"1/14","genre":"Classical","encoded_by":"iTunes v4.1","path":"../music/chad/CLASSICAL/Georges Bizet/Carmen-Horne, McCracken (Disc 1)/01 Prelude Act 1.mp3"},
+			{"title":"Act 1: Introduction","artist":"Georges Bizet","album":"Carmen-Horne, McCracken (Disc 1)","track":"2/14","genre":"Classical","encoded_by":"iTunes v4.1","path":"../music/chad/CLASSICAL/Georges Bizet/Carmen-Horne, McCracken (Disc 1)/02 Act 1_ Introduction.mp3"},
+			{"title":"March & Chorus of Urchins","artist":"Georges Bizet","album":"Carmen-Horne, McCracken (Disc 1)","track":"3/14","genre":"Classical","encoded_by":"iTunes v4.1","path":"../music/chad/CLASSICAL/Georges Bizet/Carmen-Horne, McCracken (Disc 1)/03 March & Chorus of Urchins.mp3"},
+			{"title":"Dialogue","artist":"Georges Bizet","album":"Carmen-Horne, McCracken (Disc 1)","track":"4/14","genre":"Classical","encoded_by":"iTunes v4.1","path":"../music/chad/CLASSICAL/Georges Bizet/Carmen-Horne, McCracken (Disc 1)/04 Dialogue.mp3"},
+			{"title":"Chorus & Scene","artist":"Georges Bizet","album":"Carmen-Horne, McCracken (Disc 1)","track":"5/14","genre":"Classical","encoded_by":"iTunes v4.1","path":"../music/chad/CLASSICAL/Georges Bizet/Carmen-Horne, McCracken (Disc 1)/05 Chorus & Scene.mp3"},
+			{"title":"Scene","artist":"Georges Bizet","album":"Carmen-Horne, McCracken (Disc 1)","track":"6/14","genre":"Classical","encoded_by":"iTunes v4.1","path":"../music/chad/CLASSICAL/Georges Bizet/Carmen-Horne, McCracken (Disc 1)/06 Scene.mp3"},
+			{"title":"Habanera","artist":"Georges Bizet","album":"Carmen-Horne, McCracken (Disc 1)","track":"7/14","genre":"Classical","encoded_by":"iTunes v4.1","path":"../music/chad/CLASSICAL/Georges Bizet/Carmen-Horne, McCracken (Disc 1)/07 Habanera.mp3"},
+			{"title":"Scene","artist":"Georges Bizet","album":"Carmen-Horne, McCracken (Disc 1)","track":"8/14","genre":"Classical","encoded_by":"iTunes v4.1","path":"../music/chad/CLASSICAL/Georges Bizet/Carmen-Horne, McCracken (Disc 1)/08 Scene.mp3"},
+			{"title":"Dialogue Duet","artist":"Georges Bizet","album":"Carmen-Horne, McCracken (Disc 1)","track":"9/14","genre":"Classical","encoded_by":"iTunes v4.1","path":"../music/chad/CLASSICAL/Georges Bizet/Carmen-Horne, McCracken (Disc 1)/09 Dialogue Duet.mp3"},
+			{"title":"Dialogue","artist":"Georges Bizet","album":"Carmen-Horne, McCracken (Disc 1)","track":"10/14","genre":"Classical","encoded_by":"iTunes v4.1","path":"../music/chad/CLASSICAL/Georges Bizet/Carmen-Horne, McCracken (Disc 1)/10 Dialogue.mp3"},
+			{"title":"Chorus","artist":"Georges Bizet","album":"Carmen-Horne, McCracken (Disc 1)","track":"11/14","genre":"Classical","encoded_by":"iTunes v4.1","path":"../music/chad/CLASSICAL/Georges Bizet/Carmen-Horne, McCracken (Disc 1)/11 Chorus.mp3"},
+			{"title":"Chanson et M lodrame","artist":"Georges Bizet","album":"Carmen-Horne, McCracken (Disc 1)","track":"12/14","genre":"Classical","encoded_by":"iTunes v4.1","path":"../music/chad/CLASSICAL/Georges Bizet/Carmen-Horne, McCracken (Disc 1)/12 Chanson et M lodrame.mp3"},
+			{"title":"Chanson & Duet (La s guedille)","artist":"Georges Bizet","album":"Carmen-Horne, McCracken (Disc 1)","track":"13/14","genre":"Classical","encoded_by":"iTunes v4.1","path":"../music/chad/CLASSICAL/Georges Bizet/Carmen-Horne, McCracken (Disc 1)/13 Chanson & Duet (La s guedille).mp3"},
+			{"title":"Finale","artist":"Georges Bizet","album":"Carmen-Horne, McCracken (Disc 1)","track":"14/14","genre":"Classical","encoded_by":"iTunes v4.1","path":"../music/chad/CLASSICAL/Georges Bizet/Carmen-Horne, McCracken (Disc 1)/14 Finale.mp3"}
+		]
+	},
+	{
+		"album":"Carmen-Horne, McCracken (Disc 2)", 
+		"artist":"Georges Bizet", 
+		"genre":"Classical", 
+		"date":"undefined", 
+		"path":"../music/chad/CLASSICAL/Georges Bizet/Carmen-Horne, McCracken (Disc 2)/2-01 Entracte.mp3", 
+		"tracks":[
+			{"title":"Entracte","artist":"Georges Bizet","album":"Carmen-Horne, McCracken (Disc 2)","track":"1/14","TPA":"2/3","genre":"Classical","encoded_by":"iTunes v4.1","path":"../music/chad/CLASSICAL/Georges Bizet/Carmen-Horne, McCracken (Disc 2)/2-01 Entracte.mp3"},
+			{"title":"Act 2: Chanson (Gypsy Dance)","artist":"Georges Bizet","album":"Carmen-Horne, McCracken (Disc 2)","track":"2/14","TPA":"2/3","genre":"Classical","encoded_by":"iTunes v4.1","path":"../music/chad/CLASSICAL/Georges Bizet/Carmen-Horne, McCracken (Disc 2)/2-02 Act 2_ Chanson (Gypsy Dance).mp3"},
+			{"title":"Dialogue","artist":"Georges Bizet","album":"Carmen-Horne, McCracken (Disc 2)","track":"3/14","TPA":"2/3","genre":"Classical","encoded_by":"iTunes v4.1","path":"../music/chad/CLASSICAL/Georges Bizet/Carmen-Horne, McCracken (Disc 2)/2-03 Dialogue.mp3"},
+			{"title":"Chorus and ensemble","artist":"Georges Bizet","album":"Carmen-Horne, McCracken (Disc 2)","track":"4/14","TPA":"2/3","genre":"Classical","encoded_by":"iTunes v4.1","path":"../music/chad/CLASSICAL/Georges Bizet/Carmen-Horne, McCracken (Disc 2)/2-04 Chorus and ensemble.mp3"},
+			{"title":"Couplets (Toreador Song)","artist":"Georges Bizet","album":"Carmen-Horne, McCracken (Disc 2)","track":"5/14","TPA":"2/3","genre":"Classical","encoded_by":"iTunes v4.1","path":"../music/chad/CLASSICAL/Georges Bizet/Carmen-Horne, McCracken (Disc 2)/2-05 Couplets (Toreador Song).mp3"},
+			{"title":"Dialogue","artist":"Georges Bizet","album":"Carmen-Horne, McCracken (Disc 2)","track":"6/14","TPA":"2/3","genre":"Classical","encoded_by":"iTunes v4.1","path":"../music/chad/CLASSICAL/Georges Bizet/Carmen-Horne, McCracken (Disc 2)/2-06 Dialogue.mp3"},
+			{"title":"Chorus and dialogue","artist":"Georges Bizet","album":"Carmen-Horne, McCracken (Disc 2)","track":"7/14","TPA":"2/3","genre":"Classical","encoded_by":"iTunes v4.1","path":"../music/chad/CLASSICAL/Georges Bizet/Carmen-Horne, McCracken (Disc 2)/2-07 Chorus and dialogue.mp3"},
+			{"title":"Dialogue","artist":"Georges Bizet","album":"Carmen-Horne, McCracken (Disc 2)","track":"8/14","TPA":"2/3","genre":"Classical","encoded_by":"iTunes v4.1","path":"../music/chad/CLASSICAL/Georges Bizet/Carmen-Horne, McCracken (Disc 2)/2-08 Dialogue.mp3"},
+			{"title":"Quintet","artist":"Georges Bizet","album":"Carmen-Horne, McCracken (Disc 2)","track":"9/14","TPA":"2/3","genre":"Classical","encoded_by":"iTunes v4.1","path":"../music/chad/CLASSICAL/Georges Bizet/Carmen-Horne, McCracken (Disc 2)/2-09 Quintet.mp3"},
+			{"title":"Dialogue and Chanson","artist":"Georges Bizet","album":"Carmen-Horne, McCracken (Disc 2)","track":"10/14","TPA":"2/3","genre":"Classical","encoded_by":"iTunes v4.1","path":"../music/chad/CLASSICAL/Georges Bizet/Carmen-Horne, McCracken (Disc 2)/2-10 Dialogue and Chanson.mp3"},
+			{"title":"Duet","artist":"Georges Bizet","album":"Carmen-Horne, McCracken (Disc 2)","track":"11/14","TPA":"2/3","genre":"Classical","encoded_by":"iTunes v4.1","path":"../music/chad/CLASSICAL/Georges Bizet/Carmen-Horne, McCracken (Disc 2)/2-11 Duet.mp3"},
+			{"title":"Air (Flower song)","artist":"Georges Bizet","album":"Carmen-Horne, McCracken (Disc 2)","track":"12/14","TPA":"2/3","genre":"Classical","encoded_by":"iTunes v4.1","path":"../music/chad/CLASSICAL/Georges Bizet/Carmen-Horne, McCracken (Disc 2)/2-12 Air (Flower song).mp3"},
+			{"title":"Duet ( L -bas)","artist":"Georges Bizet","album":"Carmen-Horne, McCracken (Disc 2)","track":"13/14","TPA":"2/3","genre":"Classical","encoded_by":"iTunes v4.1","path":"../music/chad/CLASSICAL/Georges Bizet/Carmen-Horne, McCracken (Disc 2)/2-13 Duet ( L -bas).mp3"},
+			{"title":"Finale","artist":"Georges Bizet","album":"Carmen-Horne, McCracken (Disc 2)","track":"14/14","TPA":"2/3","genre":"Classical","encoded_by":"iTunes v4.1","path":"../music/chad/CLASSICAL/Georges Bizet/Carmen-Horne, McCracken (Disc 2)/2-14 Finale.mp3"}
+		]
+	},
+	{
+		"album":"Carmen-Horne, McCracken (Disc 3)", 
+		"artist":"Georges Bizet", 
+		"genre":"Classical", 
+		"date":"undefined", 
+		"path":"../music/chad/CLASSICAL/Georges Bizet/Carmen-Horne, McCracken (Disc 3)/01 Entracte.mp3", 
+		"tracks":[
+			{"title":"Entracte","artist":"Georges Bizet","album":"Carmen-Horne, McCracken (Disc 3)","track":"1/18","genre":"Classical","encoded_by":"iTunes v4.1","path":"../music/chad/CLASSICAL/Georges Bizet/Carmen-Horne, McCracken (Disc 3)/01 Entracte.mp3"},
+			{"title":"Act 3: Introduction (Smugglers' Chorus)","artist":"Georges Bizet","album":"Carmen-Horne, McCracken (Disc 3)","track":"2/18","genre":"Classical","encoded_by":"iTunes v4.1","path":"../music/chad/CLASSICAL/Georges Bizet/Carmen-Horne, McCracken (Disc 3)/02 Act 3_ Introduction (Smugglers' Chorus).mp3"},
+			{"title":"Dialogue","artist":"Georges Bizet","album":"Carmen-Horne, McCracken (Disc 3)","track":"3/18","genre":"Classical","encoded_by":"iTunes v4.1","path":"../music/chad/CLASSICAL/Georges Bizet/Carmen-Horne, McCracken (Disc 3)/03 Dialogue.mp3"},
+			{"title":"Trio (Card scene)","artist":"Georges Bizet","album":"Carmen-Horne, McCracken (Disc 3)","track":"4/18","genre":"Classical","encoded_by":"iTunes v4.1","path":"../music/chad/CLASSICAL/Georges Bizet/Carmen-Horne, McCracken (Disc 3)/04 Trio (Card scene).mp3"},
+			{"title":"Solo (Card scene)","artist":"Georges Bizet","album":"Carmen-Horne, McCracken (Disc 3)","track":"5/18","genre":"Classical","encoded_by":"iTunes v4.1","path":"../music/chad/CLASSICAL/Georges Bizet/Carmen-Horne, McCracken (Disc 3)/05 Solo (Card scene).mp3"},
+			{"title":"Trio (Card scene)","artist":"Georges Bizet","album":"Carmen-Horne, McCracken (Disc 3)","track":"6/18","genre":"Classical","encoded_by":"iTunes v4.1","path":"../music/chad/CLASSICAL/Georges Bizet/Carmen-Horne, McCracken (Disc 3)/06 Trio (Card scene).mp3"},
+			{"title":"Dialogue","artist":"Georges Bizet","album":"Carmen-Horne, McCracken (Disc 3)","track":"7/18","genre":"Classical","encoded_by":"iTunes v4.1","path":"../music/chad/CLASSICAL/Georges Bizet/Carmen-Horne, McCracken (Disc 3)/07 Dialogue.mp3"},
+			{"title":"Ensemble","artist":"Georges Bizet","album":"Carmen-Horne, McCracken (Disc 3)","track":"8/18","genre":"Classical","encoded_by":"iTunes v4.1","path":"../music/chad/CLASSICAL/Georges Bizet/Carmen-Horne, McCracken (Disc 3)/08 Ensemble.mp3"},
+			{"title":"Air (Mica la's Prayer)","artist":"Georges Bizet","album":"Carmen-Horne, McCracken (Disc 3)","track":"9/18","genre":"Classical","encoded_by":"iTunes v4.1","path":"../music/chad/CLASSICAL/Georges Bizet/Carmen-Horne, McCracken (Disc 3)/09 Air (Mica la's Prayer).mp3"},
+			{"title":"Duet","artist":"Georges Bizet","album":"Carmen-Horne, McCracken (Disc 3)","track":"10/18","genre":"Classical","encoded_by":"iTunes v4.1","path":"../music/chad/CLASSICAL/Georges Bizet/Carmen-Horne, McCracken (Disc 3)/10 Duet.mp3"},
+			{"title":"Finale, dialogue","artist":"Georges Bizet","album":"Carmen-Horne, McCracken (Disc 3)","track":"11/18","genre":"Classical","encoded_by":"iTunes v4.1","path":"../music/chad/CLASSICAL/Georges Bizet/Carmen-Horne, McCracken (Disc 3)/11 Finale, dialogue.mp3"},
+			{"title":"Finale, conclusion","artist":"Georges Bizet","album":"Carmen-Horne, McCracken (Disc 3)","track":"12/18","genre":"Classical","encoded_by":"iTunes v4.1","path":"../music/chad/CLASSICAL/Georges Bizet/Carmen-Horne, McCracken (Disc 3)/12 Finale, conclusion.mp3"},
+			{"title":"Entracte","artist":"Georges Bizet","album":"Carmen-Horne, McCracken (Disc 3)","track":"13/18","genre":"Classical","encoded_by":"iTunes v4.1","path":"../music/chad/CLASSICAL/Georges Bizet/Carmen-Horne, McCracken (Disc 3)/13 Entracte.mp3"},
+			{"title":"Act 4: Chorus","artist":"Georges Bizet","album":"Carmen-Horne, McCracken (Disc 3)","track":"14/18","genre":"Classical","encoded_by":"iTunes v4.1","path":"../music/chad/CLASSICAL/Georges Bizet/Carmen-Horne, McCracken (Disc 3)/14 Act 4_ Chorus.mp3"},
+			{"title":"Chorus (Entrance of toreros)","artist":"Georges Bizet","album":"Carmen-Horne, McCracken (Disc 3)","track":"15/18","genre":"Classical","encoded_by":"iTunes v4.1","path":"../music/chad/CLASSICAL/Georges Bizet/Carmen-Horne, McCracken (Disc 3)/15 Chorus (Entrance of toreros).mp3"},
+			{"title":"Interlude","artist":"Georges Bizet","album":"Carmen-Horne, McCracken (Disc 3)","track":"16/18","genre":"Classical","encoded_by":"iTunes v4.1","path":"../music/chad/CLASSICAL/Georges Bizet/Carmen-Horne, McCracken (Disc 3)/16 Interlude.mp3"},
+			{"title":"Chorus","artist":"Georges Bizet","album":"Carmen-Horne, McCracken (Disc 3)","track":"17/18","genre":"Classical","encoded_by":"iTunes v4.1","path":"../music/chad/CLASSICAL/Georges Bizet/Carmen-Horne, McCracken (Disc 3)/17 Chorus.mp3"},
+			{"title":"Duet Finale","artist":"Georges Bizet","album":"Carmen-Horne, McCracken (Disc 3)","track":"18/18","genre":"Classical","encoded_by":"iTunes v4.1","path":"../music/chad/CLASSICAL/Georges Bizet/Carmen-Horne, McCracken (Disc 3)/18 Duet Finale.mp3"}
+		]
+	},
+	{
+		"album":"Andre Previn & the Pittsburgh Symphony Orchestra", 
+		"artist":"George Gershwin", 
+		"genre":"Classical", 
+		"date":"1984", 
+		"path":"../music/chad/CLASSICAL/Gershwin/Gershwin/01 Rhapsody in Blue.mp3", 
+		"tracks":[
+			{"title":"Rhapsody in Blue","TCM":"George Gershwin","track":"1/6","album":"Andre Previn & the Pittsburgh Symphony Orchestra","genre":"Classical","TCP":"1","encoded_by":"iTunes v4.1","artist":"George Gershwin","date":"1984","path":"../music/chad/CLASSICAL/Gershwin/Gershwin/01 Rhapsody in Blue.mp3"},
+			{"title":"An American in Paris -- Allegretto grazioso","TCM":"George Gershwin","track":"2/6","album":"Andre Previn & the Pittsburgh Symphony Orchestra","genre":"Classical","TCP":"1","encoded_by":"iTunes v4.1","artist":"George Gershwin","date":"1984","path":"../music/chad/CLASSICAL/Gershwin/Gershwin/02 An American in Paris -- Allegretto grazioso.mp3"},
+			{"title":"An American in Paris -- Andante ma con ritmo deciso","TCM":"George Gershwin","track":"3/6","album":"Andre Previn & the Pittsburgh Symphony Orchestra","genre":"Classical","TCP":"1","encoded_by":"iTunes v4.1","artist":"George Gershwin","date":"1984","path":"../music/chad/CLASSICAL/Gershwin/Gershwin/03 An American in Paris -- Andante ma con ritmo deciso.mp3"},
+			{"title":"Piano Concerto in F -- Allegro","TCM":"George Gershwin","track":"4/6","album":"Andre Previn & the Pittsburgh Symphony Orchestra","genre":"Classical","TCP":"1","encoded_by":"iTunes v4.1","artist":"George Gershwin","date":"1984","path":"../music/chad/CLASSICAL/Gershwin/Gershwin/04 Piano Concerto in F -- Allegro.mp3"},
+			{"title":"Piano Concerto in F -- Adagio","TCM":"George Gershwin","track":"5/6","album":"Andre Previn & the Pittsburgh Symphony Orchestra","genre":"Classical","TCP":"1","encoded_by":"iTunes v4.1","artist":"George Gershwin","date":"1984","path":"../music/chad/CLASSICAL/Gershwin/Gershwin/05 Piano Concerto in F -- Adagio.mp3"},
+			{"title":"Piano Concerto in F -- Allegro agitato","TCM":"George Gershwin","track":"6/6","album":"Andre Previn & the Pittsburgh Symphony Orchestra","genre":"Classical","TCP":"1","encoded_by":"iTunes v4.1","artist":"George Gershwin","date":"1984","path":"../music/chad/CLASSICAL/Gershwin/Gershwin/06 Piano Concerto in F -- Allegro agitato.mp3"}
+		]
+	},
+	{
+		"album":"The Planets", 
+		"artist":"Berliner Philharmoniker-Sir Colin Davis", 
+		"genre":"Classical", 
+		"date":"1994", 
+		"path":"../music/chad/CLASSICAL/Holst/The Planets/01 Mars, The Bringer Of War.mp3", 
+		"tracks":[
+			{"title":"Mars, The Bringer Of War","artist":"Berliner Philharmoniker-Sir Colin Davis","TCM":"Gustav Holst","album":"The Planets","track":"1/7","TPA":"1/1","encoded_by":"iTunes v4.1","genre":"Classical","TCP":"1","date":"1994","path":"../music/chad/CLASSICAL/Holst/The Planets/01 Mars, The Bringer Of War.mp3"},
+			{"title":"Venus, The Bringer Of Peace","artist":"Berliner Philharmoniker-Sir Colin Davis","TCM":"Gustav Holst","album":"The Planets","track":"2/7","TPA":"1/1","encoded_by":"iTunes v4.1","genre":"Classical","TCP":"1","date":"1994","path":"../music/chad/CLASSICAL/Holst/The Planets/02 Venus, The Bringer Of Peace.mp3"},
+			{"title":"Mercury, The Winged Messenger","artist":"Berliner Philharmoniker-Sir Colin Davis","TCM":"Gustav Holst","album":"The Planets","track":"3/7","TPA":"1/1","encoded_by":"iTunes v4.1","genre":"Classical","TCP":"1","date":"1994","path":"../music/chad/CLASSICAL/Holst/The Planets/03 Mercury, The Winged Messenger.mp3"},
+			{"title":"Jupiter, The Bringer Of Jollity","artist":"Berliner Philharmoniker-Sir Colin Davis","TCM":"Gustav Holst","album":"The Planets","track":"4/7","TPA":"1/1","encoded_by":"iTunes v4.1","genre":"Classical","TCP":"1","date":"1994","path":"../music/chad/CLASSICAL/Holst/The Planets/04 Jupiter, The Bringer Of Jollity.mp3"},
+			{"title":"Saturn, The Bringer Of Old Age","artist":"Berliner Philharmoniker-Sir Colin Davis","TCM":"Gustav Holst","album":"The Planets","track":"5/7","TPA":"1/1","encoded_by":"iTunes v4.1","genre":"Classical","TCP":"1","date":"1994","path":"../music/chad/CLASSICAL/Holst/The Planets/05 Saturn, The Bringer Of Old Age.mp3"},
+			{"title":"Uranus, The Magician","artist":"Berliner Philharmoniker-Sir Colin Davis","TCM":"Gustav Holst","album":"The Planets","track":"6/7","TPA":"1/1","encoded_by":"iTunes v4.1","genre":"Classical","TCP":"1","date":"1994","path":"../music/chad/CLASSICAL/Holst/The Planets/06 Uranus, The Magician.mp3"},
+			{"title":"Neptune, The Mystic","artist":"Berliner Philharmoniker-Sir Colin Davis","TCM":"Gustav Holst","album":"The Planets","track":"7/7","TPA":"1/1","encoded_by":"iTunes v4.1","genre":"Classical","TCP":"1","date":"1994","path":"../music/chad/CLASSICAL/Holst/The Planets/07 Neptune, The Mystic.mp3"}
+		]
+	},
+	{
+		"album":"Brandenburg Concertos 4, 5, 6", 
+		"artist":"Bach", 
+		"genre":"Classical", 
+		"date":"1992", 
+		"path":"../music/chad/CLASSICAL/J.S. Bach/Brandenburg Concertos 4, 5, 6/2-01 [4] G maj BWV 1049.mp3", 
+		"tracks":[
+			{"album":"Brandenburg Concertos 4, 5, 6","track":"1/9","TPA":"2/2","title":"G maj - Allegro","genre":"Classical","TCP":"1","encoded_by":"iTunes v4.1","artist":"Bach","date":"1992","path":"../music/chad/CLASSICAL/J.S. Bach/Brandenburg Concertos 4, 5, 6/2-01 [4] G maj BWV 1049.mp3"},
+			{"album":"Brandenburg Concertos 4, 5, 6","track":"2/9","TPA":"2/2","title":"G maj - Andante","genre":"Classical","TCP":"1","encoded_by":"iTunes v4.1","artist":"Bach","date":"1992","path":"../music/chad/CLASSICAL/J.S. Bach/Brandenburg Concertos 4, 5, 6/2-02 [4] G maj BWV 1049.mp3"},
+			{"album":"Brandenburg Concertos 4, 5, 6","track":"3/9","TPA":"2/2","title":"G maj - Presto","genre":"Classical","TCP":"1","encoded_by":"iTunes v4.1","artist":"Bach","date":"1992","path":"../music/chad/CLASSICAL/J.S. Bach/Brandenburg Concertos 4, 5, 6/2-03 [4] G maj BWV 1049.mp3"},
+			{"album":"Brandenburg Concertos 4, 5, 6","track":"4/9","TPA":"2/2","artist":"Bach","genre":"Classical","TCP":"1","encoded_by":"iTunes v4.1","title":"D maj - Allegro","date":"1992","path":"../music/chad/CLASSICAL/J.S. Bach/Brandenburg Concertos 4, 5, 6/2-04 [5] D maj BWV 1050.mp3"},
+			{"album":"Brandenburg Concertos 4, 5, 6","track":"5/9","TPA":"2/2","artist":"Bach","genre":"Classical","TCP":"1","encoded_by":"iTunes v4.1","title":"D maj - Affettuoso","date":"1992","path":"../music/chad/CLASSICAL/J.S. Bach/Brandenburg Concertos 4, 5, 6/2-05 [5] D maj BWV 1050.mp3"},
+			{"album":"Brandenburg Concertos 4, 5, 6","track":"6/9","TPA":"2/2","artist":"Bach","genre":"Classical","TCP":"1","encoded_by":"iTunes v4.1","title":"D maj - Allegro","date":"1992","path":"../music/chad/CLASSICAL/J.S. Bach/Brandenburg Concertos 4, 5, 6/2-06 [5] D maj BWV 1050.mp3"},
+			{"album":"Brandenburg Concertos 4, 5, 6","track":"7/9","TPA":"2/2","artist":"Bach","genre":"Classical","TCP":"1","encoded_by":"iTunes v4.1","title":"Bb maj - Allegro","date":"1992","path":"../music/chad/CLASSICAL/J.S. Bach/Brandenburg Concertos 4, 5, 6/2-07 [6] Bb maj BWV 1050.mp3"},
+			{"album":"Brandenburg Concertos 4, 5, 6","track":"8/9","TPA":"2/2","title":"Bb maj - Adagio ma non troppo","genre":"Classical","TCP":"1","encoded_by":"iTunes v4.1","artist":"Bach","date":"1992","path":"../music/chad/CLASSICAL/J.S. Bach/Brandenburg Concertos 4, 5, 6/2-08 [6] Bb maj BWV 1050.mp3"},
+			{"album":"Brandenburg Concertos 4, 5, 6","track":"9/9","TPA":"2/2","artist":"Bach","genre":"Classical","TCP":"1","encoded_by":"iTunes v4.1","title":"Bb maj - Allegro","date":"1992","path":"../music/chad/CLASSICAL/J.S. Bach/Brandenburg Concertos 4, 5, 6/2-09 [6] Bb maj BWV 1050.mp3"}
+		]
+	},
+	{
+		"album":"Brandenburg Concertos 1, 2 & 3", 
+		"artist":"Bach", 
+		"genre":"Classical", 
+		"date":"1992", 
+		"path":"../music/chad/CLASSICAL/J.S. Bach/J.S. Bach, Brandenburg Conchertos 1, 2 & 3/01 [1] F maj BWV 1046.mp3", 
+		"tracks":[
+			{"track":"1/9","album":"Brandenburg Concertos 1, 2 & 3","genre":"Classical","TCP":"1","encoded_by":"iTunes v4.1","title":"F maj - Allegro","artist":"Bach","date":"1992","path":"../music/chad/CLASSICAL/J.S. Bach/J.S. Bach, Brandenburg Conchertos 1, 2 & 3/01 [1] F maj BWV 1046.mp3"},
+			{"track":"2/9","album":"Brandenburg Concertos 1, 2 & 3","genre":"Classical","TCP":"1","encoded_by":"iTunes v4.1","title":"F maj - Adagio","artist":"Bach","date":"1992","path":"../music/chad/CLASSICAL/J.S. Bach/J.S. Bach, Brandenburg Conchertos 1, 2 & 3/02 [1] F maj BWV 1046.mp3"},
+			{"track":"3/9","album":"Brandenburg Concertos 1, 2 & 3","genre":"Classical","TCP":"1","encoded_by":"iTunes v4.1","title":"F maj - Allegro","artist":"Bach","date":"1992","path":"../music/chad/CLASSICAL/J.S. Bach/J.S. Bach, Brandenburg Conchertos 1, 2 & 3/03 [1] F maj BWV 1046.mp3"},
+			{"track":"4/9","album":"Brandenburg Concertos 1, 2 & 3","genre":"Classical","TCP":"1","encoded_by":"iTunes v4.1","title":"F maj - Menuet","artist":"Bach","date":"1992","path":"../music/chad/CLASSICAL/J.S. Bach/J.S. Bach, Brandenburg Conchertos 1, 2 & 3/04 [1] F maj BWV 1046.mp3"},
+			{"track":"5/9","album":"Brandenburg Concertos 1, 2 & 3","genre":"Classical","TCP":"1","encoded_by":"iTunes v4.1","title":"F maj - Allegro","artist":"Bach","date":"1992","path":"../music/chad/CLASSICAL/J.S. Bach/J.S. Bach, Brandenburg Conchertos 1, 2 & 3/05 [2] F maj BWV 1047.mp3"},
+			{"track":"6/9","album":"Brandenburg Concertos 1, 2 & 3","genre":"Classical","TCP":"1","encoded_by":"iTunes v4.1","title":"F maj - Andante","artist":"Bach","date":"1992","path":"../music/chad/CLASSICAL/J.S. Bach/J.S. Bach, Brandenburg Conchertos 1, 2 & 3/06 [2] F maj BWV 1047.mp3"},
+			{"track":"7/9","album":"Brandenburg Concertos 1, 2 & 3","genre":"Classical","TCP":"1","encoded_by":"iTunes v4.1","title":"F maj - Allegro assai","artist":"Bach","date":"1992","path":"../music/chad/CLASSICAL/J.S. Bach/J.S. Bach, Brandenburg Conchertos 1, 2 & 3/07 [2] F maj BWV 1047.mp3"},
+			{"track":"8/9","album":"Brandenburg Concertos 1, 2 & 3","genre":"Classical","TCP":"1","encoded_by":"iTunes v4.1","title":"G maj - Allegro","artist":"Bach","date":"1992","path":"../music/chad/CLASSICAL/J.S. Bach/J.S. Bach, Brandenburg Conchertos 1, 2 & 3/08 [3] G maj BWV 1048.mp3"},
+			{"track":"9/9","album":"Brandenburg Concertos 1, 2 & 3","genre":"Classical","TCP":"1","encoded_by":"iTunes v4.1","title":"G maj - Allegro","artist":"Bach","date":"1992","path":"../music/chad/CLASSICAL/J.S. Bach/J.S. Bach, Brandenburg Conchertos 1, 2 & 3/09 [3] G maj BWV 1048.mp3"}
+		]
+	},
+	{
+		"album":"Liszt: Hungarian Rhapsodies Nos. 2 (12) & 5 Etc.", 
+		"artist":"Cherkassky/Berlin Philharmonic/ Von Karajan", 
+		"genre":"Classical", 
+		"date":"undefined", 
+		"path":"../music/chad/CLASSICAL/Liszt/Liszt_ Hungarian Rhapsodies Nos. 2 (12) & 5 Etc_/01 Mephisto Waltz.mp3", 
+		"tracks":[
+			{"title":"Mephisto Waltz","artist":"Cherkassky/Berlin Philharmonic/ Von Karajan","album":"Liszt: Hungarian Rhapsodies Nos. 2 (12) & 5 Etc.","track":"1/4","genre":"Classical","encoded_by":"iTunes v4.1","path":"../music/chad/CLASSICAL/Liszt/Liszt_ Hungarian Rhapsodies Nos. 2 (12) & 5 Etc_/01 Mephisto Waltz.mp3"},
+			{"title":"Fantasia on Hungarian Folk Melodies","artist":"Cherkassky/Berlin Philharmonic/ Von Karajan","album":"Liszt: Hungarian Rhapsodies Nos. 2 (12) & 5 Etc.","track":"2/4","genre":"Classical","encoded_by":"iTunes v4.1","path":"../music/chad/CLASSICAL/Liszt/Liszt_ Hungarian Rhapsodies Nos. 2 (12) & 5 Etc_/02 Fantasia on Hungarian Folk Melodies.mp3"},
+			{"title":"Hungarian Rhapsody no. 5","artist":"Cherkassky/Berlin Philharmonic/ Von Karajan","album":"Liszt: Hungarian Rhapsodies Nos. 2 (12) & 5 Etc.","track":"3/4","genre":"Classical","encoded_by":"iTunes v4.1","path":"../music/chad/CLASSICAL/Liszt/Liszt_ Hungarian Rhapsodies Nos. 2 (12) & 5 Etc_/03 Hungarian Rhapsody no. 5.mp3"},
+			{"title":"Hungarian Rhapsody No. 2 (12)","artist":"Cherkassky/Berlin Philharmonic/ Von Karajan","album":"Liszt: Hungarian Rhapsodies Nos. 2 (12) & 5 Etc.","track":"4/4","genre":"Classical","encoded_by":"iTunes v4.1","path":"../music/chad/CLASSICAL/Liszt/Liszt_ Hungarian Rhapsodies Nos. 2 (12) & 5 Etc_/04 Hungarian Rhapsody No. 2 (12).mp3"}
+		]
+	},
+	{
+		"album":"Concerto No.5 in E-Flat Major for Piano Op. 73 "Emporer"", 
+		"artist":"Ludwig van Beethoven", 
+		"genre":"Classical", 
+		"date":"undefined", 
+		"path":"../music/chad/CLASSICAL/Ludwig van Beethoven/Concerto No.5 in E-Flat Major for Piano Op. 73 _Emporer_/01 Allegro.mp3", 
+		"tracks":[
+			{"title":"Allegro","artist":"Ludwig van Beethoven","album":"Concerto No.5 in E-Flat Major for Piano Op. 73 "Emporer"","track":"1/3","genre":"Classical","encoded_by":"iTunes v4.1","path":"../music/chad/CLASSICAL/Ludwig van Beethoven/Concerto No.5 in E-Flat Major for Piano Op. 73 _Emporer_/01 Allegro.mp3"},
+			{"title":"Adagio un poco mosso","artist":"Ludwig van Beethoven","album":"Concerto No.5 in E-Flat Major for Piano Op. 73 "Emporer"","track":"2/3","genre":"Classical","encoded_by":"iTunes v4.1","path":"../music/chad/CLASSICAL/Ludwig van Beethoven/Concerto No.5 in E-Flat Major for Piano Op. 73 _Emporer_/02 Adagio un poco mosso.mp3"},
+			{"title":"Rondo (Allegro)","artist":"Ludwig van Beethoven","album":"Concerto No.5 in E-Flat Major for Piano Op. 73 "Emporer"","track":"3/3","genre":"Classical","encoded_by":"iTunes v4.1","path":"../music/chad/CLASSICAL/Ludwig van Beethoven/Concerto No.5 in E-Flat Major for Piano Op. 73 _Emporer_/03 Rondo (Allegro).mp3"}
+		]
+	},
+	{
+		"album":"Horowitz Plays Mozart", 
+		"artist":"Horowitz", 
+		"genre":"Classical", 
+		"date":"1990", 
+		"path":"../music/chad/CLASSICAL/Mozart/Horowitz Plays Mozart/01 Concerto 23.mp3", 
+		"tracks":[
+			{"TCM":"Wolfgang Amadeus Mozart (1756-1791)","album":"Horowitz Plays Mozart","track":"1/6","TPA":"1/1","artist":"Horowitz","genre":"Classical","TCP":"1","encoded_by":"iTunes v4.1","title":"Concerto 23 - Allegro","date":"1990","path":"../music/chad/CLASSICAL/Mozart/Horowitz Plays Mozart/01 Concerto 23.mp3"},
+			{"TCM":"Wolfgang Amadeus Mozart (1756-1791)","album":"Horowitz Plays Mozart","track":"2/6","TPA":"1/1","artist":"Horowitz","genre":"Classical","TCP":"1","encoded_by":"iTunes v4.1","title":"Concerto 23 - Adagio","date":"1990","path":"../music/chad/CLASSICAL/Mozart/Horowitz Plays Mozart/02 Concerto 23.mp3"},
+			{"TCM":"Wolfgang Amadeus Mozart (1756-1791)","album":"Horowitz Plays Mozart","track":"3/6","TPA":"1/1","artist":"Horowitz","genre":"Classical","TCP":"1","encoded_by":"iTunes v4.1","title":"Concerto 23 - Allegro Assai","date":"1990","path":"../music/chad/CLASSICAL/Mozart/Horowitz Plays Mozart/03 Concerto 23.mp3"},
+			{"TCM":"Wolfgang Amadeus Mozart (1756-1791)","album":"Horowitz Plays Mozart","track":"4/6","TPA":"1/1","artist":"Horowitz","genre":"Classical","TCP":"1","encoded_by":"iTunes v4.1","title":"Piano Sonata - Allegro","date":"1990","path":"../music/chad/CLASSICAL/Mozart/Horowitz Plays Mozart/04 Piano Sonata.mp3"},
+			{"TCM":"Wolfgang Amadeus Mozart (1756-1791)","album":"Horowitz Plays Mozart","track":"5/6","TPA":"1/1","artist":"Horowitz","genre":"Classical","TCP":"1","encoded_by":"iTunes v4.1","title":"Piano Sonata - Andante Cantabile","date":"1990","path":"../music/chad/CLASSICAL/Mozart/Horowitz Plays Mozart/05 Piano Sonata.mp3"},
+			{"TCM":"Wolfgang Amadeus Mozart (1756-1791)","album":"Horowitz Plays Mozart","track":"6/6","TPA":"1/1","artist":"Horowitz","genre":"Classical","TCP":"1","encoded_by":"iTunes v4.1","title":"Piano Sonata - Allegretto Grazioso","date":"1990","path":"../music/chad/CLASSICAL/Mozart/Horowitz Plays Mozart/06 Piano Sonata.mp3"}
+		]
+	},
+	{
+		"album":"Mozart: Sinfonia Concertante K.364, Concertone K.190", 
+		"artist":"Zubin Mehta, Itzhak Perlman & Pinchas Zukerman", 
+		"genre":"Classical", 
+		"date":"1982", 
+		"path":"../music/chad/CLASSICAL/Mozart/Mozart_ Sinfonia Concertante K.364, Concertone K.190/01 Sinfonia concertante - 1. Allegro maestoso.mp3", 
+		"tracks":[
+			{"title":"Sinfonia concertante - 1. Allegro maestoso","album":"Mozart: Sinfonia Concertante K.364, Concertone K.190","track":"1/6","TPA":"1/1","TCM":"Mozart","genre":"Classical","encoded_by":"iTunes v4.1","artist":"Zubin Mehta, Itzhak Perlman & Pinchas Zukerman","date":"1982","path":"../music/chad/CLASSICAL/Mozart/Mozart_ Sinfonia Concertante K.364, Concertone K.190/01 Sinfonia concertante - 1. Allegro maestoso.mp3"},
+			{"title":"2. Andante","album":"Mozart: Sinfonia Concertante K.364, Concertone K.190","track":"2/6","TPA":"1/1","TCM":"Mozart","genre":"Classical","encoded_by":"iTunes v4.1","artist":"Zubin Mehta, Itzhak Perlman & Pinchas Zukerman","date":"1982","path":"../music/chad/CLASSICAL/Mozart/Mozart_ Sinfonia Concertante K.364, Concertone K.190/02 2. Andante.mp3"},
+			{"title":"3. Presto","album":"Mozart: Sinfonia Concertante K.364, Concertone K.190","track":"3/6","TPA":"1/1","TCM":"Mozart","genre":"Classical","encoded_by":"iTunes v4.1","artist":"Zubin Mehta, Itzhak Perlman & Pinchas Zukerman","date":"1982","path":"../music/chad/CLASSICAL/Mozart/Mozart_ Sinfonia Concertante K.364, Concertone K.190/03 3. Presto.mp3"},
+			{"title":"Concertone for 2 Violins - 1. Allegro spiritoso","album":"Mozart: Sinfonia Concertante K.364, Concertone K.190","track":"4/6","TPA":"1/1","TCM":"Mozart","genre":"Classical","encoded_by":"iTunes v4.1","artist":"Zubin Mehta, Itzhak Perlman & Pinchas Zukerman","date":"1982","path":"../music/chad/CLASSICAL/Mozart/Mozart_ Sinfonia Concertante K.364, Concertone K.190/04 Concertone for 2 Violins - 1. Allegro spiritoso.mp3"},
+			{"title":"2. Andante grazioso","album":"Mozart: Sinfonia Concertante K.364, Concertone K.190","track":"5/6","TPA":"1/1","TCM":"Mozart","genre":"Classical","encoded_by":"iTunes v4.1","artist":"Zubin Mehta, Itzhak Perlman & Pinchas Zukerman","date":"1982","path":"../music/chad/CLASSICAL/Mozart/Mozart_ Sinfonia Concertante K.364, Concertone K.190/05 2. Andante grazioso.mp3"},
+			{"title":"3. Tempo di Menuetto. Vivace","album":"Mozart: Sinfonia Concertante K.364, Concertone K.190","track":"6/6","TPA":"1/1","TCM":"Mozart","genre":"Classical","encoded_by":"iTunes v4.1","artist":"Zubin Mehta, Itzhak Perlman & Pinchas Zukerman","date":"1982","path":"../music/chad/CLASSICAL/Mozart/Mozart_ Sinfonia Concertante K.364, Concertone K.190/06 3. Tempo di Menuetto. Vivace.mp3"}
+		]
+	},
+	{
+		"album":"Violinkonzerte Nos 2&4. Itzhak Perlman. James Levine", 
+		"artist":"Mozart", 
+		"genre":"Classical", 
+		"date":"undefined", 
+		"path":"../music/chad/CLASSICAL/Mozart/Violinkonzerte Nos 2&4. Itzhak Perlman. James Levine/01 Violin & Orchestra Nos. 2, K. 211.mp3", 
+		"tracks":[
+			{"album":"Violinkonzerte Nos 2&4. Itzhak Perlman. James Levine","track":"1/6","genre":"Classical","TCP":"1","encoded_by":"iTunes v4.1","title":"No2 - Allegro moderato","artist":"Mozart","path":"../music/chad/CLASSICAL/Mozart/Violinkonzerte Nos 2&4. Itzhak Perlman. James Levine/01 Violin & Orchestra Nos. 2, K. 211.mp3"},
+			{"album":"Violinkonzerte Nos 2&4. Itzhak Perlman. James Levine","track":"2/6","genre":"Classical","TCP":"1","encoded_by":"iTunes v4.1","title":"No2 - Andante","artist":"Mozart","path":"../music/chad/CLASSICAL/Mozart/Violinkonzerte Nos 2&4. Itzhak Perlman. James Levine/02 Violin & Orchestra Nos. 2, K. 211.mp3"},
+			{"album":"Violinkonzerte Nos 2&4. Itzhak Perlman. James Levine","track":"3/6","genre":"Classical","TCP":"1","encoded_by":"iTunes v4.1","title":"No2 - Rondeau. Allegro","artist":"Mozart","path":"../music/chad/CLASSICAL/Mozart/Violinkonzerte Nos 2&4. Itzhak Perlman. James Levine/03 Violin & Orchestra Nos. 2, K. 211.mp3"},
+			{"album":"Violinkonzerte Nos 2&4. Itzhak Perlman. James Levine","track":"4/6","genre":"Classical","TCP":"1","encoded_by":"iTunes v4.1","title":"No4 - Allegro","artist":"Mozart","path":"../music/chad/CLASSICAL/Mozart/Violinkonzerte Nos 2&4. Itzhak Perlman. James Levine/04 Violin & Orchestra Nos. 4, KV. 218.mp3"},
+			{"album":"Violinkonzerte Nos 2&4. Itzhak Perlman. James Levine","track":"5/6","genre":"Classical","TCP":"1","encoded_by":"iTunes v4.1","title":"No4 - Andante cantabile","artist":"Mozart","path":"../music/chad/CLASSICAL/Mozart/Violinkonzerte Nos 2&4. Itzhak Perlman. James Levine/05 Violin & Orchestra Nos. 4, KV. 218.mp3"},
+			{"album":"Violinkonzerte Nos 2&4. Itzhak Perlman. James Levine","track":"6/6","genre":"Classical","TCP":"1","encoded_by":"iTunes v4.1","title":"No4 - Rondeau. Andante grazioso","artist":"Mozart","path":"../music/chad/CLASSICAL/Mozart/Violinkonzerte Nos 2&4. Itzhak Perlman. James Levine/06 Violin & Orchestra Nos. 4, KV. 218.mp3"}
+		]
+	},
+	{
+		"album":"Mendelssohn, Violin Concerto In E Minor. etc - New York Chamber Symphony, Gerard Schwarz", 
+		"artist":"Nadja Salerno-Sonnenberg", 
+		"genre":"Classical", 
+		"date":"undefined", 
+		"path":"../music/chad/CLASSICAL/Nadja Salerno-Sonnenberg/Mendelssohn, Violin Concerto In E Minor. etc - New York Chamber Symphony, Gerard Schwarz/01 Mendelssohn - Concerto in E Minor, Op. 64_ I. Allegro molto appassionato.mp3", 
+		"tracks":[
+			{"title":"Mendelssohn - Concerto in E Minor, Op. 64: I. Allegro molto appassionato","artist":"Nadja Salerno-Sonnenberg","TCM":"Massenet/Mendelssohn/Saint-Saens","album":"Mendelssohn, Violin Concerto In E Minor. etc - New York Chamber Symphony, Gerard Schwarz","track":"1/6","TPA":"1/1","genre":"Classical","encoded_by":"iTunes v4.1","path":"../music/chad/CLASSICAL/Nadja Salerno-Sonnenberg/Mendelssohn, Violin Concerto In E Minor. etc - New York Chamber Symphony, Gerard Schwarz/01 Mendelssohn - Concerto in E Minor, Op. 64_ I. Allegro molto appassionato.mp3"},
+			{"title":"II. Andante","artist":"Nadja Salerno-Sonnenberg","TCM":"Massenet/Mendelssohn/Saint-Saens","album":"Mendelssohn, Violin Concerto In E Minor. etc - New York Chamber Symphony, Gerard Schwarz","track":"2/6","TPA":"1/1","genre":"Classical","encoded_by":"iTunes v4.1","path":"../music/chad/CLASSICAL/Nadja Salerno-Sonnenberg/Mendelssohn, Violin Concerto In E Minor. etc - New York Chamber Symphony, Gerard Schwarz/02 II. Andante.mp3"},
+			{"title":"III. Allegretto non troppo - Allegro molto vivace","artist":"Nadja Salerno-Sonnenberg","TCM":"Massenet/Mendelssohn/Saint-Saens","album":"Mendelssohn, Violin Concerto In E Minor. etc - New York Chamber Symphony, Gerard Schwarz","track":"3/6","TPA":"1/1","genre":"Classical","encoded_by":"iTunes v4.1","path":"../music/chad/CLASSICAL/Nadja Salerno-Sonnenberg/Mendelssohn, Violin Concerto In E Minor. etc - New York Chamber Symphony, Gerard Schwarz/03 III. Allegretto non troppo - Allegro molto vivace.mp3"},
+			{"title":"Saint-Saëns - Havanaise, Op. 83","artist":"Nadja Salerno-Sonnenberg","TCM":"Massenet/Mendelssohn/Saint-Saens","album":"Mendelssohn, Violin Concerto In E Minor. etc - New York Chamber Symphony, Gerard Schwarz","track":"4/6","TPA":"1/1","genre":"Classical","encoded_by":"iTunes v4.1","path":"../music/chad/CLASSICAL/Nadja Salerno-Sonnenberg/Mendelssohn, Violin Concerto In E Minor. etc - New York Chamber Symphony, Gerard Schwarz/04 Saint-Saëns - Havanaise, Op. 83.mp3"},
+			{"title":"Saint-Saëns - Introduction and Rondo capriccioso, Op. 28","artist":"Nadja Salerno-Sonnenberg","TCM":"Massenet/Mendelssohn/Saint-Saens","album":"Mendelssohn, Violin Concerto In E Minor. etc - New York Chamber Symphony, Gerard Schwarz","track":"5/6","TPA":"1/1","genre":"Classical","encoded_by":"iTunes v4.1","path":"../music/chad/CLASSICAL/Nadja Salerno-Sonnenberg/Mendelssohn, Violin Concerto In E Minor. etc - New York Chamber Symphony, Gerard Schwarz/05 Saint-Saëns - Introduction and Rondo capriccioso, Op. 28.mp3"},
+			{"title":"Massenet - Méditation from "Thaïs"","artist":"Nadja Salerno-Sonnenberg","TCM":"Massenet/Mendelssohn/Saint-Saens","album":"Mendelssohn, Violin Concerto In E Minor. etc - New York Chamber Symphony, Gerard Schwarz","track":"6/6","TPA":"1/1","genre":"Classical","encoded_by":"iTunes v4.1","path":"../music/chad/CLASSICAL/Nadja Salerno-Sonnenberg/Mendelssohn, Violin Concerto In E Minor. etc - New York Chamber Symphony, Gerard Schwarz/06 Massenet - Méditation from _Thaïs_.mp3"}
+		]
+	},
+	{
+		"album":"Ballet Suites - Swan Lake", 
+		"artist":"Tchaikovsky", 
+		"genre":"Classical", 
+		"date":"1992", 
+		"path":"../music/chad/CLASSICAL/Tchaikovsky/Tchaikovsky Ballet Suites/01 Scene.mp3", 
+		"tracks":[
+			{"title":"Scene","track":"1/19","TPA":"1/1","album":"Ballet Suites - Swan Lake","genre":"Classical","TCP":"1","encoded_by":"iTunes v4.1","artist":"Tchaikovsky","TCM":"Tchaikovsky","date":"1992","path":"../music/chad/CLASSICAL/Tchaikovsky/Tchaikovsky Ballet Suites/01 Scene.mp3"},
+			{"title":"Valse","track":"2/19","TPA":"1/1","album":"Ballet Suites - Swan Lake","genre":"Classical","TCP":"1","encoded_by":"iTunes v4.1","artist":"Tchaikovsky","TCM":"Tchaikovsky","date":"1992","path":"../music/chad/CLASSICAL/Tchaikovsky/Tchaikovsky Ballet Suites/02 Valse.mp3"},
+			{"title":"Danse des cygnes","track":"3/19","TPA":"1/1","album":"Ballet Suites - Swan Lake","genre":"Classical","TCP":"1","encoded_by":"iTunes v4.1","artist":"Tchaikovsky","TCM":"Tchaikovsky","date":"1992","path":"../music/chad/CLASSICAL/Tchaikovsky/Tchaikovsky Ballet Suites/03 Danse des cygnes.mp3"},
+			{"title":"Scene","track":"4/19","TPA":"1/1","album":"Ballet Suites - Swan Lake","genre":"Classical","TCP":"1","encoded_by":"iTunes v4.1","artist":"Tchaikovsky","TCM":"Tchaikovsky","date":"1992","path":"../music/chad/CLASSICAL/Tchaikovsky/Tchaikovsky Ballet Suites/04 Scene.mp3"},
+			{"title":"Danse hongroise(Czardas)","track":"5/19","TPA":"1/1","album":"Ballet Suites - Swan Lake","genre":"Classical","TCP":"1","encoded_by":"iTunes v4.1","artist":"Tchaikovsky","TCM":"Tchaikovsky","date":"1992","path":"../music/chad/CLASSICAL/Tchaikovsky/Tchaikovsky Ballet Suites/05 Danse hongroise(Czardas).mp3"},
+			{"title":"Scene(finale)","track":"6/19","TPA":"1/1","album":"Ballet Suites - Swan Lake","genre":"Classical","TCP":"1","encoded_by":"iTunes v4.1","artist":"Tchaikovsky","TCM":"Tchaikovsky","date":"1992","path":"../music/chad/CLASSICAL/Tchaikovsky/Tchaikovsky Ballet Suites/06 Scene(finale).mp3"}
+		]
+	},
+	{
+		"album":"Ballet Suites - The Sleeping Beauty", 
+		"artist":"Tchaikovsky", 
+		"genre":"Classical", 
+		"date":"1992", 
+		"path":"../music/chad/CLASSICAL/Tchaikovsky/Tchaikovsky Ballet Suites/07 Adagio.mp3", 
+		"tracks":[
+			{"title":"Adagio","track":"7/19","TPA":"1/1","album":"Ballet Suites - The Sleeping Beauty","genre":"Classical","TCP":"1","encoded_by":"iTunes v4.1","artist":"Tchaikovsky","TCM":"Tchaikovsky","date":"1992","path":"../music/chad/CLASSICAL/Tchaikovsky/Tchaikovsky Ballet Suites/07 Adagio.mp3"},
+			{"title":"Adgio: Pas d'action","track":"8/19","TPA":"1/1","album":"Ballet Suites - The Sleeping Beauty","genre":"Classical","TCP":"1","encoded_by":"iTunes v4.1","artist":"Tchaikovsky","TCM":"Tchaikovsky","date":"1992","path":"../music/chad/CLASSICAL/Tchaikovsky/Tchaikovsky Ballet Suites/08 Adgio_ Pas d'action.mp3"},
+			{"title":"Pas de caractere: Le Chat botte et la Chatte blanche","track":"9/19","TPA":"1/1","album":"Ballet Suites - The Sleeping Beauty","genre":"Classical","TCP":"1","encoded_by":"iTunes v4.1","artist":"Tchaikovsky","TCM":"Tchaikovsky","date":"1992","path":"../music/chad/CLASSICAL/Tchaikovsky/Tchaikovsky Ballet Suites/09 Pas de caractere_ Le Chat botte et la Chatte blanche.mp3"},
+			{"title":"Panorama","track":"10/19","TPA":"1/1","album":"Ballet Suites - The Sleeping Beauty","genre":"Classical","TCP":"1","encoded_by":"iTunes v4.1","artist":"Tchaikovsky","TCM":"Tchaikovsky","date":"1992","path":"../music/chad/CLASSICAL/Tchaikovsky/Tchaikovsky Ballet Suites/10 Panorama.mp3"},
+			{"title":"Valse","track":"11/19","TPA":"1/1","album":"Ballet Suites - The Sleeping Beauty","genre":"Classical","TCP":"1","encoded_by":"iTunes v4.1","artist":"Tchaikovsky","TCM":"Tchaikovsky","date":"1992","path":"../music/chad/CLASSICAL/Tchaikovsky/Tchaikovsky Ballet Suites/11 Valse.mp3"}
+		]
+	},
+	{
+		"album":"Ballet Suites - The Nutcracker", 
+		"artist":"Tchaikovsky", 
+		"genre":"Classical", 
+		"date":"1992", 
+		"path":"../music/chad/CLASSICAL/Tchaikovsky/Tchaikovsky Ballet Suites/12 Ouverture miniature.mp3", 
+		"tracks":[
+			{"title":"Ouverture miniature","track":"12/19","TPA":"1/1","album":"Ballet Suites - The Nutcracker","genre":"Classical","TCP":"1","encoded_by":"iTunes v4.1","artist":"Tchaikovsky","TCM":"Tchaikovsky","date":"1992","path":"../music/chad/CLASSICAL/Tchaikovsky/Tchaikovsky Ballet Suites/12 Ouverture miniature.mp3"},
+			{"title":"Marche","track":"13/19","TPA":"1/1","album":"Ballet Suites - The Nutcracker","genre":"Classical","TCP":"1","encoded_by":"iTunes v4.1","artist":"Tchaikovsky","TCM":"Tchaikovsky","date":"1992","path":"../music/chad/CLASSICAL/Tchaikovsky/Tchaikovsky Ballet Suites/13 Marche.mp3"},
+			{"title":"Danse de la Fee Dragee","track":"14/19","TPA":"1/1","album":"Ballet Suites - The Nutcracker","genre":"Classical","TCP":"1","encoded_by":"iTunes v4.1","artist":"Tchaikovsky","TCM":"Tchaikovsky","date":"1992","path":"../music/chad/CLASSICAL/Tchaikovsky/Tchaikovsky Ballet Suites/14 Danse de la Fee Dragee.mp3"},
+			{"title":"Danse russe Trepack","track":"15/19","TPA":"1/1","album":"Ballet Suites - The Nutcracker","genre":"Classical","TCP":"1","encoded_by":"iTunes v4.1","artist":"Tchaikovsky","TCM":"Tchaikovsky","date":"1992","path":"../music/chad/CLASSICAL/Tchaikovsky/Tchaikovsky Ballet Suites/15 Danse russe Trepack.mp3"},
+			{"title":"Danse arabe","track":"16/19","TPA":"1/1","album":"Ballet Suites - The Nutcracker","genre":"Classical","TCP":"1","encoded_by":"iTunes v4.1","artist":"Tchaikovsky","TCM":"Tchaikovsky","date":"1992","path":"../music/chad/CLASSICAL/Tchaikovsky/Tchaikovsky Ballet Suites/16 Danse arabe.mp3"},
+			{"title":"Danse chinoise","track":"17/19","TPA":"1/1","album":"Ballet Suites - The Nutcracker","genre":"Classical","TCP":"1","encoded_by":"iTunes v4.1","artist":"Tchaikovsky","TCM":"Tchaikovsky","date":"1992","path":"../music/chad/CLASSICAL/Tchaikovsky/Tchaikovsky Ballet Suites/17 Danse chinoise.mp3"},
+			{"title":"Danse des mirlitons","track":"18/19","TPA":"1/1","album":"Ballet Suites - The Nutcracker","genre":"Classical","TCP":"1","encoded_by":"iTunes v4.1","artist":"Tchaikovsky","TCM":"Tchaikovsky","date":"1992","path":"../music/chad/CLASSICAL/Tchaikovsky/Tchaikovsky Ballet Suites/18 Danse des mirlitons.mp3"},
+			{"title":"Valse des fleures","track":"19/19","TPA":"1/1","album":"Ballet Suites - The Nutcracker","genre":"Classical","TCP":"1","encoded_by":"iTunes v4.1","artist":"Tchaikovsky","TCM":"Tchaikovsky","date":"1992","path":"../music/chad/CLASSICAL/Tchaikovsky/Tchaikovsky Ballet Suites/19 Valse des fleures.mp3"}
+		]
+	},
+	{
+		"album":"Les Quatres Saisons, The Englisch Concert, Simon Standage", 
+		"artist":"Antonio Vivaldi", 
+		"genre":"Classical", 
+		"date":"1982", 
+		"path":"../music/chad/CLASSICAL/Vivaldi/Les Quatres Saisons, The Englisch Concert, Simon Standage/01 La Primavera - Allegro.mp3", 
+		"tracks":[
+			{"title":"La Primavera - Allegro","artist":"Antonio Vivaldi","TCM":"Vivaldi, Antonio (1678-1741)","album":"Les Quatres Saisons, The Englisch Concert, Simon Standage","track":"1/12","TPA":"1/1","encoded_by":"iTunes v4.1","genre":"Classical","TCP":"1","date":"1982","path":"../music/chad/CLASSICAL/Vivaldi/Les Quatres Saisons, The Englisch Concert, Simon Standage/01 La Primavera - Allegro.mp3"},
+			{"title":"La Primavera Largo e pianissimo sempre","artist":"Antonio Vivaldi","TCM":"Vivaldi, Antonio (1678-1741)","album":"Les Quatres Saisons, The Englisch Concert, Simon Standage","track":"2/12","TPA":"1/1","encoded_by":"iTunes v4.1","genre":"Classical","TCP":"1","date":"1982","path":"../music/chad/CLASSICAL/Vivaldi/Les Quatres Saisons, The Englisch Concert, Simon Standage/02 La Primavera Largo e pianissimo sempre.mp3"},
+			{"title":"La Primavera Danza pastorale - Allegro","artist":"Antonio Vivaldi","TCM":"Vivaldi, Antonio (1678-1741)","album":"Les Quatres Saisons, The Englisch Concert, Simon Standage","track":"3/12","TPA":"1/1","encoded_by":"iTunes v4.1","genre":"Classical","TCP":"1","date":"1982","path":"../music/chad/CLASSICAL/Vivaldi/Les Quatres Saisons, The Englisch Concert, Simon Standage/03 La Primavera Danza pastorale - Allegro.mp3"},
+			{"title":"L'Estate Allegro non molto","artist":"Antonio Vivaldi","TCM":"Vivaldi, Antonio (1678-1741)","album":"Les Quatres Saisons, The Englisch Concert, Simon Standage","track":"4/12","TPA":"1/1","encoded_by":"iTunes v4.1","genre":"Classical","TCP":"1","date":"1982","path":"../music/chad/CLASSICAL/Vivaldi/Les Quatres Saisons, The Englisch Concert, Simon Standage/04 L'Estate Allegro non molto.mp3"},
+			{"title":"L'Estate - Adagio - Presto","artist":"Antonio Vivaldi","TCM":"Vivaldi, Antonio (1678-1741)","album":"Les Quatres Saisons, The Englisch Concert, Simon Standage","track":"5/12","TPA":"1/1","encoded_by":"iTunes v4.1","genre":"Classical","TCP":"1","date":"1982","path":"../music/chad/CLASSICAL/Vivaldi/Les Quatres Saisons, The Englisch Concert, Simon Standage/05 L'Estate - Adagio - Presto.mp3"},
+			{"title":"L'Estate - Presto","artist":"Antonio Vivaldi","TCM":"Vivaldi, Antonio (1678-1741)","album":"Les Quatres Saisons, The Englisch Concert, Simon Standage","track":"6/12","TPA":"1/1","encoded_by":"iTunes v4.1","genre":"Classical","TCP":"1","date":"1982","path":"../music/chad/CLASSICAL/Vivaldi/Les Quatres Saisons, The Englisch Concert, Simon Standage/06 L'Estate - Presto.mp3"},
+			{"title":"L'Autunno - Allegro","artist":"Antonio Vivaldi","TCM":"Vivaldi, Antonio (1678-1741)","album":"Les Quatres Saisons, The Englisch Concert, Simon Standage","track":"7/12","TPA":"1/1","encoded_by":"iTunes v4.1","genre":"Classical","TCP":"1","date":"1982","path":"../music/chad/CLASSICAL/Vivaldi/Les Quatres Saisons, The Englisch Concert, Simon Standage/07 L'Autunno - Allegro.mp3"},
+			{"title":"L'Autunno - Adagio","artist":"Antonio Vivaldi","TCM":"Vivaldi, Antonio (1678-1741)","album":"Les Quatres Saisons, The Englisch Concert, Simon Standage","track":"8/12","TPA":"1/1","encoded_by":"iTunes v4.1","genre":"Classical","TCP":"1","date":"1982","path":"../music/chad/CLASSICAL/Vivaldi/Les Quatres Saisons, The Englisch Concert, Simon Standage/08 L'Autunno - Adagio.mp3"},
+			{"title":"L'Autunno - Allegro","artist":"Antonio Vivaldi","TCM":"Vivaldi, Antonio (1678-1741)","album":"Les Quatres Saisons, The Englisch Concert, Simon Standage","track":"9/12","TPA":"1/1","encoded_by":"iTunes v4.1","genre":"Classical","TCP":"1","date":"1982","path":"../music/chad/CLASSICAL/Vivaldi/Les Quatres Saisons, The Englisch Concert, Simon Standage/09 L'Autunno - Allegro.mp3"},
+			{"title":"L'Inverno Allegro non molto","artist":"Antonio Vivaldi","TCM":"Vivaldi, Antonio (1678-1741)","album":"Les Quatres Saisons, The Englisch Concert, Simon Standage","track":"10/12","TPA":"1/1","encoded_by":"iTunes v4.1","genre":"Classical","TCP":"1","date":"1982","path":"../music/chad/CLASSICAL/Vivaldi/Les Quatres Saisons, The Englisch Concert, Simon Standage/10 L'Inverno Allegro non molto.mp3"},
+			{"title":"L'Inverno - Largo","artist":"Antonio Vivaldi","TCM":"Vivaldi, Antonio (1678-1741)","album":"Les Quatres Saisons, The Englisch Concert, Simon Standage","track":"11/12","TPA":"1/1","encoded_by":"iTunes v4.1","genre":"Classical","TCP":"1","date":"1982","path":"../music/chad/CLASSICAL/Vivaldi/Les Quatres Saisons, The Englisch Concert, Simon Standage/11 L'Inverno - Largo.mp3"},
+			{"title":"L'Inverno - Allegro","artist":"Antonio Vivaldi","TCM":"Vivaldi, Antonio (1678-1741)","album":"Les Quatres Saisons, The Englisch Concert, Simon Standage","track":"12/12","TPA":"1/1","encoded_by":"iTunes v4.1","genre":"Classical","TCP":"1","date":"1982","path":"../music/chad/CLASSICAL/Vivaldi/Les Quatres Saisons, The Englisch Concert, Simon Standage/12 L'Inverno - Allegro.mp3"}
 		]
 	}
 ]}
