@@ -56,11 +56,11 @@ module.exports = function(musicPath, playlistsPath) {
               var musicSorted = [], album = {}, track;
               for(i=0; i<music.length; i++) {
                 track = music[i];
-                
                 if (track.comment) delete track.comment;
                 for(j in track) {
-                  if (track[j].match(/^\s+$/i)) delete track[j];
-                  console.log(track[j].indexOf("\\"));
+                  if (typeof track[j]==="string" && track[j].match(/^\s+$/i)) 
+                    delete track[j];
+                  //console.log(track[j].indexOf("\\"));
                 }
 
                 if (music[i].album === album.album) {
