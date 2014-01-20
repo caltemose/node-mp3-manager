@@ -1,7 +1,7 @@
 var fs = require('fs'),
     ffmetadata = require("ffmetadata");
 
-module.exports = function(musicPath, playlistsPath) {
+module.exports = function(nmm) {
   return {
     ajax: function(req, res) {
       res.render('db-create-ajax');
@@ -36,7 +36,7 @@ module.exports = function(musicPath, playlistsPath) {
         });
       };
 
-      walk(musicPath, function(err, results) {
+      walk(nmm.paths.music, function(err, results) {
         if (err) throw err;
         var i, track, indx = 0;
         for(i=0;i<results.length;i++) {
@@ -85,8 +85,7 @@ module.exports = function(musicPath, playlistsPath) {
                 }
               }
               //res.jsonp(musicSorted);
-              var filepath = "./dbs/db.json";
-              var txt = '{"music":[' + "\n", albumProp, trackProp;
+              var txt = '[' + "\n", albumProp, trackProp;
               //for each album
               for(i=0; i<musicSorted.length; i++) {
                 txt += "\t" + '{' + "\n";
@@ -124,13 +123,13 @@ module.exports = function(musicPath, playlistsPath) {
                 if (i<musicSorted.length-1) txt += ',';
                 txt += "\n";
               }
-              txt += ']}';
-              //console.log(txt);
-              //res.send(txt);
-              var filepath = './dbs/db.json';
+              txt += ']';
+              
+              var filepath = nmm.paths.db;
               fs.writeFile(filepath, txt, function(err){
                 var data = {};
-                data.filepath = filepath.substr(1);
+                //@TODO this is bullshit. remove leading periods.
+                data.filepath = filepath.substr(1); 
                 if (err) data.err = err;
                 res.render('db-create', data);
               });

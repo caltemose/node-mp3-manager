@@ -110,14 +110,31 @@ input[type="number"] {
 /*
 track list - playlist editor
 */
-.playlist-tracks > li {
-  opacity: 0.5; }
-  .playlist-tracks > li.listed {
-    opacity: 1; }
-
 #results {
   margin-top: 2em;
   height: 85vh;
+  overflow: scroll; }
+
+ul.music {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  height: 40vh;
+  overflow: scroll; }
+  ul.music > li {
+    margin: 0 0 1.5em;
+    padding: 0; }
+    ul.music > li > ul {
+      margin: 0.5em 0 0 0.5em;
+      padding: 0;
+      list-style-type: none; }
+      ul.music > li > ul > li {
+        margin: 0 0 0.5em;
+        padding: 0;
+        font-size: 0.8em; }
+
+#playlist {
+  height: 25vh;
   overflow: scroll; }
 
 /*

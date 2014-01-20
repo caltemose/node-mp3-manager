@@ -14,101 +14,132 @@ $footerFontSize: 0.7em;
 
 
 body {
-	margin: 0;
-	padding: 0;
-	background: $bgColor;
-	font-family: $copyFont;
-	color: $typeColor;
+  margin: 0;
+  padding: 0;
+  background: $bgColor;
+  font-family: $copyFont;
+  color: $typeColor;
 }
 
 main > section {
-	margin-bottom: 2em;
+  margin-bottom: 2em;
 }
 
 h1 {
-	margin: 0;
-	padding: 0.2em 0;
-	background: #e7e173;
-	color: #0d3f09;
-	font-size: 0.9em;
-	font-family: $titleFont;
-	font-weight: 400;
-	text-align: center;
-	letter-spacing: 0.2em;
+  margin: 0;
+  padding: 0.2em 0;
+  background: #e7e173;
+  color: #0d3f09;
+  font-size: 0.9em;
+  font-family: $titleFont;
+  font-weight: 400;
+  text-align: center;
+  letter-spacing: 0.2em;
 
-	& > a {
-		color: #0d3f09;
-	}
+  & > a {
+    color: #0d3f09;
+  }
 }
 
 h2 {
-	margin-top: 1.5em;
+  margin-top: 1.5em;
 }
 
 h3 {
-	margin: 2em 0 0.5em;
+  margin: 2em 0 0.5em;
 }
 
 h2 + h3 {
-	margin-top: 0;
+  margin-top: 0;
 }
 
 p {
-	margin: 0.3em 0 0.5em;
-	line-height: 150%;
+  margin: 0.3em 0 0.5em;
+  line-height: 150%;
 }
 
 a {
-	color: $linkColor;
-	text-decoration: none;
+  color: $linkColor;
+  text-decoration: none;
 
-	&:hover {
-		color: $hoverColor;
-	}
+  &:hover {
+    color: $hoverColor;
+  }
 }
 
 ol, ul {
-	width: 94%;
-	margin-left: 0;
-	padding-left: 12%;
+  width: 94%;
+  margin-left: 0;
+  padding-left: 12%;
 }
 
 li {
-	margin-bottom: 0.3em;
+  margin-bottom: 0.3em;
 }
 
 body > main {
-	width: 96%;
-	margin: 0 auto; 
+  width: 96%;
+  margin: 0 auto; 
 }
 
 body > footer {
-	margin-top: 3em;
-	font-size: $footerFontSize;
+  margin-top: 3em;
+  font-size: $footerFontSize;
 }
 
 input {
-	font-family: $copyFont;
-	font-size: 1.2em;
+  font-family: $copyFont;
+  font-size: 1.2em;
 }
 
 input[type="number"] {
-	width: 4em;
+  width: 4em;
 }
 
 /*
 track list - playlist editor
 */
-.playlist-tracks > li {
-	opacity: 0.5;
-	&.listed { opacity: 1 }
-}
+// .playlist-tracks > li {
+//   opacity: 0.5;
+//   &.listed { opacity: 1 }
+// }
 
 
 #results {
-	margin-top: 2em;
-	height: 85vh;
-	overflow: scroll;
+  margin-top: 2em;
+  height: 85vh;
+  overflow: scroll;
+}
+
+
+ul.music {
+  margin: 0; 
+  padding: 0;
+  list-style-type: none;
+  height: 40vh;
+  overflow: scroll;
+
+  & > li {
+    margin: 0 0 1.5em;
+    padding: 0;
+
+    & > ul {
+      margin: 0.5em 0 0 0.5em;
+      padding: 0;
+      list-style-type: none;
+
+      & > li {
+        margin: 0 0 0.5em;
+        padding: 0;
+        font-size: 0.8em;
+      }
+    }
+  }
+}
+
+#playlist {
+  height: 25vh;
+  overflow: scroll;
 }
 
 /*
@@ -118,7 +149,7 @@ media query for middle/portrait size range
 */
 @media screen and (min-width: 30em) {
 
-	body { font-size: 19px; }
+  body { font-size: 19px; }
 
 }
 
@@ -129,18 +160,18 @@ media query for larger devices
 
 */
 @media screen and (min-width: $maxWidthDesktop) {
-	
-	//body { font-size: 21px; }
+  
+  //body { font-size: 21px; }
 
-	body > main {
-		width: 100%;
-		max-width: $maxWidthDesktopRem;
-		margin-left: auto;
-		margin-right: auto;
-	}
+  body > main {
+    width: 100%;
+    max-width: $maxWidthDesktopRem;
+    margin-left: auto;
+    margin-right: auto;
+  }
 
-	ol, ul {
-		padding-left: 8%;
-	}
+  ol, ul {
+    padding-left: 8%;
+  }
 
 }

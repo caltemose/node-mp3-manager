@@ -7,20 +7,22 @@ block content
   main
     h1 Node Music Manager Tunes
 
+    h2 Music
     ul.music
       - each album in music
         li.album
           = album.album
           |  :: 
           = album.artist
-          |  :: 
-          = album.genre
 
           ul.playlist-tracks
             - each track in album.tracks
               li(data-track-path="#{track.path}")
                 = track.title 
                 button playlist
+
+    h2 Playlist
+    ul#playlist
 
     form(action="/playlists/create" method="POST")
       input(type="hidden" name="playlist") 

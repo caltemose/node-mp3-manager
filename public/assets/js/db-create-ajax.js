@@ -4,7 +4,7 @@ $(function(){
       getNextTrack;
 
   getNextTrack = function() {
-    if (currentPath < paths.length-1) {
+    if (currentPath < paths.length) {
       //load next
       $.getJSON('/api/tracks/?id=' + encodeURIComponent(paths[currentPath]), function(data){
         tracks.push(data);

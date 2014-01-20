@@ -1,15 +1,18 @@
-var paths = {
-  music: "../music/chad",
-  playlists: "../playlists"
-};
+var nmm = {
+  paths: {
+    music: "../music/chad",
+    playlists: "../playlists/",
+    db: "./dbs/db.json"
+  }
+}
 
 var express = require('express'), 
     path = require('path'),
-    api = require('./routes/api'),
-    db = require('./routes/db')(paths.music, paths.playlists), 
-    tunes = require('./routes/tunes'),
-    playlists = require('./routes/playlists'),
-    player = require('./routes/player');
+    api = require('./routes/api')(nmm),
+    db = require('./routes/db')(nmm), 
+    tunes = require('./routes/tunes')(nmm),
+    playlists = require('./routes/playlists')(nmm),
+    player = require('./routes/player')(nmm);
 
 var app = express();
 
@@ -34,12 +37,10 @@ app.configure(function () {
 
 
 // --- web paths (http) -------------------------
-app.get('/', function(req, res) {
-  res.render('index');
-});
+app.get('/', function(req, res) { res.render('index'); });
 app.get('/player', player.play);
 app.get('/tunes', tunes.index);
-app.post('/playlists/create', playlists.create)
+app.post('/playlists/create', playlists.create);
 
 // --- utility paths (http) --------------------------------
 app.get('/db/create', db.create);
