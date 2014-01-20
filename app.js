@@ -1,5 +1,5 @@
 var paths = {
-  music: "../music/chad/SOUNDTRACKS",
+  music: "../music",
   playlists: "../playlists"
 };
 
@@ -47,6 +47,8 @@ app.get('/api', function(req, res) {
 });
 app.get('/api/tracks', api.tracks);
 app.get('/api/albums', api.albums);
+app.get('/api/paths', api.paths);
+app.post('/api/save-db', api.saveDb);
 
 // --- utility paths --------------------------------
 //app.get('/db', function(req, res) { res.render('db'); });

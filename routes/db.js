@@ -58,10 +58,12 @@ module.exports = function(musicPath, playlistsPath) {
                 track = music[i];
                 if (track.comment) delete track.comment;
                 for(j in track) {
+                  //clean up track properties
                   if (typeof track[j]==="string") {
+                    //delete properties containing only spaces
                     if (track[j].match(/^\s+$/i))
                       delete track[j];
-                    //console.log(track[j].indexOf("\\"));
+                    //@TODO remove forward slashes...
                   }
                 }
 
