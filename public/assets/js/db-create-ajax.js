@@ -1,5 +1,5 @@
 $(function(){
-  var resultsContainer = $('#results'), resultsList, 
+  var resultsContainer = $('#results'), resultsList, infoContainer = $('#info'), 
       paths, currentPath=0, tracks = [],
       getNextTrack;
 
@@ -10,24 +10,32 @@ $(function(){
         tracks.push(data);
         resultsList.append('<li>' + data.title + ' :: ' + data.album + '</li>');
         currentPath++;
+        infoContainer.text(currentPath + '/' + paths.length);
         getNextTrack();
       });
     } else {
       //done
       resultsList.append('<li>Done!</li>');
       //process and clean track data ->
-      var music = [], track, album, i, j;
+      var music = [], track, album, i, j,
+          allow = [
+                    'album', 'artist', 'title', 'track', 'path', 'genre', 'date'
+                  ];
       for(i in tracks) {
         track = tracks[i];
-        //delete comment property
-        if (track.comment) delete track.comment;
-        //loop through all properties
+        //loop through remaining properties
         for(j in track) {
           if (typeof track[j]==="string") {
-            //delete properties containing only spaces
-            if (track[j].match(/^\s+$/i))
+            //delete unwanted properties
+            if ($.inArray(j, allow) < 0) {
+              console.log('deleting: ' + j + ' from track: ' + track.title);
               delete track[j];
-            //@TODO remove forward slashes...
+            } else {
+              //delete properties containing only spaces
+              if (track[j].match(/^\s+$/i))
+                track[j] = '';
+              //@TODO remove forward slashes...?
+            }
           }
         }
         if (album && track.album === album.album) {
@@ -47,16 +55,21 @@ $(function(){
           music.push(album);
         }
       }
-      $.post('/api/save-db', {"music":music}, function(data){
-        //console.log(data);
-        resultsList.append('<li>Database written to: ' + data.filepath);
+      $.ajax({
+        type: "POST",
+        url: '/api/save-db',
+        data: {"music":music},
+        dataType: 'json',
+        success: function(data) {
+          resultsList.append('<li>Database written to: ' + data.filepath);
+        }
       });
     }
   }
 
   $.getJSON('/api/paths', function(data){
     paths = data;
-    resultsContainer.html('<h1>Results:</h1><ul><li>Path data loaded</li></ul>');
+    resultsContainer.html('<h2>Results:</h2><ul><li>Path data loaded</li></ul>');
     resultsList = $('ul', resultsContainer);
     getNextTrack();
   });

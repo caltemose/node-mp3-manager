@@ -1,6 +1,6 @@
 var fs = require('fs'),
     ffmetadata = require("ffmetadata"),
-    path = "../music";
+    path = "../music/chad";
 
 exports.tracks = function(req, res) {
   //return a track object if given an id via GET
@@ -65,9 +65,9 @@ exports.paths = function(req, res) {
 }
 
 exports.saveDb = function(req, res) {
-  var filepath = "./dbs/db.json";
-  var txt = '{"music":[' + "\n", albumProp, trackProp, 
+  var txt = '{"music":[' + "\n", albumProp, trackProp, i, 
       musicSorted = req.body.music;
+  //console.log("req.body.music: " + req.body.music);
   //for each album
   for(i=0; i<musicSorted.length; i++) {
     txt += "\t" + '{' + "\n";
@@ -106,11 +106,15 @@ exports.saveDb = function(req, res) {
     txt += "\n";
   }
   txt += ']}';
+  //console.log(txt);
+  //res.jsonp({"status":"done"});
+  var filepath = "./dbs/db.json";
   fs.writeFile(filepath, txt, function(err){
     var data = {};
     data.filepath = filepath.substr(1);
     if (err) data.err = err;
     res.jsonp(data);
   });
+  
 }
 

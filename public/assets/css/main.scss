@@ -105,6 +105,12 @@ track list - playlist editor
 }
 
 
+#results {
+	margin-top: 2em;
+	height: 85vh;
+	overflow: scroll;
+}
+
 /*
 --------------------------------------------------------
 media query for middle/portrait size range
@@ -124,7 +130,7 @@ media query for larger devices
 */
 @media screen and (min-width: $maxWidthDesktop) {
 	
-	body { font-size: 21px; }
+	//body { font-size: 21px; }
 
 	body > main {
 		width: 100%;

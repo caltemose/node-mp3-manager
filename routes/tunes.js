@@ -1,6 +1,6 @@
 var fs = require('fs'),
     ffmetadata = require("ffmetadata"),
-    path = "../music";
+    path = "../music/chad";
 
 exports.index = function(req, res) {
   var music = [];
