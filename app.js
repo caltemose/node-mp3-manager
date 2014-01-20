@@ -1,5 +1,5 @@
 var paths = {
-  music: "../music/",
+  music: "../music/chad/SOUNDTRACKS",
   playlists: "../playlists"
 };
 
