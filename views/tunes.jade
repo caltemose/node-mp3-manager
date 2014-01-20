@@ -18,8 +18,10 @@ block content
           ul.playlist-tracks
             - each track in album.tracks
               li(data-track-path="#{track.path}")
+                button +
+                |  
                 = track.title 
-                button playlist
+                
 
     h2 Playlist
     ul#playlist
