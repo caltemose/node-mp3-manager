@@ -8,7 +8,10 @@ block content
     ul
       li 
         a(href="/player") /player 
-        | - web view for playing music
+        | - web player
+      li
+        a(href="/player/?id=..%2Fplaylists/listone.m3u") /player/:playlist
+        | - web player w/playlist
       li
         a(href="/playlists") /playlists 
         | - list view of playlists
