@@ -25,6 +25,7 @@ app.configure(function () {
   //app.use(express.json({limit: '50mb'}));
   app.use(express.bodyParser({limit: 1024 * 1024 * 10}));
   app.use('/music', express.static('../music'));
+  app.use('/playlists', express.static('../playlists'));
   app.use(express.static(__dirname + '/public'));
   app.use(function (req, res, next) {
     res.header('Access-Control-Allow-Credentials', true);
