@@ -5,10 +5,14 @@ block title
 
 block content
   main
-    h1 Node Music Manager - Player
-    
-    audio(src="" controls="controls" data-playlist="#{id}")
+    h1 Node Music Manager
 
+    h2 Player
+    
+    audio(src="" controls="controls" data-playlist="#{id}" style="width:100%")
+
+    section#player-info
+      
 
 block scripts
   script(src="/assets/js/player.js")

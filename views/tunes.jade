@@ -28,6 +28,8 @@ block content
 
     form(action="/playlists/create" method="POST")
       input(type="hidden" name="playlist") 
+      |  local: 
+      input(type="checkbox" name="local" value="local") 
       input(type="text" size="20" name="playlistName") 
       input(type="submit" name="submit" value="Make Playlist") 
 

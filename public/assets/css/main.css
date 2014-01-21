@@ -107,9 +107,10 @@ input {
 input[type="number"] {
   width: 4em; }
 
-/*
-track list - playlist editor
-*/
+audio {
+  width: 100%;
+  margin-top: 2em; }
+
 #results {
   margin-top: 2em;
   height: 85vh;

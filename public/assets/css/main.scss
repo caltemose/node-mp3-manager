@@ -96,14 +96,10 @@ input[type="number"] {
   width: 4em;
 }
 
-/*
-track list - playlist editor
-*/
-// .playlist-tracks > li {
-//   opacity: 0.5;
-//   &.listed { opacity: 1 }
-// }
-
+audio {
+  width: 100%;
+  margin-top: 2em;
+}
 
 #results {
   margin-top: 2em;

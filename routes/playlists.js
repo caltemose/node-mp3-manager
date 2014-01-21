@@ -5,14 +5,17 @@ module.exports = function(nmm) {
 
     create: function(req, res) {
       var paths = req.body.playlist.split(","),
+          local = req.body.local, 
           txt = "", i,
           filepath, filename;
       filename = req.body.playlistName ? req.body.playlistName : new Date().getTime();
+      if (local) filename += '-local';
       filepath = nmm.paths.playlists + filename + ".m3u";
 
       for(i=0; i<paths.length; i++) {
         //@TODO read these strings from global nmm {}
-        txt += paths[i].replace("../", "/Public/music-collection/");
+        if (!local) txt += paths[i].replace("../", "/Public/music-collection/");
+        else txt += paths[i];
         if (i < paths.length-1) txt += "\n";
       }
 
