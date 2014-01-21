@@ -41,6 +41,7 @@ app.configure(function () {
 app.get('/', function(req, res) { res.render('index'); });
 app.get('/player', player.play);
 app.get('/tunes', tunes.index);
+app.get('/playlists', playlists.index);
 app.post('/playlists/create', playlists.create);
 
 // --- utility paths (http) --------------------------------
@@ -52,6 +53,7 @@ app.get('/api', function(req, res) { res.redirect('/'); });
 app.get('/api/tracks', api.tracks);
 app.get('/api/albums', api.albums);
 app.get('/api/paths', api.paths);
+app.get('/api/playlists', api.playlists);
 app.post('/api/save-db', api.saveDb);
 
 

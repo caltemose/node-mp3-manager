@@ -166,6 +166,12 @@ media query for larger devices
     margin-right: auto;
   }
 
+  main > article {
+    max-width: $maxWidthDesktopRem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
   ol, ul {
     padding-left: 8%;
   }

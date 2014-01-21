@@ -4,47 +4,50 @@ block content
   main
     h1 Node Music Manager Home Page
 
-    h3 Browser UI Routes
-    ul
-      li 
-        a(href="/player") /player 
-        | - web player
-      li
-        a(href="/player/?id=..%2Fplaylists/listone.m3u") /player/:playlist
-        | - web player w/playlist
-      li
-        a(href="/playlists") /playlists 
-        | - list view of playlists
-      li
-        a(href="/playlists/?id=url-encoded-path") /playlists/:id 
-        | - detail view of a playlist
-      li
-        a(href="/tunes") /tunes 
-        | - current page for creating playlists
+    article
+      h3 Browser UI Routes
+      ul
+        li 
+          a(href="/player") /player 
+          | - web player
+        li
+          a(href="/player/?id=..%2Fplaylists/listone.m3u") /player/:playlist
+          | - web player w/playlist
+        li
+          a(href="/playlists") /playlists 
+          | - list view of playlists
+        //- li
+        //-   a(href="/playlists/?id=url-encoded-path") /playlists/:id 
+        //-   | - detail view of a playlist
+        li
+          a(href="/tunes") /tunes 
+          | - current page for creating playlists
+        li
+          a(href="/db/ajax") /db/ajax
+          | - browser uses /api/paths to create database via AJAX
+        li
+          a(href="/db/create") /db/create
+          | - create database synchronously, no ajax (fails with size)
 
-      li
-        a(href="/db/create") /db/create
-        | - create database in one swoop, no ajax (fails with size)
-      li
-        a(href="/db/ajax") /db/ajax
-        | - browser uses /api/paths to create database via AJAX
 
-
-    h3 API Routes
-    ul
-      li
-        a(href="/api/paths") /api/paths
-        | - GET array of all paths
-      li 
-        a(href="/api/tracks") /api/tracks 
-        | - GET db of all albums (do we need an array of all tracks? if not ditch this and change below to /api/track)
-      li
-        a(href="/api/tracks/?id=..%2Fmusic%2Fchad%2FAtlas%2F01.%20Presidente.mp3") /api/tracks/?id=url-encoded-path 
-        | - GET track info (testing music library)
-      li
-        a(href="/api/tracks/?id=..%2Fmusic%2Fchad%2FCLASSICAL%2FChiller%2F01%20Opening%20Sequence.mp3") /api/tracks/?id=url-encoded-path 
-        | - GET track info (NAS music library)
-      li
-        a(href="/api/albums") /api/albums 
-        | - GET db of all albums 
-      li /api/save-db - (POST ajax-only save database string)
+      h3 API Routes
+      ul
+        li
+          a(href="/api/paths") /api/paths
+          | - GET array of all paths
+        li 
+          a(href="/api/tracks") /api/tracks 
+          | - GET db of all albums (do we need an array of all tracks? if not ditch this and change below to /api/track)
+        li
+          a(href="/api/tracks/?id=..%2Fmusic%2Fchad%2FAtlas%2F01.%20Presidente.mp3") /api/tracks/?id=url-encoded-path 
+          | - GET track info (testing music library)
+        li
+          a(href="/api/tracks/?id=..%2Fmusic%2Fchad%2FCLASSICAL%2FChiller%2F01%20Opening%20Sequence.mp3") /api/tracks/?id=url-encoded-path 
+          | - GET track info (NAS music library)
+        li
+          a(href="/api/albums") /api/albums 
+          | - GET db of all albums 
+        li
+          a(href="/api/playlists") /api/playlists
+          | - GET list of all playlists from fs
+        li /api/save-db - (POST ajax-only save database string)

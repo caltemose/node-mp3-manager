@@ -8,7 +8,7 @@ block content
     h1 Node Music Manager Tunes
 
     div.col
-      h2 Music
+      h2.music-toggle Music
       ul.music
         - each album in music
           li.album
@@ -16,7 +16,7 @@ block content
             |  :: 
             = album.artist
 
-            ul.playlist-tracks
+            ul.tracks
               - each track in album.tracks
                 li(data-track-path="#{track.path}")
                   button +

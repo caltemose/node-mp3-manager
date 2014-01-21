@@ -158,5 +158,10 @@ media query for larger devices
     margin-left: auto;
     margin-right: auto; }
 
+  main > article {
+    max-width: 44rem;
+    margin-left: auto;
+    margin-right: auto; }
+
   ol, ul {
     padding-left: 8%; } }

@@ -2,6 +2,9 @@ var fs = require('fs');
 
 module.exports = function(nmm) {
   return {
+    index: function(req, res) {
+      res.render('playlists', {"playlists": nmm.paths.playlists});
+    },
 
     create: function(req, res) {
       var paths = req.body.playlist.split(","),

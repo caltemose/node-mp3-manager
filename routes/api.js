@@ -65,6 +65,36 @@ module.exports = function(nmm) {
       });
     },
 
+    playlists: function(req, res) {
+      var walk = function(dir, done) {
+        var results = [];
+        fs.readdir(dir, function(err, list) {
+          if (err) return done(err);
+          var i = 0;
+          (function next() {
+            var file = list[i++];
+            if (!file) return done(null, results);
+            file = dir + file;
+            fs.stat(file, function(err, stat) {
+              if (stat && stat.isDirectory()) {
+                //skip directories
+                next();
+              } else {
+                var ext = file.split('.').pop();
+                if (ext==="m3u") 
+                  results.push(file);
+                next();
+              }
+            });
+          })();
+        });
+      };
+      walk(nmm.paths.playlists, function(err, results) {
+        if (err) throw err;
+        res.jsonp(results);
+      });
+    },
+
     saveDb: function(req, res) {
       var txt = '[' + "\n", albumProp, trackProp, i, 
           musicSorted = req.body.music;

@@ -1,7 +1,28 @@
 $(function(){
 
+  var albumItems = $('.music > li'),
+      expanded = false;
+
+  $('.music-toggle').click(function(){
+    albumItems.each(function(){
+      if (!expanded)
+        $('.tracks', this).show();
+      else
+        $('.tracks', this).hide();
+    });
+    expanded = !expanded;
+  });
+
+  // album items
+  albumItems.each(function(){
+    if (!expanded) $('.tracks', this).hide();
+    $(this).click(function(){
+      $('.tracks', this).toggle();
+    });
+  });
+
   // track items
-  $('.playlist-tracks li').each(function(){
+  $('.tracks li').each(function(){
     var button = $('button', this);
     button.click(function(){
       $(this).parent().toggleClass('listed');
