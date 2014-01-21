@@ -9,7 +9,7 @@ var player = {
     player.currentTrack = 0;
 
     var playlist = player.audioElement.attr('data-playlist');
-    if (playlist) {
+    if (playlist && playlist != "undefined") {
       //load playlist
       $.get(playlist, function(data) {
         player.playlist = data.split("\n");
