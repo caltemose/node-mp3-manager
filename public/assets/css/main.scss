@@ -101,18 +101,18 @@ audio {
   margin-top: 2em;
 }
 
-#results {
-  margin-top: 2em;
-  height: 85vh;
-  overflow: scroll;
+div.col {
+  display: inline-block;
+  width: 48%;
+  margin-left: 1%;
+  vertical-align: top;
 }
-
 
 ul.music {
   margin: 0; 
   padding: 0;
   list-style-type: none;
-  height: 40vh;
+  height: 80vh;
   overflow: scroll;
 
   & > li {
@@ -134,8 +134,8 @@ ul.music {
 }
 
 #playlist {
-  height: 25vh;
-  overflow: scroll;
+  max-height: 80vh;
+  overflow: auto;
 }
 
 /*
@@ -161,7 +161,7 @@ media query for larger devices
 
   body > main {
     width: 100%;
-    max-width: $maxWidthDesktopRem;
+    //max-width: $maxWidthDesktopRem;
     margin-left: auto;
     margin-right: auto;
   }

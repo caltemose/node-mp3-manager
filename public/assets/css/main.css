@@ -111,16 +111,17 @@ audio {
   width: 100%;
   margin-top: 2em; }
 
-#results {
-  margin-top: 2em;
-  height: 85vh;
-  overflow: scroll; }
+div.col {
+  display: inline-block;
+  width: 48%;
+  margin-left: 1%;
+  vertical-align: top; }
 
 ul.music {
   margin: 0;
   padding: 0;
   list-style-type: none;
-  height: 40vh;
+  height: 80vh;
   overflow: scroll; }
   ul.music > li {
     margin: 0 0 1.5em;
@@ -135,8 +136,8 @@ ul.music {
         font-size: 0.8em; }
 
 #playlist {
-  height: 25vh;
-  overflow: scroll; }
+  max-height: 80vh;
+  overflow: auto; }
 
 /*
 --------------------------------------------------------
@@ -154,7 +155,6 @@ media query for larger devices
 @media screen and (min-width: 44em) {
   body > main {
     width: 100%;
-    max-width: 44rem;
     margin-left: auto;
     margin-right: auto; }
 

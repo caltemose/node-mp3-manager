@@ -7,31 +7,33 @@ block content
   main
     h1 Node Music Manager Tunes
 
-    h2 Music
-    ul.music
-      - each album in music
-        li.album
-          = album.album
-          |  :: 
-          = album.artist
+    div.col
+      h2 Music
+      ul.music
+        - each album in music
+          li.album
+            = album.album
+            |  :: 
+            = album.artist
 
-          ul.playlist-tracks
-            - each track in album.tracks
-              li(data-track-path="#{track.path}")
-                button +
-                |  
-                = track.title 
+            ul.playlist-tracks
+              - each track in album.tracks
+                li(data-track-path="#{track.path}")
+                  button +
+                  |  
+                  = track.title 
                 
 
-    h2 Playlist
-    ul#playlist
+    div.col
+      h2 Playlist
+      ul#playlist
 
-    form(action="/playlists/create" method="POST")
-      input(type="hidden" name="playlist") 
-      |  local: 
-      input(type="checkbox" name="local" value="local") 
-      input(type="text" size="20" name="playlistName") 
-      input(type="submit" name="submit" value="Make Playlist") 
+      form(action="/playlists/create" method="POST")
+        input(type="hidden" name="playlist") 
+        |  local: 
+        input(type="checkbox" name="local" value="local") 
+        input(type="text" size="20" name="playlistName") 
+        input(type="submit" name="submit" value="Make Playlist") 
 
 block scripts
   script(src="/assets/js/tunes.js")
