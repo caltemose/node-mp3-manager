@@ -1,83 +1,41 @@
 [
 	{
-		"album":"Big Sexyland", 
-		"artist":"Revolting Cocks", 
-		"genre":"Industrial", 
-		"path":"../music/Big Sexyland/01 38.mp3", 
+		"album":"Concerto No.5 in E-Flat Major for Piano Op. 73 Emporer", 
+		"artist":"Ludwig van Beethoven", 
+		"genre":"Classical", 
+		"path":"../music/chad/01 Allegro.mp3", 
 		"tracks":[
-			{"title":"38","artist":"Revolting Cocks","album":"Big Sexyland","track":"1/12","genre":"Industrial","path":"../music/Big Sexyland/01 38.mp3"},
-			{"title":"We Shall Cleanse the World","artist":"Revolting Cocks","album":"Big Sexyland","track":"2/12","genre":"Industrial","path":"../music/Big Sexyland/02 We Shall Cleanse the World.mp3"},
-			{"title":"Attack Ships on Fire","artist":"Revolting Cocks","album":"Big Sexyland","track":"3/12","genre":"Industrial","path":"../music/Big Sexyland/03 Attack Ships on Fire.mp3"},
-			{"title":"Big Sexyland","artist":"Revolting Cocks","album":"Big Sexyland","track":"4/12","genre":"Industrial","path":"../music/Big Sexyland/04 Big Sexyland.mp3"},
-			{"title":"Union Carbide [West Virginia Version]","artist":"Revolting Cocks","album":"Big Sexyland","track":"5/12","genre":"Industrial","path":"../music/Big Sexyland/05 Union Carbide [West Virginia Version].mp3"},
-			{"title":"T.V. Mind","artist":"Revolting Cocks","album":"Big Sexyland","track":"6/12","genre":"Industrial","path":"../music/Big Sexyland/06 T.V. Mind.mp3"},
-			{"title":"No Devotion","artist":"Revolting Cocks","album":"Big Sexyland","track":"7/12","genre":"Industrial","path":"../music/Big Sexyland/07 No Devotion.mp3"},
-			{"title":"Union Carbide [Bhopal Version]","artist":"Revolting Cocks","album":"Big Sexyland","track":"8/12","genre":"Industrial","path":"../music/Big Sexyland/08 Union Carbide [Bhopal Version].mp3"},
-			{"title":"You Often Forget [Malignant]","artist":"Revolting Cocks","album":"Big Sexyland","track":"9/12","genre":"Industrial","path":"../music/Big Sexyland/09 You Often Forget [Malignant].mp3"},
-			{"title":"Attack Ships... [12 Version]","artist":"Revolting Cocks","album":"Big Sexyland","track":"10/12","genre":"Industrial","path":"../music/Big Sexyland/10 Attack Ships... [12_ Version].mp3"},
-			{"title":"On Fire [12 Version]","artist":"Revolting Cocks","album":"Big Sexyland","track":"11/12","genre":"Industrial","path":"../music/Big Sexyland/11 On Fire [12_ Version].mp3"},
-			{"title":"No Devotion [12 Version]","artist":"Revolting Cocks","album":"Big Sexyland","track":"12/12","genre":"Industrial","path":"../music/Big Sexyland/12 No Devotion [12_ Version].mp3"}
+			{"title":"Allegro","artist":"Ludwig van Beethoven","album":"Concerto No.5 in E-Flat Major for Piano Op. 73 Emporer","track":"1/3","genre":"Classical","path":"../music/chad/01 Allegro.mp3"}
 		]
 	},
 	{
-		"album":"GUB", 
-		"artist":"Pigface", 
-		"genre":"Industrial", 
-		"path":"../music/Gub/01. Tapeworm.mp3", 
+		"album":"Atlas", 
+		"artist":"Kinky", 
+		"genre":"World", 
+		"date":"2003", 
+		"path":"../music/chad/Atlas/01. Presidente.mp3", 
 		"tracks":[
-			{"title":"Tapeworm","artist":"Pigface","album":"GUB","track":"1/16","genre":"Industrial","path":"../music/Gub/01. Tapeworm.mp3"},
-			{"title":"The Bushmaster","artist":"Pigface","album":"GUB","track":"2/16","genre":"Industrial","path":"../music/Gub/02. The Bushmaster.mp3"},
-			{"title":"Cylinder Head World","artist":"Pigface","album":"GUB","track":"3/16","genre":"Industrial","path":"../music/Gub/03. Cylinder Head World.mp3"},
-			{"title":"Point Blank","artist":"Pigface","album":"GUB","track":"4/16","genre":"Industrial","path":"../music/Gub/04. Point Blank.mp3"},
-			{"title":"Suck","artist":"Pigface","album":"GUB","track":"5/16","genre":"Industrial","path":"../music/Gub/05. Suck.mp3"},
-			{"title":"Symphony For Taps","artist":"Pigface","album":"GUB","track":"6/16","genre":"Industrial","path":"../music/Gub/06. Symphony For Taps.mp3"},
-			{"title":"The Greenhouse","artist":"Pigface","album":"GUB","track":"7/16","genre":"Industrial","path":"../music/Gub/07. The Greenhouse.mp3"},
-			{"title":"Little Sisters","artist":"Pigface","album":"GUB","track":"8/16","genre":"Industrial","path":"../music/Gub/08. Little Sisters.mp3"},
-			{"title":"Tailor Made","artist":"Pigface","album":"GUB","track":"9/16","genre":"Industrial","path":"../music/Gub/09. Tailor Made.mp3"},
-			{"title":"War Ich Nicht Immer Ein Gutter Junge? War Ich Nicht Immer Schoen U","artist":"Pigface","album":"GUB","track":"10/16","genre":"Industrial","path":"../music/Gub/10. War Ich Nicht Immer Ein.mp3"},
-			{"title":"Blood And Sand","artist":"Pigface","album":"GUB","track":"11/16","genre":"Industrial","path":"../music/Gub/11. Blood And Sand.mp3"},
-			{"title":"Weightless","artist":"Pigface","album":"GUB","track":"12/16","genre":"Industrial","path":"../music/Gub/12. Weightless.mp3"},
-			{"title":"Tonight's The Night (Little Sisters) Remix","artist":"Pigface","album":"GUB","track":"13/16","genre":"Industrial","path":"../music/Gub/13. Tonight's The Night (Li.mp3"},
-			{"title":"Winnebago Induced Tapeworm Remix","artist":"Pigface","album":"GUB","track":"14/16","genre":"Industrial","path":"../music/Gub/14. Winnebago Induced Tapew.mp3"},
-			{"title":"Bushmaster Bushmaster Remix","artist":"Pigface","album":"GUB","track":"15/16","genre":"Industrial","path":"../music/Gub/15. Bushmaster Bushmaster R.mp3"},
-			{"title":"War Ich Nicht Immer Ein Guter Junge? Remix","artist":"Pigface","album":"GUB","track":"16/16","genre":"Industrial","path":"../music/Gub/16. War Ich Nicht Immer Ein.mp3"}
+			{"title":"Presidente","artist":"Kinky","album":"Atlas","genre":"World","track":"1/12","date":"2003","path":"../music/chad/Atlas/01. Presidente.mp3"},
+			{"title":"The Headphonist","artist":"Kinky","album":"Atlas","genre":"World","track":"2/12","date":"2003","path":"../music/chad/Atlas/02. The Headphonist.mp3"},
+			{"title":"Snapshot","artist":"Kinky","album":"Atlas","genre":"World","track":"3/12","date":"2003","path":"../music/chad/Atlas/03. Snapshot.mp3"},
+			{"title":"Salta-Lenin-El-Atlas","artist":"Kinky","album":"Atlas","genre":"World","track":"4/12","date":"2003","path":"../music/chad/Atlas/04. Salta-Lenin-El-Atlas.mp3"},
+			{"title":"Do U Like It?","artist":"Kinky","album":"Atlas","genre":"World","track":"5/12","date":"2003","path":"../music/chad/Atlas/05. Do U Like It?.mp3"},
+			{"title":"Airport Feelings","artist":"Kinky","album":"Atlas","genre":"World","track":"6/12","date":"2003","path":"../music/chad/Atlas/06. Airport Feelings.mp3"},
+			{"title":"Pos Que Se Vengan","artist":"Kinky","album":"Atlas","genre":"World","track":"7/12","date":"2003","path":"../music/chad/Atlas/07. Pos Que Se Vengan.mp3"},
+			{"title":"Minotauro","artist":"Kinky","album":"Atlas","genre":"World","track":"8/12","date":"2003","path":"../music/chad/Atlas/08. Minotauro.mp3"},
+			{"title":"Not Afraid","artist":"Kinky","album":"Atlas","genre":"World","track":"9/12","date":"2003","path":"../music/chad/Atlas/09. Not Afraid.mp3"},
+			{"title":"My God Is So Quiet","artist":"Kinky","album":"Atlas","genre":"World","track":"10/12","date":"2003","path":"../music/chad/Atlas/10. My God Is So Quiet.mp3"},
+			{"title":"Maria Jose","artist":"Kinky","album":"Atlas","genre":"World","track":"11/12","date":"2003","path":"../music/chad/Atlas/11. Maria Jose.mp3"},
+			{"title":"Semillas De Menta","artist":"Kinky","album":"Atlas","genre":"World","track":"12/12","date":"2003","path":"../music/chad/Atlas/12. Semillas De Menta.mp3"}
 		]
 	},
 	{
-		"album":"Sidewinder", 
-		"artist":"Download", 
-		"genre":"Industrial", 
-		"path":"../music/Sidewinder/01. Sidewinder (Re-mix).mp3", 
+		"album":"The Slip", 
+		"artist":"Nine Inch Nails", 
+		"date":"2008", 
+		"path":"../music/chad/test.mp3", 
 		"tracks":[
-			{"title":"Sidewinder (Re-mix)","artist":"Download","album":"Sidewinder","track":"1/8","genre":"Industrial","path":"../music/Sidewinder/01. Sidewinder (Re-mix).mp3"},
-			{"title":"Glassblower (Re-mix)","artist":"Download","album":"Sidewinder","track":"2/8","genre":"Industrial","path":"../music/Sidewinder/02. Glassblower (Re-mix).mp3"},
-			{"title":"Base Metal (Re-mix)","artist":"Download","album":"Sidewinder","track":"3/8","genre":"Industrial","path":"../music/Sidewinder/03. Base Metal (Re-mix).mp3"},
-			{"title":"Chalice","artist":"Download","album":"Sidewinder","track":"4/8","genre":"Industrial","path":"../music/Sidewinder/04. Chalice.mp3"},
-			{"title":"Shemaesin","artist":"Download","album":"Sidewinder","track":"5/8","genre":"Industrial","path":"../music/Sidewinder/05. Shemaesin.mp3"},
-			{"title":"Im5","artist":"Download","album":"Sidewinder","track":"6/8","genre":"Industrial","path":"../music/Sidewinder/06. Im5.mp3"},
-			{"title":"Attallal (Re-mix By Haujobb)","artist":"Download","album":"Sidewinder","track":"7/8","genre":"Industrial","path":"../music/Sidewinder/07. Attallal (Re-mix By Hau.mp3"},
-			{"title":"Lenge T'Agn","artist":"Download","album":"Sidewinder","track":"8/8","genre":"Industrial","path":"../music/Sidewinder/08. Lenge T'Agn.mp3"}
-		]
-	},
-	{
-		"album":"Unfinished Garbage", 
-		"artist":"chadzilla", 
-		"genre":"Shoewater", 
-		"path":"../music/Unfinished Garbage/01 ug.mp3", 
-		"tracks":[
-			{"title":"ug","artist":"chadzilla","album":"Unfinished Garbage","genre":"Shoewater","path":"../music/Unfinished Garbage/01 ug.mp3"},
-			{"title":"you are a piece of crap","artist":"chadzilla","album":"Unfinished Garbage","genre":"Shoewater","path":"../music/Unfinished Garbage/02 you are a piece of crap.mp3"},
-			{"title":"acid melrose","artist":"chadzilla","album":"Unfinished Garbage","genre":"Shoewater","path":"../music/Unfinished Garbage/03 acid_melrose.mp3"},
-			{"title":"take that monkey","artist":"chadzilla","album":"Unfinished Garbage","genre":"Shoewater","path":"../music/Unfinished Garbage/04 take that monkey.mp3"},
-			{"title":"duckno","artist":"chadzilla","album":"Unfinished Garbage","genre":"Shoewater","path":"../music/Unfinished Garbage/05 duckno.mp3"},
-			{"title":"shempya","artist":"chadzilla","album":"Unfinished Garbage","genre":"Shoewater","path":"../music/Unfinished Garbage/06 shempya.mp3"},
-			{"title":"four parts of nothing","artist":"chadzilla","album":"Unfinished Garbage","genre":"Shoewater","path":"../music/Unfinished Garbage/07 four parts of nothing.mp3"},
-			{"title":"jiggly intermission","artist":"chadzilla","album":"Unfinished Garbage","genre":"Shoewater","path":"../music/Unfinished Garbage/08 jiggly intermission.mp3"},
-			{"title":"the messing one","artist":"chadzilla","album":"Unfinished Garbage","genre":"Shoewater","path":"../music/Unfinished Garbage/09 the messing one.mp3"},
-			{"title":"rough happy quiet","artist":"chadzilla","album":"Unfinished Garbage","genre":"Shoewater","path":"../music/Unfinished Garbage/10 rough happy quiet.mp3"},
-			{"title":"the gate vs the characters","artist":"chadzilla","album":"Unfinished Garbage","genre":"Shoewater","path":"../music/Unfinished Garbage/11 the gate vs the characters.mp3"},
-			{"title":"i forgot something","artist":"chadzilla","album":"Unfinished Garbage","genre":"Shoewater","path":"../music/Unfinished Garbage/12 i forgot something.mp3"},
-			{"title":"my head hurts now","artist":"chadzilla","album":"Unfinished Garbage","genre":"Shoewater","date":"2005","path":"../music/Unfinished Garbage/13 my head hurts now.mp3"}
+			{"artist":"Nine Inch Nails","album":"The Slip","title":"999,999","track":"1/10","date":"2008","path":"../music/chad/test.mp3"}
 		]
 	}
 ]

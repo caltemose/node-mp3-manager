@@ -7,21 +7,23 @@ block content
   main
     h1 Node Music Manager Tunes
 
+    audio(src="" controls="controls" style="width:100%")
+
     div.col
       h2.music-toggle Music
       ul.music
         - each album in music
           li.album
-            = album.album
-            |  :: 
-            = album.artist
+            h3
+              = album.album
+              |  :: 
+              = album.artist
 
             ul.tracks
               - each track in album.tracks
-                li(data-track-path="#{track.path}")
-                  button +
-                  |  
-                  = track.title 
+                li(data-track-path="#{track.path}" data-track-artist="#{track.artist}")  
+                  a(href="#")= track.title 
+                  button play
                 
 
     div.col
@@ -29,9 +31,9 @@ block content
       ul#playlist
 
       form(action="/playlists/create" method="POST")
-        //- input(type="hidden" name="playlist") 
+        input(type="hidden" name="playlist") 
         //- |  local: 
-        input(type="checkbox" name="local" value="local") 
+        //- input(type="checkbox" name="local" value="local") 
         input(type="text" size="20" name="playlistName") 
         input(type="submit" name="submit" value="Make Playlist") 
 
