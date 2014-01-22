@@ -139,6 +139,10 @@ ul.music {
   max-height: 80vh;
   overflow: auto; }
 
+#results {
+  max-height: 80vh;
+  overflow: auto; }
+
 /*
 --------------------------------------------------------
 media query for middle/portrait size range

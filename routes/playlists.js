@@ -8,17 +8,13 @@ module.exports = function(nmm) {
 
     create: function(req, res) {
       var paths = req.body.playlist.split(","),
-          local = req.body.local, 
           txt = "", i,
           filepath, filename;
       filename = req.body.playlistName ? req.body.playlistName : new Date().getTime();
-      if (local) filename += '-local';
       filepath = nmm.paths.playlists + filename + ".m3u";
 
       for(i=0; i<paths.length; i++) {
-        //@TODO read these strings from global nmm {}
-        //if (!local) txt += paths[i].replace("../", nmm.paths.root);
-        //else txt += paths[i];
+        //@TODO playlist path replacement should be dynamic, not hardcoded to as: "../"
         txt += paths[i].replace("../", nmm.paths.root);
         if (i < paths.length-1) txt += "\n";
       }

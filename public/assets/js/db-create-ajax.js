@@ -69,7 +69,6 @@ $(function(){
 
   $.getJSON('/api/paths', function(data){
     paths = data;
-    console.log(paths);
     resultsContainer.html('<h2>Results:</h2><ul><li>Path data loaded</li></ul>');
     resultsList = $('ul', resultsContainer);
     getNextTrack();

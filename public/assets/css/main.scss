@@ -138,6 +138,12 @@ ul.music {
   overflow: auto;
 }
 
+// used in /db/ajax
+#results {
+  max-height: 80vh;
+  overflow: auto;
+}
+
 /*
 --------------------------------------------------------
 media query for middle/portrait size range
