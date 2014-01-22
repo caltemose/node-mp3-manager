@@ -8,7 +8,7 @@ $(function(){
       //load next
       $.getJSON('/api/tracks/?id=' + encodeURIComponent(paths[currentPath]), function(data){
         tracks.push(data);
-        resultsList.append('<li>' + data.title + ' :: ' + data.album + '</li>');
+        resultsList.append('<li>' + data.title + ' :: ' + data.album + ' :: ' + data.path + '</li>');
         currentPath++;
         infoContainer.text(currentPath + '/' + paths.length);
         getNextTrack();
@@ -28,7 +28,7 @@ $(function(){
           if (typeof track[j]==="string") {
             //delete unwanted properties
             if ($.inArray(j, allow) < 0) {
-              console.log('deleting: ' + j + ' from track: ' + track.title);
+              //console.log('deleting: ' + j + ' from track: ' + track.title);
               delete track[j];
             } else {
               //delete properties containing only spaces
@@ -69,6 +69,7 @@ $(function(){
 
   $.getJSON('/api/paths', function(data){
     paths = data;
+    console.log(paths);
     resultsContainer.html('<h2>Results:</h2><ul><li>Path data loaded</li></ul>');
     resultsList = $('ul', resultsContainer);
     getNextTrack();

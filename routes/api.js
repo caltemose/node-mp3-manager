@@ -49,9 +49,13 @@ module.exports = function(nmm) {
                   next();
                 });
               } else {
-                var ext = file.split('.').pop();
-                if (ext==="mp3" || ext==="m4p") 
-                  results.push(file);
+                var filename = file.split('/').pop();
+                //ignore files that start with a dot (stupid mac dot files)
+                if (filename[0] != '.') {
+                  var ext = file.split('.').pop();
+                  if (ext==="mp3" || ext==="m4p") 
+                    results.push(file);
+                }
                 next();
               }
             });

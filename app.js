@@ -2,14 +2,17 @@
 //  -absolute paths for playlists
 //  -variable paths for db.json -> db.{root}.json
 
+//console.log(process.argv);
+
 var nmm = {
   title: "Node Music Manager",
   version: "0.0.1",
   port: 3000,
   paths: {
-    music: "../music/chad",
+    music: "../music",
     playlists: "../playlists/",
-    db: "./dbs/db.json" //should this be affected by __dirname ?
+    db: "./dbs/db.json", //should this be affected by __dirname ?
+    root: __dirname.replace("node-mp3-manager", "")
   }
 }
 

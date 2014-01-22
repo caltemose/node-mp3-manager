@@ -17,8 +17,9 @@ module.exports = function(nmm) {
 
       for(i=0; i<paths.length; i++) {
         //@TODO read these strings from global nmm {}
-        if (!local) txt += paths[i].replace("../", "/Public/music-collection/");
-        else txt += paths[i];
+        //if (!local) txt += paths[i].replace("../", nmm.paths.root);
+        //else txt += paths[i];
+        txt += paths[i].replace("../", nmm.paths.root);
         if (i < paths.length-1) txt += "\n";
       }
 
