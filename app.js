@@ -1,8 +1,15 @@
+//process __dirname to affect
+//  -absolute paths for playlists
+//  -variable paths for db.json -> db.{root}.json
+
 var nmm = {
+  title: "Node Music Manager",
+  version: "0.0.1",
+  port: 3000,
   paths: {
     music: "../music/chad",
     playlists: "../playlists/",
-    db: "./dbs/db.json"
+    db: "./dbs/db.json" //should this be affected by __dirname ?
   }
 }
 
@@ -17,16 +24,16 @@ var express = require('express'),
 var app = express();
 
 app.configure(function () {
-  console.log(__dirname);
   app.set('views', path.join(__dirname, 'views'));
   app.set('view engine', 'jade');
   app.use(express.favicon());
   app.use(express.logger('dev'));
-  //app.use(express.json({limit: '50mb'}));
-  app.use(express.bodyParser({limit: 1024 * 1024 * 10}));
+  //app.use(express.bodyParser({limit: 1024 * 1024 * 10}));
+  app.use(express.urlencoded({limit: 1024 * 1024 * 10}));
   app.use('/music', express.static('../music'));
   app.use('/playlists', express.static('../playlists'));
   app.use(express.static(__dirname + '/public'));
+  //app.use(express.json({limit: '50mb'}));
   app.use(function (req, res, next) {
     res.header('Access-Control-Allow-Credentials', true);
     res.header('Access-Control-Allow-Origin',      '*'); //req.headers.origin
@@ -57,7 +64,6 @@ app.get('/api/playlists', api.playlists);
 app.post('/api/save-db', api.saveDb);
 
 
-app.listen(3000);
-console.log('Node Music Manager listening on port 3000...');
-
-
+app.listen(nmm.port);
+console.log(nmm.title + " " + nmm.version + ' is listening on port ' + nmm.port + '...');
+console.log("  at: " + __dirname);
