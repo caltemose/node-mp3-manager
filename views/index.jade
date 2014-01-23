@@ -1,8 +1,19 @@
 extends default
 
 block content
-  main
-    h1 Node Music Manager Home Page
+  div.container
+    
+    div.jumbotron
+      h1 Node Music Manager
+      
+      p ...is a simple NodeJS application I built to manage local music files.
+
+    p 
+      | The main purpose of NMM is to allow 
+      a(href="/tunes") easy creation of playlists. 
+      | You can 
+      a(href="/playlists") view existing playlists 
+      | to select one to play.
 
     article
       h3 Browser UI Routes

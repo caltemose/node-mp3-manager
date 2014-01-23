@@ -23,26 +23,16 @@ var express = require('express'),
 
 var app = express();
 
-app.configure(function () {
-  app.set('views', path.join(__dirname, 'views'));
-  app.set('view engine', 'jade');
-  app.use(express.favicon());
-  app.use(express.logger('dev'));
-  app.use(express.urlencoded({limit: 1024 * 1024 * 10}));
-  //@TODO update these static paths using nmm.paths info
-  app.use('/music', express.static('../music'));
-  app.use('/playlists', express.static('../playlists'));
-  app.use(express.static(__dirname + '/public'));
-  //@TODO figure out the proper way to handle express/json
-  //app.use(express.json({limit: '50mb'}));
-  app.use(function (req, res, next) {
-    res.header('Access-Control-Allow-Credentials', true);
-    res.header('Access-Control-Allow-Origin',      '*'); //req.headers.origin
-    res.header('Access-Control-Allow-Methods',     'GET,PUT,POST,DELETE');
-    res.header('Access-Control-Allow-Headers',     'X-Requested-With, X-HTTP-Method-Override, Content-Type, Accept');
-    next();
-  });
-});
+app.set('views', path.join(__dirname, 'views'));
+app.set('view engine', 'jade');
+app.use(express.favicon());
+app.use(express.logger('dev'));
+app.use(express.urlencoded({limit: 1024 * 1024 * 10}));
+app.use(express.json({limit: 1024 * 1024 * 10}));
+//@TODO update these static paths using nmm.paths info
+app.use('/music', express.static('../music'));
+app.use('/playlists', express.static('../playlists'));
+app.use(express.static(__dirname + '/public'));
 
 
 // --- web paths (http) -------------------------

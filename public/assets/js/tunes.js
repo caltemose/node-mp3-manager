@@ -17,7 +17,7 @@ $(function(){
   // album items
   albumItems.each(function(){
     if (!expanded) $('.tracks', this).hide();
-    $('h3', this).click(function(){
+    $('h4', this).click(function(){
       $('.tracks', $(this).parent()).toggle();
     });
   });
@@ -35,11 +35,11 @@ $(function(){
         title: $(this).text()
       };
 
-      var item = '<li data-track-path="' + track.path + '">';
-      item += '<button name="up">up</button>';
-      item += '<button name="down">down</button>';
-      item += '<button name="delete">-</button> ';
-      item += $(this).text() + " :: " + track.artist;
+      var item = '<li class="list-group-item" data-track-path="' + track.path + '">';
+      item += '<button name="up" class="btn btn-primary btn-xs" role="button">up</button> ';
+      item += '<button name="down" class="btn btn-primary btn-xs" role="button">down</button> ';
+      item += '<button name="delete" class="btn btn-primary btn-xs btn-danger" role="button"> &nbsp; - &nbsp; </button> &nbsp; ';
+      item += $(this).text() + " <small>(" + track.artist + ")</small>";
       item += '</li>';
       $('#playlist').append(item);
 

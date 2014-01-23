@@ -1,0 +1,10 @@
+body {
+  margin-top: 4.5em;
+}
+ul.music, #playlist {
+  max-height: 65vh;
+  overflow: auto;
+}
+ul.music > li {
+  margin-bottom: 2em;
+}
