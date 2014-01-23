@@ -73,12 +73,13 @@ $(function(){
   });
 
   // make playlist button
-  $('input[type="submit"]').click(function(e){
+  $('[type="submit"]').click(function(e){
     var paths = [], i, items = $('li', '#playlist');
     for(i=0; i<items.length; i++) {
       paths.push($(items[i]).attr('data-track-path'));
     }
     $('input[name="playlist"]').val(paths);
+    //e.preventDefault();
   });
 
 });

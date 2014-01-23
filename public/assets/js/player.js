@@ -3,15 +3,18 @@ var player = {
 
   processJSON: function(data) {
     console.log('player.processJSON()');
-    console.log(data);
+    //console.log(data);
     player.music = data;
     player.currentAlbum = 0;
     player.currentTrack = 0;
 
     var playlist = player.audioElement.attr('data-playlist');
+    //console.log(playlist);
     if (playlist && playlist != "undefined") {
       //load playlist
       $.get(playlist, function(data) {
+        //console.log('playlist retrieved');
+        //console.log(data);
         player.playlist = data.split("\n");
         player.play();
       });
@@ -25,21 +28,22 @@ var player = {
 
     if (player.playlist) {
       path = player.playlist[player.currentTrack];
-      var i, j;
+      var i, j, tune;
       for(i in player.music) {
         for(j in player.music[i].tracks) {
-          if (player.music[i].tracks[j].path === path) {
+          tune = player.music[i].tracks[j].path;
+          tune = tune.replace("../", '').replace("./", '');
+          if (path.indexOf(tune) > -1) {
             track = player.music[i].tracks[j];
             break;
           }
         }
         if (track) break;
       }
-    } else {
+    } else
       track = player.music[player.currentAlbum].tracks[player.currentTrack];
-      path = track.path;
-    }
-    player.audioElement.attr('src', path).get(0).play();
+    
+    player.audioElement.attr('src', track.path).get(0).play();
     player.audioElement.bind('ended', player.playEnded);
 
     info = "<h3>Track Info:</h3>";

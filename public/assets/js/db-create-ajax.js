@@ -8,7 +8,7 @@ $(function(){
       //load next
       $.getJSON('/api/tracks/?id=' + encodeURIComponent(paths[currentPath]), function(data){
         tracks.push(data);
-        resultsList.append('<li>' + data.title + ' :: ' + data.album + ' :: ' + data.path + '</li>');
+        resultsList.append('<li class="list-group-item">' + data.title + ' :: ' + data.album + ' :: ' + data.path + '</li>');
         currentPath++;
         infoContainer.text(currentPath + '/' + paths.length);
         getNextTrack();
@@ -69,7 +69,7 @@ $(function(){
 
   $.getJSON('/api/paths', function(data){
     paths = data;
-    resultsContainer.html('<h2>Results:</h2><ul><li>Path data loaded</li></ul>');
+    resultsContainer.html('<h2>Results:</h2><ul class="list-unstyled list-group"><li>Path data loaded</li></ul>');
     resultsList = $('ul', resultsContainer);
     getNextTrack();
   });
