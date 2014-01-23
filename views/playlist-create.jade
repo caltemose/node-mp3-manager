@@ -4,8 +4,9 @@ block title
   title Node Music Manager - Create Playlist
 
 block content
-  main
-    h1 Node Music Manager - Create Playlist
+  div.container
+
+    h1 Playlist Created
 
     if err
       p There was a problem:
@@ -13,5 +14,6 @@ block content
       p with this file:
       p= filepath
     else
-      p All good. The playlist is here:
-      a(href="/player/?id=#{filepath}")= filepath
+      p All good. The playlist is here: 
+      h5= filepath
+      a(href="/player/?id=#{filepath}" class="btn btn-success") PLAY

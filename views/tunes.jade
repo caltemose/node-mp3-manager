@@ -24,11 +24,9 @@ block content
               ul.tracks.list-unstyled.list-group
                 - each track in album.tracks
                   li(data-track-path="#{track.path}" data-track-artist="#{track.artist}" class="list-group-item")  
-                    a(href="#")= track.title 
-                    | &nbsp; 
                     button(class="btn btn-primary btn-xs btn-success" role="button") play
-                      
-  
+                    | &nbsp; 
+                    a(href="#")= track.title   
 
       div.col-md-6
         h2 Playlist
