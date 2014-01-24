@@ -8,3 +8,11 @@ ul.music, #playlist {
 ul.music > li {
   margin-bottom: 2em;
 }
+.navbar-inverse .navbar-brand {
+  margin-right: 3em;
+  font-size: 1.6em;
+  color: #fff;
+}
+.jumbotron > h1 {
+  font-size: 2.4em;
+}
