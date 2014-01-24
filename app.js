@@ -1,17 +1,20 @@
 var nmm = {
   title: "Node Music Manager",
   version: "0.0.1",
-  port: 3000, // @TODO read port from process.argv
+  port: process.argv[2] || 3000,
   paths: {
     // @TODO read music path from process.argv
-    music: "../music",
+    music: process.argv[3] || "../music",
     // @TODO read playlists path from process.argv
-    playlists: "../playlists/",
+    playlists: process.argv[4] || "../playlists/",
     // @TODO read db path from process.argv
-    db: "./dbs/db.json",
+    db: process.argv[5] || "./dbs/db.json",
+    // @TODO strip last directory off path instead of hard-coded string
     root: __dirname.replace("node-mp3-manager", "")
   }
 }
+
+
 
 var express = require('express'), 
     path = require('path'),
@@ -57,5 +60,13 @@ app.post('/api/save-db', api.saveDb);
 
 app.listen(nmm.port);
 
-console.log(nmm.title + " " + nmm.version + ' is listening on port ' + nmm.port + '...');
-console.log("  at: " + __dirname);
+console.log("");
+console.log(nmm.title + " " + nmm.version + ' is running:');
+console.log("");
+console.log("  path: " + __dirname);
+console.log("  port:      " + nmm.port);
+console.log("  music:     " + nmm.paths.music);
+console.log("  playlists: " + nmm.paths.playlists);
+console.log("  database:  " + nmm.paths.db);
+console.log("");
+console.log("");
