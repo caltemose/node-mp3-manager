@@ -16,3 +16,6 @@ ul.music > li {
 .jumbotron > h1 {
   font-size: 2.4em;
 }
+audio {
+  width: 80%; 
+}

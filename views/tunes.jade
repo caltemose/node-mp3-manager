@@ -6,40 +6,42 @@ block title
 block content
   div.container
     
-    h1 Playlist Manager
-
-    audio(src="" controls="controls" style="width:100%")
+    audio(src="" controls="controls")
+      
+    h1 Playlist Maker
 
     div.row
-      div.col-md-6
-        h2.music-toggle Music
-        ul.music.list-unstyled
-          - each album in music
-            li.album
-              h4
-                = album.album 
-                | &nbsp;
-                small= album.artist
+      div.col-sm-6
+        div.well.playlists
+          h2.music-toggle Music
+          ul.music.list-unstyled
+            - each album in music
+              li.album
+                h4
+                  = album.album 
+                  | &nbsp;
+                  small= album.artist
 
-              ul.tracks.list-unstyled.list-group
-                - each track in album.tracks
-                  li(data-track-path="#{track.path}" data-track-artist="#{track.artist}" class="list-group-item")  
-                    button(class="btn btn-primary btn-xs btn-success" role="button") play
-                    | &nbsp; 
-                    a(href="#")= track.title   
+                ul.tracks.list-unstyled.list-group
+                  - each track in album.tracks
+                    li(data-track-path="#{track.path}" data-track-artist="#{track.artist}" class="list-group-item")  
+                      button(class="btn btn-primary btn-xs btn-success" role="button") play
+                      | &nbsp; 
+                      a(href="#")= track.title   
 
-      div.col-md-6
-        h2 Playlist
-        ul.list-group#playlist
+      div.col-sm-6
+        div.well.playlists
+          h2 Playlist
+          ul.list-group#playlist
 
-        form(action="/playlists/create" method="POST" role="form")
-          input(type="hidden" name="playlist") 
-          //- |  local: 
-          //- input(type="checkbox" name="local" value="local") 
-          div.form-group
-            input(type="text" size="20" name="playlistName" class="form-control") 
-          //- input(type="submit" name="submit" value="Make Playlist") 
-          button(type="submit" class="btn btn-default btn-sm") Make Playlist
+          form(action="/playlists/create" method="POST" role="form")
+            input(type="hidden" name="playlist") 
+            //- |  local: 
+            //- input(type="checkbox" name="local" value="local") 
+            div.form-group
+              input(type="text" size="20" name="playlistName" class="form-control") 
+            //- input(type="submit" name="submit" value="Make Playlist") 
+            button(type="submit" class="btn btn-default btn-sm") Make Playlist
 
 block scripts
   script(src="/assets/js/tunes.js")

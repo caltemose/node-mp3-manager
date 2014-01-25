@@ -3,18 +3,13 @@ var nmm = {
   version: "0.0.1",
   port: process.argv[2] || 3000,
   paths: {
-    // @TODO read music path from process.argv
     music: process.argv[3] || "../music",
-    // @TODO read playlists path from process.argv
     playlists: process.argv[4] || "../playlists/",
-    // @TODO read db path from process.argv
     db: process.argv[5] || "./dbs/db.json",
     // @TODO strip last directory off path instead of hard-coded string
     root: __dirname.replace("node-mp3-manager", "")
   }
 }
-
-
 
 var express = require('express'), 
     path = require('path'),
@@ -33,8 +28,8 @@ app.use(express.logger('dev'));
 app.use(express.urlencoded({limit: 1024 * 1024 * 10}));
 app.use(express.json({limit: 1024 * 1024 * 10}));
 //@TODO update these static paths using nmm.paths info
-app.use('/music', express.static('../music'));
-app.use('/playlists', express.static('../playlists'));
+app.use('/music', express.static(nmm.paths.music));
+app.use('/playlists', express.static(nmm.paths.playlists));
 app.use(express.static(__dirname + '/public'));
 
 
@@ -56,7 +51,6 @@ app.get('/api/albums', api.albums);
 app.get('/api/paths', api.paths);
 app.get('/api/playlists', api.playlists);
 app.post('/api/save-db', api.saveDb);
-
 
 app.listen(nmm.port);
 
