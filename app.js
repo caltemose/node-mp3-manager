@@ -1,16 +1,12 @@
-var nmm = {
-  title: "Node Music Manager",
-  version: "0.0.1",
-  port: process.argv[2] || 3000,
-  paths: {
-    music: process.argv[3] || "../music",
-    playlists: process.argv[4] || "../playlists/",
-    db: process.argv[5] || "./dbs/db.json",
-    // @TODO strip last directory off path instead of hard-coded string
-    root: __dirname.replace("node-mp3-manager", "")
-  }
-}
+//@TODO create nmm elsewhere and inject _nmm.json data
+//@TODO clean json data (strip/add trailing path slashes)
+var nmm = require('./public/assets/js/_nmm');
+//@TODO strip last directory off path instead of hard-coded string
+nmm.paths.root = __dirname.replace("node-mp3-manager", "");
 
+require('coffee-script');
+
+//@TODO handle routing externally (see CrowdNotes)
 var express = require('express'), 
     path = require('path'),
     api = require('./routes/api')(nmm),
@@ -18,6 +14,7 @@ var express = require('express'),
     tunes = require('./routes/tunes')(nmm),
     playlists = require('./routes/playlists')(nmm),
     player = require('./routes/player')(nmm);
+
 
 var app = express();
 
@@ -33,6 +30,8 @@ app.use('/playlists', express.static(nmm.paths.playlists));
 app.use(express.static(__dirname + '/public'));
 
 
+//@TODO simplify routing
+
 // --- web paths (http) -------------------------
 app.get('/', function(req, res) { res.render('index'); });
 app.get('/player', player.play);
@@ -43,6 +42,20 @@ app.post('/playlists/create', playlists.create);
 // --- utility paths (http) --------------------------------
 app.get('/db/create', db.create);
 app.get('/db/ajax', db.ajax);
+
+// --- compile jade templates for browser ----------------
+var jadePrecompiler = require("./jadePrecompiler.coffee"),
+    precompiledTemplatesSource = "",
+    doneCompile = function(source, err) {
+      if (err) { throw err; } 
+      precompiledTemplatesSource = source;
+    };
+jadePrecompiler.compile(doneCompile, "./views/client-templates/");
+app.get("/assets/js/templates.js", function(req, res) {
+  res.set("Content-Type", "application/javascript");
+  res.send(precompiledTemplatesSource);
+});
+
 
 // --- API paths (json) --------------------------------
 app.get('/api', function(req, res) { res.redirect('/'); });
@@ -62,5 +75,4 @@ console.log("  port:      " + nmm.port);
 console.log("  music:     " + nmm.paths.music);
 console.log("  playlists: " + nmm.paths.playlists);
 console.log("  database:  " + nmm.paths.db);
-console.log("");
 console.log("");

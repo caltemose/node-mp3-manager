@@ -1,0 +1,8 @@
+ul.list-group
+  - each playlist in playlists
+    li.list-group-item
+      a(href="/player/?id=" + playlist class="btn btn-primary btn-sm btn-success" role="button") PLAY
+      |  
+      a(href="/playlists/?id=" + playlist class="btn btn-primary btn-sm" role="button") EDIT
+      |  
+      = playlist
